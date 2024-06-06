@@ -30,6 +30,8 @@ import io.cucumber.junit.CucumberOptions;
 
 public class EALRunner {
 	
+	int a = 20;
+	
 	@After
 	public static void teardown() {
 		Reporter.setSystemInfo("user", System.getProperty("user.name"));
