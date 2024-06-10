@@ -1266,3 +1266,119 @@ java.net.SocketException: Connection reset
 [INFO ] 2024-06-02 16:11:30.387 [main] Hooks - ------------------------------------------------------------------------------------------------------
 [INFO ] 2024-06-02 16:11:30.389 [main] Hooks - running DEF tag Status - PASSED
 [INFO ] 2024-06-02 16:11:30.389 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[WARN ] 2024-06-07 21:56:38.260 [main] TestRunner - Support to run JUnit tests using TestNG stands deprecated and will be removed in future versions. You can now use the JUnit5 TestNG engine to run both JUnit and TestNG tests. For more information refer to https://github.com/junit-team/testng-engine .
+[INFO ] 2024-06-07 21:56:43.411 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-06-07 21:56:46.323 [main] Hooks - *URL Lunched from hooks : https://www.walmart.com/
+[INFO ] 2024-06-07 21:56:46.323 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-06-07 21:56:46.339 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-06-07 21:56:46.339 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-06-07 21:56:46.782 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-06-07 21:56:46.788 [main] Hooks - ================================================================
+[INFO ] 2024-06-07 21:56:46.788 [main] Hooks - Scenario Title: running DEF tag
+[INFO ] 2024-06-07 21:56:46.788 [main] Hooks - =================================================================
+[INFO ] 2024-06-07 21:56:46.792 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-06-07 21:56:46.792 [main] StepNameListener - Executing step: I want to write a step with precondition 2
+[INFO ] 2024-06-07 21:56:46.792 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-06-07 21:56:46.793 [main] abc_SetpD - ************************-----------------------DEF tag---------------------------******************************
+[INFO ] 2024-06-07 21:56:47.476 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-06-07 21:56:47.477 [main] StepNameListener - Executing step: some other precondition 2
+[INFO ] 2024-06-07 21:56:47.477 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-06-07 21:56:47.477 [main] abc_SetpD - ************************-----------------------DEF tag---------------------------******************************
+[INFO ] 2024-06-07 21:56:49.183 [main] Hooks - CLosing the Driver
+[INFO ] 2024-06-07 21:56:49.597 [main] Hooks - Driver Closed
+[INFO ] 2024-06-07 21:56:49.602 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-06-07 21:56:49.605 [main] Hooks - running DEF tag Status - PASSED
+[INFO ] 2024-06-07 21:56:49.605 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[WARN ] 2024-06-07 21:56:52.200 [main] FileSystemFontProvider - New fonts found, font cache will be re-built
+[WARN ] 2024-06-07 21:56:52.200 [main] FileSystemFontProvider - Building on-disk font cache, this may take a while
+[WARN ] 2024-06-07 21:56:55.138 [main] FileSystemFontProvider - Finished building on-disk font cache, found 367 fonts
+[INFO ] 2024-06-09 11:01:41.531 [main] Hooks - ================================================================
+[INFO ] 2024-06-09 11:01:41.533 [main] Hooks - Scenario Title: running abc tag
+[INFO ] 2024-06-09 11:01:41.533 [main] Hooks - =================================================================
+[INFO ] 2024-06-09 11:01:41.538 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-06-09 11:01:44.821 [main] Hooks - *URL Lunched from hooks : https://www.walmart.com/
+[INFO ] 2024-06-09 11:01:44.821 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-06-09 11:01:44.838 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-06-09 11:01:44.838 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-06-09 11:01:45.315 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-06-09 11:01:45.321 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-06-09 11:01:45.321 [main] StepNameListener - Executing step: I want to write a step with precondition
+[INFO ] 2024-06-09 11:01:45.321 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-06-09 11:01:45.322 [main] abc_SetpD - ************************-----------------------abc tag---------------------------******************************
+[INFO ] 2024-06-09 11:01:45.940 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-06-09 11:01:45.940 [main] StepNameListener - Executing step: some other precondition
+[INFO ] 2024-06-09 11:01:45.940 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-06-09 11:01:45.941 [main] abc_SetpD - ************************-----------------------ABC tag---------------------------******************************
+[INFO ] 2024-06-09 11:01:47.668 [main] Hooks - CLosing the Driver
+[INFO ] 2024-06-09 11:01:48.231 [main] Hooks - Driver Closed
+[INFO ] 2024-06-09 11:01:48.241 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-06-09 11:01:48.244 [main] Hooks - running abc tag Status - PASSED
+[INFO ] 2024-06-09 11:01:48.244 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[WARN ] 2024-06-09 11:06:21.311 [main] TestRunner - Support to run JUnit tests using TestNG stands deprecated and will be removed in future versions. You can now use the JUnit5 TestNG engine to run both JUnit and TestNG tests. For more information refer to https://github.com/junit-team/testng-engine .
+[INFO ] 2024-06-09 11:06:24.568 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-06-09 11:06:27.245 [main] Hooks - *URL Lunched from hooks : https://www.walmart.com/
+[INFO ] 2024-06-09 11:06:27.245 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-06-09 11:06:27.258 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-06-09 11:06:27.258 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-06-09 11:06:27.689 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-06-09 11:06:27.695 [main] Hooks - ================================================================
+[INFO ] 2024-06-09 11:06:27.695 [main] Hooks - Scenario Title: running abc tag
+[INFO ] 2024-06-09 11:06:27.695 [main] Hooks - =================================================================
+[INFO ] 2024-06-09 11:06:27.699 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-06-09 11:06:27.699 [main] StepNameListener - Executing step: I want to write a step with precondition
+[INFO ] 2024-06-09 11:06:27.699 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-06-09 11:06:27.700 [main] abc_SetpD - ************************-----------------------abc tag---------------------------******************************
+[INFO ] 2024-06-09 11:06:28.383 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-06-09 11:06:28.383 [main] StepNameListener - Executing step: some other precondition
+[INFO ] 2024-06-09 11:06:28.384 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-06-09 11:06:28.384 [main] abc_SetpD - ************************-----------------------ABC tag---------------------------******************************
+[INFO ] 2024-06-09 11:06:29.871 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-06-09 11:06:29.874 [main] Hooks - running abc tag Status - PASSED
+[INFO ] 2024-06-09 11:06:29.874 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-06-09 11:06:29.899 [main] Hooks - CLosing the Driver
+[INFO ] 2024-06-09 11:06:30.815 [main] Hooks - Driver Closed
+[WARN ] 2024-06-09 11:21:24.053 [main] TestRunner - Support to run JUnit tests using TestNG stands deprecated and will be removed in future versions. You can now use the JUnit5 TestNG engine to run both JUnit and TestNG tests. For more information refer to https://github.com/junit-team/testng-engine .
+[INFO ] 2024-06-09 11:21:27.414 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-06-09 11:21:30.404 [main] Hooks - *URL Lunched from hooks : https://www.walmart.com/
+[INFO ] 2024-06-09 11:21:30.405 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-06-09 11:21:30.425 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-06-09 11:21:30.426 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-06-09 11:21:30.883 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-06-09 11:21:30.894 [main] Hooks - ================================================================
+[INFO ] 2024-06-09 11:21:30.895 [main] Hooks - Scenario Title: running abc tag
+[INFO ] 2024-06-09 11:21:30.895 [main] Hooks - =================================================================
+[INFO ] 2024-06-09 11:21:30.903 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-06-09 11:21:30.904 [main] StepNameListener - Executing step: I want to write a step with precondition
+[INFO ] 2024-06-09 11:21:30.905 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-06-09 11:21:30.905 [main] abc_SetpD - ************************-----------------------abc tag---------------------------******************************
+[INFO ] 2024-06-09 11:21:31.911 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-06-09 11:21:31.912 [main] StepNameListener - Executing step: some other precondition
+[INFO ] 2024-06-09 11:21:31.912 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-06-09 11:21:31.913 [main] abc_SetpD - ************************-----------------------ABC tag---------------------------******************************
+[INFO ] 2024-06-09 11:21:33.048 [main] Hooks - CLosing the Driver
+[INFO ] 2024-06-09 11:21:33.794 [main] Hooks - Driver Closed
+[INFO ] 2024-06-09 11:21:33.800 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-06-09 11:21:33.803 [main] Hooks - running abc tag Status - PASSED
+[INFO ] 2024-06-09 11:21:33.803 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-06-10 07:19:07.209 [main] Hooks - ================================================================
+[INFO ] 2024-06-10 07:19:07.211 [main] Hooks - Scenario Title: running DEF tag
+[INFO ] 2024-06-10 07:19:07.211 [main] Hooks - =================================================================
+[INFO ] 2024-06-10 07:19:07.220 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-06-10 07:19:10.303 [main] Hooks - *URL Lunched from hooks : https://www.walmart.com/
+[INFO ] 2024-06-10 07:19:10.304 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-06-10 07:19:10.319 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-06-10 07:19:10.319 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-06-10 07:19:10.780 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-06-10 07:19:10.787 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-06-10 07:19:10.788 [main] StepNameListener - Executing step: I want to write a step with precondition 2
+[INFO ] 2024-06-10 07:19:10.788 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-06-10 07:19:10.789 [main] abc_SetpD - ************************-----------------------DEF tag---------------------------******************************
+[INFO ] 2024-06-10 07:19:11.528 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-06-10 07:19:11.529 [main] StepNameListener - Executing step: some other precondition 2
+[INFO ] 2024-06-10 07:19:11.529 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-06-10 07:19:11.529 [main] abc_SetpD - ************************-----------------------DEF tag---------------------------******************************
+[INFO ] 2024-06-10 07:19:14.018 [main] Hooks - CLosing the Driver
+[INFO ] 2024-06-10 07:19:14.634 [main] Hooks - Driver Closed
+[INFO ] 2024-06-10 07:19:14.636 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-06-10 07:19:14.636 [main] Hooks - running DEF tag Status - PASSED
+[INFO ] 2024-06-10 07:19:14.636 [main] Hooks - ------------------------------------------------------------------------------------------------------

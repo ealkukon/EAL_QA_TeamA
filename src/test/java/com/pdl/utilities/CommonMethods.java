@@ -76,14 +76,19 @@ public class CommonMethods extends Driver {
 	public static WebDriver driver = Driver.getDriver();
 
 	public static final int ELEMENT_WAIT_TIMEOUT_SECONDS = 40;
+	//how long the system should wait for an element to be available during test execution. 
 
 	public static final int ELEMENT_POLLING_TIME_MILIS = 50;
+	//how long the system should wait for an element to be polled.
 
 	public static final int PAGE_LOAD_TIMEOUT_SECONDS = 40;
+	//used to control how long the system should wait for page to load
 
 	public static final int JQUERY_LOAD_TIMEOUT_SECONDS = 30;
+	//used to control how long the system should wait for jQuery to load
 
 	public static final int SESSION_TIMEOUT_MINUTES = 16;
+	// the maximum duration for a session or connection to remain active
 
     JavascriptExecutor js= (JavascriptExecutor)driver;;
 
@@ -354,7 +359,6 @@ public class CommonMethods extends Driver {
 		return wait.until(ExpectedConditions.titleIs(pageTitle));
 
 	}
-	
 	
 	
 //	from browserUtils

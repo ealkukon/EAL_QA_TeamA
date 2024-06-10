@@ -23,14 +23,13 @@ import io.cucumber.junit.CucumberOptions;
 		features = "src/test/resources/features", 
 		glue = {"com.pdl.step_definitions","com.pdl.hooks"},
 		dryRun=false,
-		tags="@abc"
+		tags="@def"
 		
 //		monochrome=false
 )
 
 public class EALRunner {
 	
-	int a = 20;
 	
 	@After
 	public static void teardown() {
