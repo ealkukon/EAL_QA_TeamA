@@ -5748,3 +5748,103 @@ java.net.SocketException: Connection reset
 [INFO ] 2024-07-16 13:50:54.612 [main] Hooks - ------------------------------------------------------------------------------------------------------
 [INFO ] 2024-07-16 13:50:54.627 [main] Hooks - CLosing the Driver
 [INFO ] 2024-07-16 13:50:54.820 [main] Hooks - Driver Closed
+[INFO ] 2024-07-17 12:11:26.988 [main] Hooks - ================================================================
+[INFO ] 2024-07-17 12:11:26.993 [main] Hooks - Scenario Title: Successful login valid credentials
+[INFO ] 2024-07-17 12:11:26.994 [main] Hooks - =================================================================
+[INFO ] 2024-07-17 12:11:27.004 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-17 12:11:30.665 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-17 12:11:30.665 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-17 12:11:30.691 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-17 12:11:30.691 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-17 12:11:30.728 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-17 12:11:30.733 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:11:30.733 [main] StepNameListener - Executing step: I am on the login page
+[INFO ] 2024-07-17 12:11:30.733 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:11:36.226 [main] Login_Stepdefination - landind on login page
+[INFO ] 2024-07-17 12:11:36.429 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:11:36.429 [main] StepNameListener - Executing step: I enter my email and password and click on the login button under the returning customer section
+[INFO ] 2024-07-17 12:11:36.429 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:11:41.769 [main] Login_Stepdefination - I enter my email and password and click on the login button under the returning customer section
+[INFO ] 2024-07-17 12:11:41.921 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:11:41.921 [main] StepNameListener - Executing step: Click on login button
+[INFO ] 2024-07-17 12:11:41.921 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:11:47.852 [main] Login_Stepdefination - Click on login button
+[INFO ] 2024-07-17 12:11:48.017 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:11:48.017 [main] StepNameListener - Executing step: I should see a welcome message and a list of options for my account
+[INFO ] 2024-07-17 12:11:48.017 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:11:48.153 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 12:11:48.153 [main] Hooks - Successful login valid credentials Status - PASSED
+[INFO ] 2024-07-17 12:11:48.153 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 12:11:48.168 [main] Hooks - ================================================================
+[INFO ] 2024-07-17 12:11:48.168 [main] Hooks - Scenario Title: Unsuccessful login with invalid credentials
+[INFO ] 2024-07-17 12:11:48.184 [main] Hooks - =================================================================
+[INFO ] 2024-07-17 12:11:48.184 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-17 12:11:49.364 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-17 12:11:49.364 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-17 12:11:49.375 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-17 12:11:49.375 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-17 12:11:49.389 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-17 12:11:49.389 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:11:49.389 [main] StepNameListener - Executing step: I am on the login page
+[INFO ] 2024-07-17 12:11:49.389 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:11:55.975 [main] Login_Stepdefination - landind on login page
+[INFO ] 2024-07-17 12:11:56.156 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:11:56.156 [main] StepNameListener - Executing step: I enter an incorrect email under the returning customer section
+[INFO ] 2024-07-17 12:11:56.156 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:12:01.305 [main] Login_Stepdefination - I enter an incorrect email under the returning customer section
+[INFO ] 2024-07-17 12:12:01.433 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:12:01.433 [main] StepNameListener - Executing step: I enter an incorrect password under the returning customer section
+[INFO ] 2024-07-17 12:12:01.433 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:12:06.580 [main] Login_Stepdefination - I enter an incorrect password under the returning customer section
+[INFO ] 2024-07-17 12:12:06.705 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:12:06.705 [main] StepNameListener - Executing step: I click on the login button I should see an error message saying “Warning: No match for E-Mail Address and/or Password.
+[INFO ] 2024-07-17 12:12:06.705 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:12:12.351 [main] Login_Stepdefination - I click on the login button I should see an error message saying “Warning: No match for E-Mail Address and\\/or Password.
+[INFO ] 2024-07-17 12:12:12.519 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 12:12:12.519 [main] Hooks - Unsuccessful login with invalid credentials Status - PASSED
+[INFO ] 2024-07-17 12:12:12.519 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 12:12:12.534 [main] Hooks - ================================================================
+[INFO ] 2024-07-17 12:12:12.534 [main] Hooks - Scenario Title: Requesting a password reset link
+[INFO ] 2024-07-17 12:12:12.534 [main] Hooks - =================================================================
+[INFO ] 2024-07-17 12:12:12.534 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-17 12:12:13.644 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-17 12:12:13.644 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-17 12:12:13.679 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-17 12:12:13.680 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-17 12:12:13.695 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-17 12:12:13.696 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:12:13.696 [main] StepNameListener - Executing step: I am on the login page
+[INFO ] 2024-07-17 12:12:13.697 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:12:19.171 [main] Login_Stepdefination - landind on login page
+[INFO ] 2024-07-17 12:12:19.372 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:12:19.372 [main] StepNameListener - Executing step: I click on the forgotten password link under the returning customer section
+[INFO ] 2024-07-17 12:12:19.372 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:12:25.843 [main] Login_Stepdefination - I click on the forgotten password link under the returning customer section
+[INFO ] 2024-07-17 12:12:26.016 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:12:26.032 [main] StepNameListener - Executing step: I should see a password reset form with a field for email
+[INFO ] 2024-07-17 12:12:26.032 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:12:31.202 [main] Login_Stepdefination - I should see a password reset form with a field for email
+[INFO ] 2024-07-17 12:12:31.328 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:12:31.328 [main] StepNameListener - Executing step: I should be able to request a password reset link after entering my email and clicking on the continue button
+[INFO ] 2024-07-17 12:12:31.328 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:12:33.660 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 12:12:33.660 [main] Hooks - Requesting a password reset link Status - PASSED
+[INFO ] 2024-07-17 12:12:33.660 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 12:12:33.676 [main] Hooks - CLosing the Driver
+[WARN ] 2024-07-17 12:12:33.719 [AsyncHttpClient-1-4] WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+[INFO ] 2024-07-17 12:12:33.887 [main] Hooks - Driver Closed
