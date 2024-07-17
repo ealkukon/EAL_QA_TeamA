@@ -25,7 +25,6 @@ public class Login_Stepdefination extends CommonMethods{
     @Given("I am on the login page")
     public void i_am_on_the_login_page() throws InterruptedException {
     	driver.get("https://tutorialsninja.com/demo/index.php?route=account/login");
-    	//validloginpage.VerifyPageTitle("pagetitle is verified");
     	Thread.sleep(5000);
     	logger.info("landind on login page");
    
