@@ -16,6 +16,7 @@ import com.pdl.utilities.Driver;
 
 
 import io.cucumber.java.After;
+import io.cucumber.java.AfterAll;
 import io.cucumber.java.AfterStep;
 import io.cucumber.java.Before;
 import io.cucumber.java.BeforeStep;
@@ -47,7 +48,7 @@ public class Hooks extends CommonMethods {
 	@Before
 	public void setUp() {
 		if (ConfigurationReader.getProperty("browser").equals("headless")) {
-			// Driver.getDriver().manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+			//Driver.getDriver().manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 			Driver.getDriver().get(ConfigurationReader.getProperty("url"));
 		} 
 		
@@ -63,7 +64,7 @@ public class Hooks extends CommonMethods {
 //			mReporter.addStepLog("Url Launched from @beforeHooks -"+URL);
 			logger.info("*URL Lunched from hooks : "+ ConfigurationReader.getProperty("url"));			
 			
-//			waitForPageToLoadfor(20);
+			//waitForPageToLoadfor(20);
 			waitForPageToLoad();
 			waitForAJAXToLoad();
 			
@@ -119,9 +120,10 @@ public class Hooks extends CommonMethods {
 
 	}
 
-	@After
-	public void tearDown(Scenario scenario) {
+	@AfterAll
+	//public void tearDown(Scenario scenario) {
 		// taking a screenshot if the scenario fails
+	    public static void after_all() {
 		if (ConfigurationReader.getProperty("browser").equals("headless")) {
 
 		} else {
@@ -130,7 +132,6 @@ public class Hooks extends CommonMethods {
 
 			logger.info("CLosing the Driver");
 			Driver.closeDriver();
-
 			logger.info("Driver Closed");
 
 			/*
