@@ -9083,3 +9083,450 @@ java.net.SocketException: Connection reset
 [INFO ] 2024-07-23 23:17:30.417 [main] Hooks - CLosing the Driver
 [INFO ] 2024-07-23 23:17:30.741 [main] Hooks - Driver Closed
 [INFO ] 2024-07-23 23:17:30.741 [main] Hooks - Executing after all tests
+[INFO ] 2024-07-24 13:16:30.030 [main] Hooks - ================================================================
+[INFO ] 2024-07-24 13:16:30.037 [main] Hooks - Scenario Title: Searching for a product by keyword
+[INFO ] 2024-07-24 13:16:30.037 [main] Hooks - =================================================================
+[INFO ] 2024-07-24 13:16:30.049 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-24 13:16:32.777 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-24 13:16:32.777 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-24 13:16:32.793 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-24 13:16:32.793 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-24 13:16:32.816 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-24 13:16:32.822 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-24 13:16:32.822 [main] StepNameListener - Executing step: I am on the login page
+[INFO ] 2024-07-24 13:16:32.822 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:33.086 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-24 13:16:33.087 [main] StepNameListener - Executing step: I should see the search box
+[INFO ] 2024-07-24 13:16:33.087 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:33.092 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-24 13:16:33.092 [main] StepNameListener - Executing step: I enter a valid keyword in the search box
+[INFO ] 2024-07-24 13:16:33.092 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:33.095 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-24 13:16:33.095 [main] StepNameListener - Executing step: I click on the search button
+[INFO ] 2024-07-24 13:16:33.095 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:33.097 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-24 13:16:33.097 [main] StepNameListener - Executing step: I should see a list of products that match the keyword with their images, names and prices
+[INFO ] 2024-07-24 13:16:33.098 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:33.100 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:33.103 [main] Hooks - Searching for a product by keyword Status - UNDEFINED
+[INFO ] 2024-07-24 13:16:33.103 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:33.129 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-24 13:16:33.130 [main] Hooks - Driver Closed
+[INFO ] 2024-07-24 13:16:33.187 [main] Hooks - ================================================================
+[INFO ] 2024-07-24 13:16:33.187 [main] Hooks - Scenario Title: Searching for a product by invalid keyword
+[INFO ] 2024-07-24 13:16:33.187 [main] Hooks - =================================================================
+[INFO ] 2024-07-24 13:16:33.188 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-24 13:16:33.636 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-24 13:16:33.636 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-24 13:16:33.649 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-24 13:16:33.649 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-24 13:16:33.668 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-24 13:16:33.669 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-24 13:16:33.671 [main] StepNameListener - Executing step: I am on the login page
+[INFO ] 2024-07-24 13:16:33.671 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:34.011 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-24 13:16:34.011 [main] StepNameListener - Executing step: I enter an invalid "Maca" in the search box
+[INFO ] 2024-07-24 13:16:34.011 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:34.013 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-24 13:16:34.013 [main] StepNameListener - Executing step: I click on the search button
+[INFO ] 2024-07-24 13:16:34.013 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:34.013 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-24 13:16:34.014 [main] StepNameListener - Executing step: I should not be able to see any product images, names, or prices
+[INFO ] 2024-07-24 13:16:34.014 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:34.015 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-24 13:16:34.015 [main] StepNameListener - Executing step: I should receive a message.
+[INFO ] 2024-07-24 13:16:34.015 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:34.016 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:34.016 [main] Hooks - Searching for a product by invalid keyword Status - UNDEFINED
+[INFO ] 2024-07-24 13:16:34.016 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:34.043 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-24 13:16:34.043 [main] Hooks - Driver Closed
+[INFO ] 2024-07-24 13:16:34.067 [main] Hooks - ================================================================
+[INFO ] 2024-07-24 13:16:34.067 [main] Hooks - Scenario Title: Searching for a product by category
+[INFO ] 2024-07-24 13:16:34.067 [main] Hooks - =================================================================
+[INFO ] 2024-07-24 13:16:34.068 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-24 13:16:34.470 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-24 13:16:34.470 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-24 13:16:34.482 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-24 13:16:34.483 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-24 13:16:34.502 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-24 13:16:34.503 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-24 13:16:34.503 [main] StepNameListener - Executing step: I am on the login page
+[INFO ] 2024-07-24 13:16:34.503 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:34.774 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-24 13:16:34.775 [main] StepNameListener - Executing step: I click on “Search” button and it will land on Search page
+[INFO ] 2024-07-24 13:16:34.775 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:34.778 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-24 13:16:34.778 [main] StepNameListener - Executing step: I enter a "Mac" in the search criteria
+[INFO ] 2024-07-24 13:16:34.778 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:34.781 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-24 13:16:34.782 [main] StepNameListener - Executing step: I select a category from the drop-down menu and I click on the search button
+[INFO ] 2024-07-24 13:16:34.783 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:34.790 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-24 13:16:34.791 [main] StepNameListener - Executing step: I should see a list of products that belong to the category with their images, names, and prices
+[INFO ] 2024-07-24 13:16:34.792 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:34.793 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:34.793 [main] Hooks - Searching for a product by category Status - UNDEFINED
+[INFO ] 2024-07-24 13:16:34.793 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:34.821 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-24 13:16:34.821 [main] Hooks - Driver Closed
+[INFO ] 2024-07-24 13:16:34.861 [main] Hooks - ================================================================
+[INFO ] 2024-07-24 13:16:34.861 [main] Hooks - Scenario Title: Sorting the search results by name, price or rating
+[INFO ] 2024-07-24 13:16:34.861 [main] Hooks - =================================================================
+[INFO ] 2024-07-24 13:16:34.861 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-24 13:16:35.276 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-24 13:16:35.277 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-24 13:16:35.289 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-24 13:16:35.289 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-24 13:16:35.307 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-24 13:16:35.309 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-24 13:16:35.309 [main] StepNameListener - Executing step: I am on the login page
+[INFO ] 2024-07-24 13:16:35.309 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:35.608 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-24 13:16:35.608 [main] StepNameListener - Executing step: I have performed a search and got some results
+[INFO ] 2024-07-24 13:16:35.608 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:35.610 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-24 13:16:35.610 [main] StepNameListener - Executing step: I select an option from the sort by drop-down menu on the right side of the page
+[INFO ] 2024-07-24 13:16:35.610 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:35.612 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-24 13:16:35.612 [main] StepNameListener - Executing step: I should see the products sorted according to the option I have selected
+[INFO ] 2024-07-24 13:16:35.612 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:35.615 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:35.615 [main] Hooks - Sorting the search results by name, price or rating Status - UNDEFINED
+[INFO ] 2024-07-24 13:16:35.615 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:35.641 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-24 13:16:35.641 [main] Hooks - Driver Closed
+[INFO ] 2024-07-24 13:16:35.678 [main] Hooks - ================================================================
+[INFO ] 2024-07-24 13:16:35.681 [main] Hooks - Scenario Title: Sorting the search results by name, price or rating
+[INFO ] 2024-07-24 13:16:35.681 [main] Hooks - =================================================================
+[INFO ] 2024-07-24 13:16:35.681 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-24 13:16:36.134 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-24 13:16:36.134 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-24 13:16:36.146 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-24 13:16:36.146 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-24 13:16:36.161 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-24 13:16:36.161 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-24 13:16:36.161 [main] StepNameListener - Executing step: I am on the login page
+[INFO ] 2024-07-24 13:16:36.161 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:36.407 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-24 13:16:36.408 [main] StepNameListener - Executing step: I have performed a search and got some results
+[INFO ] 2024-07-24 13:16:36.408 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:36.409 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-24 13:16:36.409 [main] StepNameListener - Executing step: I select an option from the sort by drop-down menu on the right side of the page
+[INFO ] 2024-07-24 13:16:36.409 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:36.411 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-24 13:16:36.411 [main] StepNameListener - Executing step: I should see the products sorted according to the option I have selected
+[INFO ] 2024-07-24 13:16:36.411 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:36.412 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:36.413 [main] Hooks - Sorting the search results by name, price or rating Status - UNDEFINED
+[INFO ] 2024-07-24 13:16:36.413 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:36.437 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-24 13:16:36.437 [main] Hooks - Driver Closed
+[INFO ] 2024-07-24 13:16:36.467 [main] Hooks - ================================================================
+[INFO ] 2024-07-24 13:16:36.468 [main] Hooks - Scenario Title: Sorting the search results by name, price or rating
+[INFO ] 2024-07-24 13:16:36.468 [main] Hooks - =================================================================
+[INFO ] 2024-07-24 13:16:36.469 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-24 13:16:36.927 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-24 13:16:36.928 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-24 13:16:36.941 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-24 13:16:36.941 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-24 13:16:36.981 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-24 13:16:36.986 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-24 13:16:36.986 [main] StepNameListener - Executing step: I am on the login page
+[INFO ] 2024-07-24 13:16:36.987 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:37.231 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-24 13:16:37.231 [main] StepNameListener - Executing step: I have performed a search and got some results
+[INFO ] 2024-07-24 13:16:37.231 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:37.231 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-24 13:16:37.231 [main] StepNameListener - Executing step: I select an option from the sort by drop-down menu on the right side of the page
+[INFO ] 2024-07-24 13:16:37.231 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:37.237 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-24 13:16:37.237 [main] StepNameListener - Executing step: I should see the products sorted according to the option I have selected
+[INFO ] 2024-07-24 13:16:37.237 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:37.241 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:37.242 [main] Hooks - Sorting the search results by name, price or rating Status - UNDEFINED
+[INFO ] 2024-07-24 13:16:37.243 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:37.292 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-24 13:16:37.292 [main] Hooks - Driver Closed
+[INFO ] 2024-07-24 13:16:37.322 [main] Hooks - ================================================================
+[INFO ] 2024-07-24 13:16:37.322 [main] Hooks - Scenario Title: Sorting the search results by name, price or rating
+[INFO ] 2024-07-24 13:16:37.322 [main] Hooks - =================================================================
+[INFO ] 2024-07-24 13:16:37.327 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-24 13:16:37.777 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-24 13:16:37.778 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-24 13:16:37.792 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-24 13:16:37.792 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-24 13:16:37.821 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-24 13:16:37.821 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-24 13:16:37.821 [main] StepNameListener - Executing step: I am on the login page
+[INFO ] 2024-07-24 13:16:37.821 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:38.088 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-24 13:16:38.088 [main] StepNameListener - Executing step: I have performed a search and got some results
+[INFO ] 2024-07-24 13:16:38.089 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:38.091 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-24 13:16:38.091 [main] StepNameListener - Executing step: I select an option from the sort by drop-down menu on the right side of the page
+[INFO ] 2024-07-24 13:16:38.091 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:38.093 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-24 13:16:38.094 [main] StepNameListener - Executing step: I should see the products sorted according to the option I have selected
+[INFO ] 2024-07-24 13:16:38.094 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:38.095 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:38.095 [main] Hooks - Sorting the search results by name, price or rating Status - UNDEFINED
+[INFO ] 2024-07-24 13:16:38.095 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:38.126 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-24 13:16:38.126 [main] Hooks - Driver Closed
+[INFO ] 2024-07-24 13:16:38.153 [main] Hooks - ================================================================
+[INFO ] 2024-07-24 13:16:38.153 [main] Hooks - Scenario Title: Sorting the search results by name, price or rating
+[INFO ] 2024-07-24 13:16:38.153 [main] Hooks - =================================================================
+[INFO ] 2024-07-24 13:16:38.154 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-24 13:16:38.604 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-24 13:16:38.604 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-24 13:16:38.625 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-24 13:16:38.625 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-24 13:16:38.651 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-24 13:16:38.652 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-24 13:16:38.652 [main] StepNameListener - Executing step: I am on the login page
+[INFO ] 2024-07-24 13:16:38.652 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:38.982 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-24 13:16:38.982 [main] StepNameListener - Executing step: I have performed a search and got some results
+[INFO ] 2024-07-24 13:16:38.982 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:38.983 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-24 13:16:38.983 [main] StepNameListener - Executing step: I select an option from the sort by drop-down menu on the right side of the page
+[INFO ] 2024-07-24 13:16:38.983 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:38.985 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-24 13:16:38.985 [main] StepNameListener - Executing step: I should see the products sorted according to the option I have selected
+[INFO ] 2024-07-24 13:16:38.985 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:38.987 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:38.987 [main] Hooks - Sorting the search results by name, price or rating Status - UNDEFINED
+[INFO ] 2024-07-24 13:16:38.987 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:39.012 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-24 13:16:39.012 [main] Hooks - Driver Closed
+[INFO ] 2024-07-24 13:16:39.041 [main] Hooks - ================================================================
+[INFO ] 2024-07-24 13:16:39.041 [main] Hooks - Scenario Title: Sorting the search results by name, price or rating
+[INFO ] 2024-07-24 13:16:39.041 [main] Hooks - =================================================================
+[INFO ] 2024-07-24 13:16:39.041 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-24 13:16:39.522 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-24 13:16:39.522 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-24 13:16:39.535 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-24 13:16:39.535 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-24 13:16:39.561 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-24 13:16:39.561 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-24 13:16:39.561 [main] StepNameListener - Executing step: I am on the login page
+[INFO ] 2024-07-24 13:16:39.561 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:39.804 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-24 13:16:39.804 [main] StepNameListener - Executing step: I have performed a search and got some results
+[INFO ] 2024-07-24 13:16:39.804 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:39.804 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-24 13:16:39.804 [main] StepNameListener - Executing step: I select an option from the sort by drop-down menu on the right side of the page
+[INFO ] 2024-07-24 13:16:39.804 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:39.812 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-24 13:16:39.812 [main] StepNameListener - Executing step: I should see the products sorted according to the option I have selected
+[INFO ] 2024-07-24 13:16:39.812 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:39.813 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:39.813 [main] Hooks - Sorting the search results by name, price or rating Status - UNDEFINED
+[INFO ] 2024-07-24 13:16:39.813 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-24 13:16:39.850 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-24 13:16:39.850 [main] Hooks - Driver Closed
+[INFO ] 2024-07-24 13:16:39.881 [main] Hooks - CLosing the Driver
+[WARN ] 2024-07-24 13:16:39.936 [AsyncHttpClient-1-4] WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
+[INFO ] 2024-07-24 13:16:40.125 [main] Hooks - Driver Closed
+[INFO ] 2024-07-24 13:16:40.125 [main] Hooks - Executing after all tests
+[INFO ] 2024-07-24 13:19:23.620 [main] Hooks - ================================================================
+[INFO ] 2024-07-24 13:19:23.623 [main] Hooks - Scenario Title: Searching for a product by keyword
+[INFO ] 2024-07-24 13:19:23.623 [main] Hooks - =================================================================
+[INFO ] 2024-07-24 13:19:23.626 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-24 13:19:29.487 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-24 13:19:29.487 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-24 13:19:29.504 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-24 13:19:29.504 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-24 13:19:29.531 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-24 13:19:29.871 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-24 13:19:29.871 [main] Hooks - Searching for a product by keyword Status - UNDEFINED
+[INFO ] 2024-07-24 13:19:29.871 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-24 13:19:29.901 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-24 13:19:29.901 [main] Hooks - Driver Closed
+[INFO ] 2024-07-24 13:19:29.962 [main] Hooks - ================================================================
+[INFO ] 2024-07-24 13:19:29.962 [main] Hooks - Scenario Title: Searching for a product by invalid keyword
+[INFO ] 2024-07-24 13:19:29.962 [main] Hooks - =================================================================
+[INFO ] 2024-07-24 13:19:29.962 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-24 13:19:30.409 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-24 13:19:30.410 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-24 13:19:30.428 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-24 13:19:30.428 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-24 13:19:30.451 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-24 13:19:30.688 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-24 13:19:30.689 [main] Hooks - Searching for a product by invalid keyword Status - UNDEFINED
+[INFO ] 2024-07-24 13:19:30.689 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-24 13:19:30.723 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-24 13:19:30.723 [main] Hooks - Driver Closed
+[INFO ] 2024-07-24 13:19:30.752 [main] Hooks - ================================================================
+[INFO ] 2024-07-24 13:19:30.752 [main] Hooks - Scenario Title: Searching for a product by category
+[INFO ] 2024-07-24 13:19:30.752 [main] Hooks - =================================================================
+[INFO ] 2024-07-24 13:19:30.752 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-24 13:19:31.192 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-24 13:19:31.192 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-24 13:19:31.205 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-24 13:19:31.205 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-24 13:19:31.231 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-24 13:19:31.461 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-24 13:19:31.461 [main] Hooks - Searching for a product by category Status - UNDEFINED
+[INFO ] 2024-07-24 13:19:31.461 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-24 13:19:31.490 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-24 13:19:31.490 [main] Hooks - Driver Closed
+[INFO ] 2024-07-24 13:19:31.511 [main] Hooks - ================================================================
+[INFO ] 2024-07-24 13:19:31.518 [main] Hooks - Scenario Title: Sorting the search results by name, price or rating
+[INFO ] 2024-07-24 13:19:31.518 [main] Hooks - =================================================================
+[INFO ] 2024-07-24 13:19:31.518 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-24 13:19:31.976 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-24 13:19:31.976 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-24 13:19:31.996 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-24 13:19:31.997 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-24 13:19:32.021 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-24 13:19:32.227 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-24 13:19:32.227 [main] Hooks - Sorting the search results by name, price or rating Status - UNDEFINED
+[INFO ] 2024-07-24 13:19:32.227 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-24 13:19:32.257 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-24 13:19:32.257 [main] Hooks - Driver Closed
+[INFO ] 2024-07-24 13:19:32.282 [main] Hooks - ================================================================
+[INFO ] 2024-07-24 13:19:32.282 [main] Hooks - Scenario Title: Sorting the search results by name, price or rating
+[INFO ] 2024-07-24 13:19:32.282 [main] Hooks - =================================================================
+[INFO ] 2024-07-24 13:19:32.282 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-24 13:19:32.729 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-24 13:19:32.729 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-24 13:19:32.756 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-24 13:19:32.756 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-24 13:19:32.783 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-24 13:19:33.189 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-24 13:19:33.189 [main] Hooks - Sorting the search results by name, price or rating Status - UNDEFINED
+[INFO ] 2024-07-24 13:19:33.189 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-24 13:19:33.212 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-24 13:19:33.212 [main] Hooks - Driver Closed
+[INFO ] 2024-07-24 13:19:33.242 [main] Hooks - ================================================================
+[INFO ] 2024-07-24 13:19:33.243 [main] Hooks - Scenario Title: Sorting the search results by name, price or rating
+[INFO ] 2024-07-24 13:19:33.243 [main] Hooks - =================================================================
+[INFO ] 2024-07-24 13:19:33.243 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-24 13:19:33.686 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-24 13:19:33.687 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-24 13:19:33.702 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-24 13:19:33.702 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-24 13:19:33.732 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-24 13:19:34.079 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-24 13:19:34.079 [main] Hooks - Sorting the search results by name, price or rating Status - UNDEFINED
+[INFO ] 2024-07-24 13:19:34.079 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-24 13:19:34.132 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-24 13:19:34.132 [main] Hooks - Driver Closed
+[INFO ] 2024-07-24 13:19:34.158 [main] Hooks - ================================================================
+[INFO ] 2024-07-24 13:19:34.158 [main] Hooks - Scenario Title: Sorting the search results by name, price or rating
+[INFO ] 2024-07-24 13:19:34.159 [main] Hooks - =================================================================
+[INFO ] 2024-07-24 13:19:34.159 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-24 13:19:34.637 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-24 13:19:34.637 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-24 13:19:34.654 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-24 13:19:34.654 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-24 13:19:34.680 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-24 13:19:34.865 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-24 13:19:34.866 [main] Hooks - Sorting the search results by name, price or rating Status - UNDEFINED
+[INFO ] 2024-07-24 13:19:34.866 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-24 13:19:34.921 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-24 13:19:34.921 [main] Hooks - Driver Closed
+[INFO ] 2024-07-24 13:19:34.951 [main] Hooks - ================================================================
+[INFO ] 2024-07-24 13:19:34.951 [main] Hooks - Scenario Title: Sorting the search results by name, price or rating
+[INFO ] 2024-07-24 13:19:34.951 [main] Hooks - =================================================================
+[INFO ] 2024-07-24 13:19:34.951 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-24 13:19:35.441 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-24 13:19:35.441 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-24 13:19:35.455 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-24 13:19:35.455 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-24 13:19:35.483 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-24 13:19:35.821 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-24 13:19:35.821 [main] Hooks - Sorting the search results by name, price or rating Status - UNDEFINED
+[INFO ] 2024-07-24 13:19:35.821 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-24 13:19:35.841 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-24 13:19:35.841 [main] Hooks - Driver Closed
+[INFO ] 2024-07-24 13:19:35.873 [main] Hooks - ================================================================
+[INFO ] 2024-07-24 13:19:35.873 [main] Hooks - Scenario Title: Sorting the search results by name, price or rating
+[INFO ] 2024-07-24 13:19:35.873 [main] Hooks - =================================================================
+[INFO ] 2024-07-24 13:19:35.873 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-24 13:19:36.316 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-24 13:19:36.316 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-24 13:19:36.350 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-24 13:19:36.350 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-24 13:19:36.377 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-24 13:19:36.642 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-24 13:19:36.642 [main] Hooks - Sorting the search results by name, price or rating Status - UNDEFINED
+[INFO ] 2024-07-24 13:19:36.642 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-24 13:19:36.676 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-24 13:19:36.676 [main] Hooks - Driver Closed
+[INFO ] 2024-07-24 13:19:36.704 [main] Hooks - CLosing the Driver
+[WARN ] 2024-07-24 13:19:36.761 [AsyncHttpClient-1-4] WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
+[INFO ] 2024-07-24 13:19:36.917 [main] Hooks - Driver Closed
+[INFO ] 2024-07-24 13:19:36.917 [main] Hooks - Executing after all tests
+[INFO ] 2024-07-24 13:30:14.429 [main] Hooks - ================================================================
+[INFO ] 2024-07-24 13:30:14.432 [main] Hooks - Scenario Title: Searching for a product by keyword
+[INFO ] 2024-07-24 13:30:14.432 [main] Hooks - =================================================================
+[INFO ] 2024-07-24 13:30:14.441 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-24 13:30:17.425 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-24 13:30:17.425 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-24 13:30:17.439 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-24 13:30:17.441 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-24 13:30:17.474 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-24 13:30:17.477 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-24 13:30:17.478 [main] StepNameListener - Executing step: I am on the login page
+[INFO ] 2024-07-24 13:30:17.478 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-24 13:30:17.549 [main] Validkeyword_SearchStep - user is logging 
+[INFO ] 2024-07-24 13:30:27.552 [main] Validkeyword_SearchStep - user is logged in
+[INFO ] 2024-07-24 13:30:30.926 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-24 13:30:30.926 [main] StepNameListener - Executing step: I should see the search box
+[INFO ] 2024-07-24 13:30:30.926 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-24 13:30:30.932 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-07-24 13:30:31.000 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-07-24 13:30:31.042 [main] Validkeyword_SearchStep - search box should be visible
+[INFO ] 2024-07-24 13:30:31.243 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-24 13:30:31.243 [main] StepNameListener - Executing step: I enter a valid keyword in the search box
+[INFO ] 2024-07-24 13:30:31.243 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-24 13:30:31.492 [main] Validkeyword_SearchStep - valid keyword has enetred
+[INFO ] 2024-07-24 13:30:31.702 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-24 13:30:31.702 [main] StepNameListener - Executing step: I click on the search button
+[INFO ] 2024-07-24 13:30:31.702 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-24 13:30:33.494 [main] Validkeyword_SearchStep - search button in clicked
+[INFO ] 2024-07-24 13:30:33.755 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-24 13:30:33.755 [main] StepNameListener - Executing step: I should see a list of products that match the keyword with their images, names and prices
+[INFO ] 2024-07-24 13:30:33.755 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-24 13:30:34.044 [main] Validkeyword_SearchStep - the list of products that match the keyword with their images, names ans prieces are visible
+[INFO ] 2024-07-24 13:30:34.232 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-24 13:30:34.232 [main] Hooks - Driver Closed
+[INFO ] 2024-07-24 13:30:34.232 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-24 13:30:34.242 [main] Hooks - Searching for a product by keyword Status - PASSED
+[INFO ] 2024-07-24 13:30:34.242 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-24 13:30:34.277 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-24 13:30:34.542 [main] Hooks - Driver Closed
+[INFO ] 2024-07-24 13:30:34.547 [main] Hooks - Executing after all tests

@@ -24,11 +24,11 @@ import io.cucumber.junit.CucumberOptions;
 		glue = {"com.pdl.step_definitions","com.pdl.hooks"},
 		dryRun=false,
 		tags=
-		("@validlogin")
-		//("@validkeywordsearch or @invalidkeywordsearch or @sortsearchresults or @searchByCatagory or @sortsearchresults")
+		//("@validlogin")
+		//("@validkeywordsearch or @invalidkeywordsearch or @searchByCatagory or @sortsearchresults")
 		
 		
-		//("@validkeywordsearch")
+		("@validkeywordsearch")
         //("@sortsearchresults")
 		//("@searchByCatagory")
 		//("@invalidkeywordsearch")

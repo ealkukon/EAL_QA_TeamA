@@ -6,7 +6,7 @@ import org.apache.logging.log4j.core.Logger;
 import com.pdl.pages.Invalidsearchpage;
 import com.pdl.pages.SearchCatagoryPage;
 import com.pdl.pages.Searchpage;
-import com.pdl.pages.Valid_LoginPage;
+
 import com.pdl.utilities.CommonMethods;
 
 import io.cucumber.java.en.*;
@@ -15,7 +15,7 @@ import io.cucumber.java.en.*;
 public class SearchCatagory_Step extends CommonMethods {
 	
 	
-	Valid_LoginPage login=new Valid_LoginPage();
+	//Valid_LoginPage login=new Valid_LoginPage();
 	Searchpage validkeyword=new Searchpage();
 	Invalidsearchpage invalid=new Invalidsearchpage();
 	SearchCatagoryPage catagory=new SearchCatagoryPage();

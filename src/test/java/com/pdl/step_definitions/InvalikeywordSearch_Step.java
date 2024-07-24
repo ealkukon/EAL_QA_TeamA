@@ -6,14 +6,14 @@ import org.apache.logging.log4j.Logger;
 
 import com.pdl.pages.Invalidsearchpage;
 import com.pdl.pages.Searchpage;
-import com.pdl.pages.Valid_LoginPage;
+
 import com.pdl.utilities.CommonMethods;
 
 import io.cucumber.java.en.*;
 
 public class InvalikeywordSearch_Step extends CommonMethods {
 	
-	Valid_LoginPage login=new Valid_LoginPage();
+	//Valid_LoginPage login=new Valid_LoginPage();
 	Searchpage validkeyword=new Searchpage();
 	Invalidsearchpage invalid=new Invalidsearchpage();
 	
