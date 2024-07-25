@@ -1,5 +1,8 @@
 package com.pdl.utilities;
 
+import static org.junit.Assert.assertTrue;
+import static org.testng.Assert.assertTrue;
+
 import java.io.File;
 
 import java.io.IOException;
@@ -43,7 +46,7 @@ import org.apache.commons.io.FileDeleteStrategy;
 import org.apache.logging.log4j.LogManager;
 
 import org.apache.logging.log4j.Logger;
-
+import org.apache.logging.log4j.core.util.Assert;
 import org.openqa.selenium.Alert;
 
 import org.openqa.selenium.By;
@@ -70,6 +73,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.asserts.SoftAssert;
 
 import com.google.common.base.Function;
+
 
 public class CommonMethods extends Driver {
 
@@ -710,7 +714,7 @@ public class CommonMethods extends Driver {
 	
 	
 //	   From Browser Utils
-       public static String selectFromropDownRendomOption(WebElement dropdown) {
+       public static String selectFromDropDownRendomOption(WebElement dropdown) {
     	   
 		Select select = new Select(dropdown);
 		List<WebElement> i =select.getOptions();	
@@ -1306,6 +1310,7 @@ public class CommonMethods extends Driver {
     		try {
 				Thread.sleep(2000);
 			} catch (InterruptedException e) {
+				
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
@@ -1621,14 +1626,18 @@ public class CommonMethods extends Driver {
     		
     		  
     	  }
+    	  
+    	// wait and click method
+    	  public void waitAndClick(WebElement element) {
+    		    try {
+    		        Thread.sleep(2000); // Wait for 2 seconds
+    		        element.click();
+    		    } catch (InterruptedException e) {
+    		        Thread.currentThread().interrupt();
+    		    }
+    		}
     	
     	
-    	
-    	
-    	
-    	
-    	
-    		
 	
 
 

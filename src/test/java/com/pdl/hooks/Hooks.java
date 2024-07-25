@@ -20,6 +20,7 @@ import io.cucumber.java.AfterStep;
 import io.cucumber.java.Before;
 import io.cucumber.java.BeforeStep;
 import io.cucumber.java.Scenario;
+import io.cucumber.java.AfterAll;
 
 
 
@@ -71,7 +72,10 @@ public class Hooks extends CommonMethods {
 	}
 	
 	
-
+	//@Before
+	//public void beforeScenario() {
+	//    driver = new WebDriver();}
+	  
 	@Before
 	public void scenarioName(Scenario scenario) {
 		logger.info("================================================================");
@@ -119,19 +123,20 @@ public class Hooks extends CommonMethods {
 
 	}
 
-	@After
-	public void tearDown(Scenario scenario) {
-		// taking a screenshot if the scenario fails
-		if (ConfigurationReader.getProperty("browser").equals("headless")) {
-
-		} else {
-
-			Driver.getDriver().manage().deleteAllCookies();
-
-			logger.info("CLosing the Driver");
-			Driver.closeDriver();
-
-			logger.info("Driver Closed");
+	/*
+	 * @After public void tearDown(Scenario scenario) throws InterruptedException {
+	 * // taking a screenshot if the scenario fails if
+	 * (ConfigurationReader.getProperty("browser").equals("headless")) {
+	 * 
+	 * } else {
+	 * 
+	 * Driver.getDriver().manage().deleteAllCookies();
+	 * 
+	 * logger.info("CLosing the Driver"); Driver.closeDriver(); Thread.sleep(2000);
+	 * 
+	 * logger.info("Driver Closed"); }
+	 */
+		//	Thread.sleep(2000); 
 
 			/*
 			 * if (scenario.isFailed()) { final byte[] screenshot = ((TakesScreenshot)
@@ -143,9 +148,32 @@ public class Hooks extends CommonMethods {
 			 * 
 			 * }
 			 */
-		}
-	}
+		//}
+		
 	
+	
+	
+			@AfterAll
+			//public void tearDown(Scenario scenario) {
+				// taking a screenshot if the scenario fails
+			
+		    public static void after_all() {
+			if (ConfigurationReader.getProperty("browser").equals("headless")) {
+
+
+			} else {
+			Driver.getDriver().manage().deleteAllCookies();
+
+			logger.info("CLosing the Driver");
+			//Driver.closeDriver();
+			
+			logger.info("Driver Closed");
+
+
+				logger.info("CLosing the Driver");
+				Driver.closeDriver();
+				logger.info("Driver Closed");
+			}
 	/*
 	 * Disabled by Shams --- Database Connections.
 	  
@@ -166,4 +194,4 @@ public class Hooks extends CommonMethods {
 	
 	int x=10; //just for testing
 
-}
+		}}
