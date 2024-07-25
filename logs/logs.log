@@ -18912,3 +18912,336 @@ java.net.SocketException: Connection reset
 [INFO ] 2024-07-25 16:03:03.950 [main] StepNameListener - ---------------------------------------------------------------------
 [WARN ] 2024-07-25 16:03:03.950 [main] StepNameListener - Executing step: I should see the updated subtotal and total amount of my order
 [INFO ] 2024-07-25 16:03:03.950 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 16:13:35.088 [main] Hooks - ================================================================
+[INFO ] 2024-07-25 16:13:35.095 [main] Hooks - Scenario Title: verify the confirmation message after adding to cart
+[INFO ] 2024-07-25 16:13:35.095 [main] Hooks - =================================================================
+[INFO ] 2024-07-25 16:13:35.111 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-25 16:13:37.854 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-25 16:13:37.854 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-25 16:13:37.878 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-25 16:13:37.878 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-25 16:13:37.924 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-25 16:13:37.938 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 16:13:37.938 [main] StepNameListener - Executing step: User navigates to Homepage
+[INFO ] 2024-07-25 16:13:37.938 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 16:13:37.985 [main] AddToCart_StepDef - ********* start navigating on home page *************
+[INFO ] 2024-07-25 16:13:48.000 [main] AddToCart_StepDef - *********** log in time is ended ***************
+[INFO ] 2024-07-25 16:13:48.335 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 16:13:48.335 [main] StepNameListener - Executing step: select a product to the cart from the product view page
+[INFO ] 2024-07-25 16:13:48.335 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 16:13:48.337 [main] AddToCart_StepDef - *********** selecting product is started *************
+[INFO ] 2024-07-25 16:13:48.417 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-07-25 16:13:48.455 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-07-25 16:13:51.467 [main] AddToCart_StepDef - *********** selecting product is ended ****************
+[INFO ] 2024-07-25 16:13:51.838 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 16:13:51.838 [main] StepNameListener - Executing step: the user clicks on add to cart
+[INFO ] 2024-07-25 16:13:51.838 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 16:13:51.838 [main] AddToCart_StepDef - *****click add to cart ********
+[INFO ] 2024-07-25 16:13:54.058 [main] AddToCart_StepDef - *************** the product was added to the cart ******************
+[INFO ] 2024-07-25 16:13:57.345 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 16:13:57.345 [main] StepNameListener - Executing step: He should see a confirmation message that says: “Success: You have added [product name] to your shopping cart!”
+[INFO ] 2024-07-25 16:13:57.345 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 16:13:57.355 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-07-25 16:13:57.408 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-07-25 16:13:59.471 [main] AddToCart_StepDef - ************** confirmation message displyed *********
+[INFO ] 2024-07-25 16:14:02.740 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 16:14:02.740 [main] StepNameListener - Executing step: the number of items in my cart should increase by one
+[INFO ] 2024-07-25 16:14:02.740 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 16:14:02.745 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-07-25 16:14:02.795 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-07-25 16:14:04.872 [main] AddToCart_StepDef - *************** shopping cart increased by one ***************
+[INFO ] 2024-07-25 16:14:08.141 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-25 16:14:08.145 [main] Hooks - verify the confirmation message after adding to cart Status - PASSED
+[INFO ] 2024-07-25 16:14:08.145 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-25 16:14:08.185 [main] Hooks - ================================================================
+[INFO ] 2024-07-25 16:14:08.185 [main] Hooks - Scenario Title: validate add to cart
+[INFO ] 2024-07-25 16:14:08.185 [main] Hooks - =================================================================
+[INFO ] 2024-07-25 16:14:08.193 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-25 16:14:09.229 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-25 16:14:09.230 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-25 16:14:09.262 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-25 16:14:09.262 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-25 16:14:09.290 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-25 16:14:09.291 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 16:14:09.292 [main] StepNameListener - Executing step: User navigates to Homepage
+[INFO ] 2024-07-25 16:14:09.292 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 16:14:09.337 [main] AddToCart_StepDef - ********* start navigating on home page *************
+[INFO ] 2024-07-25 16:14:19.340 [main] AddToCart_StepDef - *********** log in time is ended ***************
+[INFO ] 2024-07-25 16:14:19.600 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 16:14:19.606 [main] StepNameListener - Executing step: select a product to the cart from the product view page
+[INFO ] 2024-07-25 16:14:19.606 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 16:14:19.606 [main] AddToCart_StepDef - *********** selecting product is started *************
+[INFO ] 2024-07-25 16:14:19.674 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-07-25 16:14:19.705 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-07-25 16:14:22.721 [main] AddToCart_StepDef - *********** selecting product is ended ****************
+[INFO ] 2024-07-25 16:14:22.989 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 16:14:22.989 [main] StepNameListener - Executing step: validate the add to cart button should be enabled only if the product is in stock
+[INFO ] 2024-07-25 16:14:22.989 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 16:14:22.989 [main] AddToCart_StepDef - *********** add to cart button is enabeled if product is in stock ********
+[INFO ] 2024-07-25 16:14:23.375 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 16:14:23.375 [main] StepNameListener - Executing step: confirmation message should show the product name, image and price
+[INFO ] 2024-07-25 16:14:23.375 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 16:14:23.380 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 16:14:23.380 [main] StepNameListener - Executing step: Verify that available product is added to the cart
+[INFO ] 2024-07-25 16:14:23.380 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 16:14:23.390 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-25 16:14:23.390 [main] Hooks - validate add to cart Status - FAILED
+[INFO ] 2024-07-25 16:14:23.390 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-25 16:14:23.636 [main] Hooks - ================================================================
+[INFO ] 2024-07-25 16:14:23.636 [main] Hooks - Scenario Title: red border
+[INFO ] 2024-07-25 16:14:23.636 [main] Hooks - =================================================================
+[INFO ] 2024-07-25 16:14:23.640 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-25 16:14:24.148 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-25 16:14:24.148 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-25 16:14:24.179 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-25 16:14:24.179 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-25 16:14:24.216 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-25 16:14:24.218 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 16:14:24.218 [main] StepNameListener - Executing step: User navigates to Homepage
+[INFO ] 2024-07-25 16:14:24.219 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 16:14:24.266 [main] AddToCart_StepDef - ********* start navigating on home page *************
+[INFO ] 2024-07-25 16:14:34.273 [main] AddToCart_StepDef - *********** log in time is ended ***************
+[INFO ] 2024-07-25 16:14:34.590 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 16:14:34.590 [main] StepNameListener - Executing step: select a product to the cart from the product view page
+[INFO ] 2024-07-25 16:14:34.590 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 16:14:34.590 [main] AddToCart_StepDef - *********** selecting product is started *************
+[INFO ] 2024-07-25 16:14:34.655 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-07-25 16:14:34.694 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-07-25 16:14:37.709 [main] AddToCart_StepDef - *********** selecting product is ended ****************
+[INFO ] 2024-07-25 16:14:38.006 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 16:14:38.006 [main] StepNameListener - Executing step: hover over on the add to cart button,  A Red border should appear surrounding it
+[INFO ] 2024-07-25 16:14:38.006 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 16:14:38.006 [main] AddToCart_StepDef - *********** start over over *************
+[INFO ] 2024-07-25 16:14:41.555 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-25 16:14:41.555 [main] Hooks - red border Status - FAILED
+[INFO ] 2024-07-25 16:14:41.555 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-25 16:14:41.625 [main] Hooks - ================================================================
+[INFO ] 2024-07-25 16:14:41.625 [main] Hooks - Scenario Title: Add multiple products to cart
+[INFO ] 2024-07-25 16:14:41.625 [main] Hooks - =================================================================
+[INFO ] 2024-07-25 16:14:41.625 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-25 16:14:42.599 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-25 16:14:42.600 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-25 16:14:42.698 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-25 16:14:42.699 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-25 16:14:42.728 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-25 16:14:42.729 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 16:14:42.729 [main] StepNameListener - Executing step: User navigates to Homepage
+[INFO ] 2024-07-25 16:14:42.729 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 16:14:42.772 [main] AddToCart_StepDef - ********* start navigating on home page *************
+[INFO ] 2024-07-25 16:14:52.777 [main] AddToCart_StepDef - *********** log in time is ended ***************
+[INFO ] 2024-07-25 16:14:53.040 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 16:14:53.045 [main] StepNameListener - Executing step: select a product to the cart from the product view page
+[INFO ] 2024-07-25 16:14:53.045 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 16:14:53.045 [main] AddToCart_StepDef - *********** selecting product is started *************
+[INFO ] 2024-07-25 16:14:53.095 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-07-25 16:14:53.139 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-07-25 16:14:56.156 [main] AddToCart_StepDef - *********** selecting product is ended ****************
+[INFO ] 2024-07-25 16:14:56.425 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 16:14:56.425 [main] StepNameListener - Executing step: the product page should have an Add to Cart button
+[INFO ] 2024-07-25 16:14:56.435 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 16:14:56.435 [main] AddToCart_StepDef - ********* add to cart button on the product page  **********
+[INFO ] 2024-07-25 16:14:56.445 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-07-25 16:14:56.476 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-07-25 16:15:00.923 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 16:15:00.923 [main] StepNameListener - Executing step: I click on the Add to Cart button for multiple products
+[INFO ] 2024-07-25 16:15:00.923 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 16:15:00.925 [main] AddToCart_StepDef - ********* start clicking on add to cart button for multiple product  **********
+[INFO ] 2024-07-25 16:15:10.675 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 16:15:10.675 [main] StepNameListener - Executing step: all the products should be added to my cart
+[INFO ] 2024-07-25 16:15:10.675 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 16:15:10.675 [main] AddToCart_StepDef - ********* all product added to the shopping cart   **********
+[INFO ] 2024-07-25 16:15:10.875 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 16:15:10.875 [main] StepNameListener - Executing step: the cart icon should display the updated number of items
+[INFO ] 2024-07-25 16:15:10.875 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 16:15:10.875 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-07-25 16:15:10.915 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-07-25 16:15:12.965 [main] AddToCart_StepDef - ********* cart icon displayed the updated number  **********
+[INFO ] 2024-07-25 16:15:13.171 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-25 16:15:13.171 [main] Hooks - Add multiple products to cart Status - PASSED
+[INFO ] 2024-07-25 16:15:13.171 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-25 16:15:13.208 [main] Hooks - ================================================================
+[INFO ] 2024-07-25 16:15:13.208 [main] Hooks - Scenario Title: Viewing my shopping cart
+[INFO ] 2024-07-25 16:15:13.208 [main] Hooks - =================================================================
+[INFO ] 2024-07-25 16:15:13.215 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-25 16:15:13.867 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-25 16:15:13.868 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-25 16:15:13.904 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-25 16:15:13.904 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-25 16:15:13.941 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-25 16:15:13.943 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 16:15:13.944 [main] StepNameListener - Executing step: I have added some products to the cart
+[INFO ] 2024-07-25 16:15:13.944 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 16:15:23.465 [main] ViewEditShoppingCart_StepDef - i have some product in my shopping cart
+[INFO ] 2024-07-25 16:15:23.691 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 16:15:23.693 [main] StepNameListener - Executing step: I click on the cart icon on the top right corner of the page
+[INFO ] 2024-07-25 16:15:23.693 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 16:15:23.784 [main] ViewEditShoppingCart_StepDef - the cart icon is clicked
+[INFO ] 2024-07-25 16:15:23.955 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 16:15:23.955 [main] StepNameListener - Executing step: I should see a summary of the products in the cart with their images, names, quantities, prices and totals
+[INFO ] 2024-07-25 16:15:23.955 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 16:15:23.965 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-07-25 16:15:24.006 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-07-25 16:15:28.075 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-07-25 16:15:28.125 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-07-25 16:15:31.215 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-07-25 16:15:31.271 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-07-25 16:15:34.356 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-07-25 16:15:34.491 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-07-25 16:15:37.545 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-07-25 16:15:37.596 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-07-25 16:15:40.670 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-07-25 16:15:40.715 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-07-25 16:15:43.775 [main] ViewEditShoppingCart_StepDef - user can see a summary of the products in the cart with their images, names, quantities, prices and totals
+[INFO ] 2024-07-25 16:15:44.020 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 16:15:44.020 [main] StepNameListener - Executing step: I should see the subtotal and total amount of my order
+[INFO ] 2024-07-25 16:15:44.020 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 16:15:44.025 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-07-25 16:15:44.085 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-07-25 16:15:47.155 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-07-25 16:15:47.195 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-07-25 16:15:51.327 [main] ViewEditShoppingCart_StepDef - the subtotal and total amount of my order is displayed
+[INFO ] 2024-07-25 16:15:51.538 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-25 16:15:51.538 [main] Hooks - Viewing my shopping cart Status - PASSED
+[INFO ] 2024-07-25 16:15:51.538 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-25 16:15:51.575 [main] Hooks - ================================================================
+[INFO ] 2024-07-25 16:15:51.575 [main] Hooks - Scenario Title: Changing the quantity of a product in the cart
+[INFO ] 2024-07-25 16:15:51.575 [main] Hooks - =================================================================
+[INFO ] 2024-07-25 16:15:51.575 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-25 16:15:52.625 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-25 16:15:52.626 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-25 16:15:52.645 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-25 16:15:52.648 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-25 16:15:52.666 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-25 16:15:52.667 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 16:15:52.667 [main] StepNameListener - Executing step: I am on the shopping cart page
+[INFO ] 2024-07-25 16:15:52.667 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 16:15:52.706 [main] ViewEditShoppingCart_StepDef - user can be in shopping cart page
+[INFO ] 2024-07-25 16:15:52.926 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 16:15:52.929 [main] StepNameListener - Executing step: I change the quantity of a product and click on the refresh button
+[INFO ] 2024-07-25 16:15:52.929 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 16:15:52.930 [main] ViewEditShoppingCart_StepDef - the quantity of the product have been changed
+[INFO ] 2024-07-25 16:15:55.939 [main] ViewEditShoppingCart_StepDef - refresh button is clickable
+[INFO ] 2024-07-25 16:15:56.238 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 16:15:56.238 [main] StepNameListener - Executing step: I should see the updated quantity and price of the product
+[INFO ] 2024-07-25 16:15:56.238 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 16:15:56.238 [main] ViewEditShoppingCart_StepDef - quantity and price of the product have been updated
+[INFO ] 2024-07-25 16:15:56.523 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 16:15:56.523 [main] StepNameListener - Executing step: I should see the updated subtotal and total amount of my order
+[INFO ] 2024-07-25 16:15:56.523 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 16:15:56.523 [main] ViewEditShoppingCart_StepDef - subtotal and total amount of my order have been updated
+[INFO ] 2024-07-25 16:15:56.805 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-25 16:15:56.805 [main] Hooks - Changing the quantity of a product in the cart Status - PASSED
+[INFO ] 2024-07-25 16:15:56.805 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-25 16:15:56.835 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-25 16:15:56.835 [main] Hooks - Driver Closed
+[INFO ] 2024-07-25 16:15:56.835 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-25 16:15:57.345 [main] Hooks - Driver Closed
+[INFO ] 2024-07-25 16:20:06.840 [main] Hooks - ================================================================
+[INFO ] 2024-07-25 16:20:06.843 [main] Hooks - Scenario Title: checkout as a guest
+[INFO ] 2024-07-25 16:20:06.844 [main] Hooks - =================================================================
+[INFO ] 2024-07-25 16:20:06.845 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-25 16:20:09.435 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-25 16:20:09.435 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-25 16:20:09.451 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-25 16:20:09.451 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-25 16:20:09.465 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-25 16:20:09.465 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 16:20:09.465 [main] StepNameListener - Executing step: User navigates to homepage
+[INFO ] 2024-07-25 16:20:09.465 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 16:20:09.525 [main] Checkout_StepDef - ********* start navigating on home page *************
+[INFO ] 2024-07-25 16:20:12.528 [main] Checkout_StepDef - *********** log in time is ended ***************
+[INFO ] 2024-07-25 16:20:12.833 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 16:20:12.834 [main] StepNameListener - Executing step: search a product, and click on add to cart
+[INFO ] 2024-07-25 16:20:12.834 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 16:20:12.834 [main] Checkout_StepDef - *********** search is started *************
+[INFO ] 2024-07-25 16:20:15.843 [main] Checkout_StepDef - ****************** add to cart *************
+[INFO ] 2024-07-25 16:20:21.285 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 16:20:21.285 [main] StepNameListener - Executing step: navigate to shopping cart and click on it
+[INFO ] 2024-07-25 16:20:21.285 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 16:20:21.285 [main] Checkout_StepDef - *************** the product was added to the cart ******************
+[INFO ] 2024-07-25 16:20:25.015 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 16:20:25.015 [main] StepNameListener - Executing step: click on checkout bouton.
+[INFO ] 2024-07-25 16:20:25.015 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 16:20:45.405 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 16:20:45.413 [main] StepNameListener - Executing step: I should see an option to checkout as a guest
+[INFO ] 2024-07-25 16:20:45.413 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 16:20:45.417 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 16:20:45.417 [main] StepNameListener - Executing step: I should be able to enter my billing details, delivery details, delivery method, payment method and confirm my order
+[INFO ] 2024-07-25 16:20:45.417 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 16:20:45.417 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-25 16:20:45.426 [main] Hooks - checkout as a guest Status - FAILED
+[INFO ] 2024-07-25 16:20:45.426 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-25 16:20:45.532 [main] Hooks - ================================================================
+[INFO ] 2024-07-25 16:20:45.533 [main] Hooks - Scenario Title: Check out as a registered customer
+[INFO ] 2024-07-25 16:20:45.534 [main] Hooks - =================================================================
+[INFO ] 2024-07-25 16:20:45.546 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-25 16:20:46.312 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-25 16:20:46.313 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-25 16:20:46.335 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-25 16:20:46.335 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-25 16:20:46.405 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-25 16:20:46.410 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 16:20:46.410 [main] StepNameListener - Executing step: I have some products in my shopping cart and I am logged in to my account
+[INFO ] 2024-07-25 16:20:46.410 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 16:20:56.499 [main] Checkout_StepDef -  user is already logged in
+[INFO ] 2024-07-25 16:21:07.584 [main] Checkout_StepDef - user already has some product in shopping cart
+[INFO ] 2024-07-25 16:21:07.818 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 16:21:07.818 [main] StepNameListener - Executing step: I click on the checkout button on the shopping cart page
+[INFO ] 2024-07-25 16:21:07.819 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 16:21:14.457 [main] Checkout_StepDef - checkout button is functionnal
+[INFO ] 2024-07-25 16:21:15.312 [main] Checkout_StepDef - checkout button is already clicked
+[INFO ] 2024-07-25 16:21:15.497 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 16:21:15.497 [main] StepNameListener - Executing step: I should see an option to check out with my account
+[INFO ] 2024-07-25 16:21:15.497 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 16:21:15.664 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 16:21:15.664 [main] StepNameListener - Executing step: I should be able to use my saved billing and delivery details or enter new ones, choose a delivery method, a payment method and confirm my order
+[INFO ] 2024-07-25 16:21:15.664 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 16:21:15.820 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-25 16:21:15.820 [main] Hooks - Check out as a registered customer Status - PASSED
+[INFO ] 2024-07-25 16:21:15.820 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-25 16:21:15.875 [main] Hooks - ================================================================
+[INFO ] 2024-07-25 16:21:15.875 [main] Hooks - Scenario Title: billing and delivery
+[INFO ] 2024-07-25 16:21:15.875 [main] Hooks - =================================================================
+[INFO ] 2024-07-25 16:21:15.875 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-25 16:21:16.440 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-25 16:21:16.441 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-25 16:21:16.484 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-25 16:21:16.484 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-25 16:21:16.535 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-25 16:21:16.539 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 16:21:16.539 [main] StepNameListener - Executing step: the user is already in my account page
+[INFO ] 2024-07-25 16:21:16.539 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 16:21:36.767 [main] Checkout_StepDef - my account page in displayed
+[INFO ] 2024-07-25 16:21:37.005 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 16:21:37.005 [main] StepNameListener - Executing step: the user clicks on address book, he should see address book intries information
+[INFO ] 2024-07-25 16:21:37.005 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 16:21:37.005 [main] Checkout_StepDef - the user clicks on address book
+[INFO ] 2024-07-25 16:21:44.050 [main] Checkout_StepDef - he is seeing address book intries information
+[INFO ] 2024-07-25 16:21:44.315 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 16:21:44.315 [main] StepNameListener - Executing step: The saved billing and delivery details should be pre-filled in the form and editable
+[INFO ] 2024-07-25 16:21:44.315 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 16:22:00.511 [main] Checkout_StepDef - delivery details are editable
+[INFO ] 2024-07-25 16:22:03.520 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-07-25 16:22:03.585 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-07-25 16:22:05.649 [main] Checkout_StepDef - display msg is displayed
+[INFO ] 2024-07-25 16:22:08.882 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 16:22:08.882 [main] StepNameListener - Executing step: The delivery method and payment method should have at least one option available
+[INFO ] 2024-07-25 16:22:08.882 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 16:22:08.882 [main] Checkout_StepDef - user starts adding a new address
+[INFO ] 2024-07-25 16:22:23.832 [main] Checkout_StepDef - user clicked on new address
+[INFO ] 2024-07-25 16:22:40.297 [main] Checkout_StepDef - user is adding his info
+[INFO ] 2024-07-25 16:22:48.015 [main] Checkout_StepDef - user selected a country
+[INFO ] 2024-07-25 16:22:55.513 [main] Checkout_StepDef - user selected a state
+[INFO ] 2024-07-25 16:23:00.092 [main] Checkout_StepDef - new address was added
+[INFO ] 2024-07-25 16:23:00.103 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-07-25 16:23:00.195 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-07-25 16:23:02.495 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 16:23:02.497 [main] StepNameListener - Executing step: The order confirmation page should show the order number, order details, payment details and delivery details
+[INFO ] 2024-07-25 16:23:02.497 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 16:23:02.647 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-25 16:23:02.647 [main] Hooks - billing and delivery Status - PASSED
+[INFO ] 2024-07-25 16:23:02.647 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-25 16:23:02.681 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-25 16:23:02.682 [main] Hooks - Driver Closed
+[INFO ] 2024-07-25 16:23:02.682 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-25 16:23:03.132 [main] Hooks - Driver Closed

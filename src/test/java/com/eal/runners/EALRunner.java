@@ -23,7 +23,8 @@ import io.cucumber.junit.CucumberOptions;
 		features = "src/test/resources/features", 
 		glue = {"Step_definitions","com.pdl.hooks"},
 		dryRun=false,
-		tags= ("@AddToCart or @ViewEditMyShoppingCart or @checkout")
+		tags=// ("@AddToCart or @ViewEditMyShoppingCart")
+	"@checkout"
 	
   // "@checkout"
 		//"@billing&delivery"
