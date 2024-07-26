@@ -23,19 +23,38 @@ import io.cucumber.junit.CucumberOptions;
 		features = "src/test/resources/features", 
 		glue = {"Step_definitions","com.pdl.hooks"},
 		dryRun=false,
+<<<<<<< HEAD
 		tags= ("@AddToCart or @ViewEditMyShoppingCart")
 	//"@checkout"
 	
   // "@checkout"
 		//"@billing&delivery"
 	//	"@checkoutascustomer"
+=======
+>>>>>>> 16a3b7b9cf695eaade20f645961af14cc0cdda0a
 		
-//		monochrome=false
-)
+		tags="@Login or @Search"
+		)
+          //@Login or
+		//("@validlogin")
+		//("@validkeywordsearch or @invalidkeywordsearch or @searchByCatagory or @sortsearchresults")
+		
+		
+		
+	//		monochrome=false
+
+		
+
+		
+
 
 public class EALRunner {
 	
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> 16a3b7b9cf695eaade20f645961af14cc0cdda0a
 	@After
 	public static void teardown() {
 		Reporter.setSystemInfo("user", System.getProperty("user.name"));
@@ -43,4 +62,5 @@ public class EALRunner {
 		Reporter.setTestRunnerOutput("Sample test runner output message");
 	
 }
+	
 	}

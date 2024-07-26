@@ -6,6 +6,7 @@ import static org.testng.Assert.assertTrue;
 import java.io.File;
 
 import java.io.IOException;
+import java.io.InputStream;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -31,6 +32,7 @@ import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.NoSuchElementException;
+import java.util.Properties;
 import java.util.Random;
 
 import java.util.Set;
@@ -46,7 +48,11 @@ import org.apache.commons.io.FileDeleteStrategy;
 import org.apache.logging.log4j.LogManager;
 
 import org.apache.logging.log4j.Logger;
+<<<<<<< HEAD
 import org.apache.logging.log4j.core.util.Assert;
+=======
+import org.junit.Assert;
+>>>>>>> 16a3b7b9cf695eaade20f645961af14cc0cdda0a
 import org.openqa.selenium.Alert;
 
 import org.openqa.selenium.By;
@@ -101,6 +107,9 @@ public class CommonMethods extends Driver {
 	public static Logger logger = LogManager.getLogger(CommonMethods.class);
 
 	public SftAssert softAssert = new SftAssert();
+	
+	  public Properties properties;
+
 
 	/* Mobile COE - Code Added */
 
@@ -703,11 +712,12 @@ public class CommonMethods extends Driver {
 		dropdown.click();
 		waitFor(1);
 		Select select = new Select(dropdown);
- 	 
+		select.selectByValue(optionName);
+ 	    dropdown.click();
 		//List<WebElement> lis = Driver.getDriver().findElements(By.xpath(dropdown));
 		//CommonMethods.waitFor(2);
 		//select.selectByVisibleText(optionName);
-		select.deselectByValue(optionName.trim());
+		//select.deselectByValue(optionName.trim());
 		//dropdown.click();
 		return select;
 	}
@@ -1626,6 +1636,7 @@ public class CommonMethods extends Driver {
     		
     		  
     	  }
+<<<<<<< HEAD
     	  
     	// wait and click method
     	  public void waitAndClick(WebElement element) {
@@ -1638,7 +1649,38 @@ public class CommonMethods extends Driver {
     		}
     	
     	
+=======
+    	// verify page title
+    	  public void VerifyPageTitle(String expectedTitle) {
+    	 String ActualPageTitle=driver.getTitle();
+    	 Assert.assertEquals(ActualPageTitle,expectedTitle,"pagetitle is verified");
+    			
+    			logger.info("************ pagetitle verified *********************");
+    		}
+    	  
+    	  //WebDriver wait
+    	  
+    	  public WebElement waitForElement(By locator, int timeout) {
+    	        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeout));
+    	        return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+    	    }
+
+    	//wait for element to click
+    	  public void waitforelementclickable(WebElement elementvairable) {
+    			WebDriverWait wait= new WebDriverWait(driver, Duration.ofSeconds(30));
+    		    wait.until(ExpectedConditions.elementToBeClickable(elementvairable));
+    			logger.info("waiting for element to be clickable");
+    		}
+ 	  
+}
+    	  
+
+    	
+    	
+    
+    		
+>>>>>>> 16a3b7b9cf695eaade20f645961af14cc0cdda0a
 	
 
 
-}
+

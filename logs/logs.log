@@ -1,173 +1,331 @@
-[INFO ] 2024-05-18 22:04:05.332 [main] TestLogger - try log in
-[INFO ] 2024-05-18 22:04:41.653 [main] TestLogger - try log in
-[INFO ] 2024-05-18 22:04:43.918 [main] TestLogger - try log in
-[INFO ] 2024-05-18 22:04:43.981 [main] TestLogger - try log in
-[INFO ] 2024-05-22 16:23:07.579 [main] ViewManufacturerContacts - logger started
-[INFO ] 2024-05-22 16:23:07.585 [main] CommonMethods - Checking visibility of the Element on browser screen
-[INFO ] 2024-05-23 14:40:02.276 [main] TestLogger - try log in
-[INFO ] 2024-05-23 14:40:07.972 [main] TestLogger - logged into myntra
-[INFO ] 2024-05-23 14:40:08.031 [main] TestLogger - Browser Quitting
-[INFO ] 2024-05-23 14:44:58.558 [main] TestLogger - try log in
-[INFO ] 2024-05-23 14:45:02.906 [main] TestLogger - logged into myntra
-[INFO ] 2024-05-23 14:45:02.943 [main] TestLogger - Browser Quitting
-[INFO ] 2024-05-23 16:33:36.654 [main] Driver - this is new logger added
-[INFO ] 2024-05-23 16:48:09.054 [main] Hooks - ***********this is new logger added**************
-[INFO ] 2024-05-23 17:35:32.820 [main] Hooks - Running Hooks before every scenario
-[INFO ] 2024-05-23 17:35:36.636 [main] Hooks - ***********this is new logger added**************
-[INFO ] 2024-05-23 17:35:36.636 [main] Hooks - Prining from Hooks:   https://pdlconnect.test.govt.lh.primetherapeutics.com/?iss=https:%2F%2Fciam-dev.primetherapeutics.com
-[INFO ] 2024-05-23 17:35:36.697 [main] Hooks - ================================================================
-[INFO ] 2024-05-23 17:35:36.698 [main] Hooks - Scenario Title: Scenario Description: Login :
-[INFO ] 2024-05-23 17:35:36.698 [main] Hooks - =================================================================
-[INFO ] 2024-05-23 17:35:36.757 [main] LoginStepDef - Executing first 
-[INFO ] 2024-05-23 17:35:36.766 [main] BrowserUtil - ************************ Page is refreshing *********************************
-[INFO ] 2024-05-23 17:35:37.333 [main] LoginStepDef - Page Title is =Mrx - Dev - Sign In
-[INFO ] 2024-05-23 17:35:37.333 [main] LoginStepDef - url From ConfigFile:  https://pdlconnect.test.govt.lh.primetherapeutics.com/?iss=https:%2F%2Fciam-dev.primetherapeutics.com
-[INFO ] 2024-05-23 17:35:37.335 [main] LoginStepDef - Step: user should land on my user page
-[INFO ] 2024-05-23 17:35:37.335 [main] CommonMethods - Expected Title from properties file is =PDL Connect
-[INFO ] 2024-05-23 17:35:43.062 [main] CommonMethods - Title: PDL Connect
-[INFO ] 2024-05-23 17:35:43.063 [main] SftAssert - User Landed on Homepage Successfully
-[INFO ] 2024-05-23 17:35:53.364 [main] Hooks - 
-------------------------------------------------------------------------------------------------------
-
-[INFO ] 2024-05-23 17:35:53.366 [main] Hooks - Scenario Description: Login : Status - PASSED
-[INFO ] 2024-05-23 17:35:53.366 [main] Hooks - 
-------------------------------------------------------------------------------------------------------
-
-[INFO ] 2024-05-23 17:52:05.434 [main] Hooks - ================================================================
-[INFO ] 2024-05-23 17:52:05.437 [main] Hooks - Scenario Title: Scenario Description: Login :
-[INFO ] 2024-05-23 17:52:05.437 [main] Hooks - =================================================================
-[INFO ] 2024-05-23 17:52:05.443 [main] Hooks - Running Hooks before every scenario
-[INFO ] 2024-05-23 17:52:07.604 [main] Hooks - ***********this is new logger added**************
-[INFO ] 2024-05-23 17:52:07.604 [main] Hooks - Prining from Hooks:   https://pdlconnect.test.govt.lh.primetherapeutics.com/?iss=https:%2F%2Fciam-dev.primetherapeutics.com
-[INFO ] 2024-05-23 17:52:07.706 [main] LoginStepDef - Executing first 
-[INFO ] 2024-05-23 17:52:07.719 [main] BrowserUtil - ************************ Page is refreshing *********************************
-[INFO ] 2024-05-23 17:52:08.077 [main] LoginStepDef - Page Title is =Mrx - Dev - Sign In
-[INFO ] 2024-05-23 17:52:08.077 [main] LoginStepDef - url From ConfigFile:  https://pdlconnect.test.govt.lh.primetherapeutics.com/?iss=https:%2F%2Fciam-dev.primetherapeutics.com
-[INFO ] 2024-05-23 17:52:08.078 [main] LoginStepDef - Step: user should land on my user page
-[INFO ] 2024-05-23 17:52:08.079 [main] CommonMethods - Expected Title from properties file is =PDL Connect
-[INFO ] 2024-05-23 17:52:13.865 [main] CommonMethods - Title: PDL Connect
-[INFO ] 2024-05-23 17:52:13.866 [main] SftAssert - User Landed on Homepage Successfully
-[INFO ] 2024-05-23 17:52:24.102 [main] Hooks - 
-------------------------------------------------------------------------------------------------------
-
-[INFO ] 2024-05-23 17:52:24.103 [main] Hooks - Scenario Description: Login : Status - PASSED
-[INFO ] 2024-05-23 17:52:24.103 [main] Hooks - 
-------------------------------------------------------------------------------------------------------
-
-[INFO ] 2024-05-23 17:53:54.667 [main] Hooks - ================================================================
-[INFO ] 2024-05-23 17:53:54.669 [main] Hooks - Scenario Title: Scenario Description: Login :
-[INFO ] 2024-05-23 17:53:54.669 [main] Hooks - =================================================================
-[INFO ] 2024-05-23 17:53:54.675 [main] Hooks - Running Hooks before every scenario
-[INFO ] 2024-05-23 17:53:56.784 [main] Hooks - ***********this is new logger added**************
-[INFO ] 2024-05-23 17:53:56.785 [main] Hooks - Prining from Hooks:   https://pdlconnect.test.govt.lh.primetherapeutics.com/?iss=https:%2F%2Fciam-dev.primetherapeutics.com
-[INFO ] 2024-05-23 17:53:56.882 [main] LoginStepDef - Executing first 
-[INFO ] 2024-05-23 17:53:56.897 [main] BrowserUtil - ************************ Page is refreshing *********************************
-[INFO ] 2024-05-23 17:53:57.560 [main] LoginStepDef - Page Title is =Mrx - Dev - Sign In
-[INFO ] 2024-05-23 17:53:57.560 [main] LoginStepDef - url From ConfigFile:  https://pdlconnect.test.govt.lh.primetherapeutics.com/?iss=https:%2F%2Fciam-dev.primetherapeutics.com
-[INFO ] 2024-05-23 17:53:57.561 [main] LoginStepDef - Step: user should land on my user page
-[INFO ] 2024-05-23 17:53:57.561 [main] CommonMethods - Expected Title from properties file is =PDL Connect
-[INFO ] 2024-05-23 17:54:02.838 [main] CommonMethods - Title: PDL Connect
-[INFO ] 2024-05-23 17:54:02.839 [main] SftAssert - User Landed on Homepage Successfully
-[INFO ] 2024-05-23 17:54:12.856 [main] Hooks - 
-------------------------------------------------------------------------------------------------------
-
-[INFO ] 2024-05-23 17:54:12.859 [main] Hooks - Scenario Description: Login : Status - PASSED
-[INFO ] 2024-05-23 17:54:12.859 [main] Hooks - 
-------------------------------------------------------------------------------------------------------
-
-[INFO ] 2024-05-23 17:54:12.878 [main] Hooks - CLosing the Driver
-[INFO ] 2024-05-24 02:02:38.550 [main] Hooks - ================================================================
-[INFO ] 2024-05-24 02:02:38.555 [main] Hooks - Scenario Title: Scenario Description: Login :
-[INFO ] 2024-05-24 02:02:38.555 [main] Hooks - =================================================================
-[INFO ] 2024-05-24 02:02:38.562 [main] Hooks - Running Hooks before every scenario
-[INFO ] 2024-05-24 02:02:42.645 [main] Hooks - ***********this is new logger added**************
-[INFO ] 2024-05-24 02:02:42.646 [main] Hooks - Prining from Hooks:   https://pdlconnect.test.govt.lh.primetherapeutics.com/?iss=https:%2F%2Fciam-dev.primetherapeutics.com
-[INFO ] 2024-05-24 02:02:42.751 [main] LoginStepDef - Executing first 
-[INFO ] 2024-05-24 02:02:42.766 [main] BrowserUtil - ************************ Page is refreshing *********************************
-[INFO ] 2024-05-24 02:02:43.292 [main] LoginStepDef - Page Title is =Mrx - Dev - Sign In
-[INFO ] 2024-05-24 02:02:43.292 [main] LoginStepDef - url From ConfigFile:  https://pdlconnect.test.govt.lh.primetherapeutics.com/?iss=https:%2F%2Fciam-dev.primetherapeutics.com
-[INFO ] 2024-05-24 02:02:43.295 [main] LoginStepDef - Step: user should land on my user page
-[INFO ] 2024-05-24 02:02:43.295 [main] CommonMethods - Expected Title from properties file is =PDL Connect
-[INFO ] 2024-05-24 02:02:49.533 [main] CommonMethods - Title: PDL Connect
-[INFO ] 2024-05-24 02:02:49.534 [main] SftAssert - User Landed on Homepage Successfully
-[INFO ] 2024-05-24 02:02:59.555 [main] Hooks - CLosing the Driver
-[INFO ] 2024-05-24 02:02:59.806 [main] Hooks - 
-------------------------------------------------------------------------------------------------------
-
-[INFO ] 2024-05-24 02:02:59.807 [main] Hooks - Scenario Description: Login : Status - PASSED
-[INFO ] 2024-05-24 02:02:59.807 [main] Hooks - 
-------------------------------------------------------------------------------------------------------
-
-[INFO ] 2024-05-24 03:24:29.393 [main] Hooks - Running Hooks before every scenario
-[INFO ] 2024-05-24 03:24:31.866 [main] Hooks - ***********this is new logger added**************
-[INFO ] 2024-05-24 03:24:31.866 [main] Hooks - Prining from Hooks:   https://pdlconnect.test.govt.lh.primetherapeutics.com/?iss=https:%2F%2Fciam-dev.primetherapeutics.com
-[INFO ] 2024-05-24 03:24:31.949 [main] Hooks - ================================================================
-[INFO ] 2024-05-24 03:24:31.949 [main] Hooks - Scenario Title: Scenario Description: Login :
-[INFO ] 2024-05-24 03:24:31.950 [main] Hooks - =================================================================
-[INFO ] 2024-05-24 03:24:33.210 [main] LoginStepDef - Executing first 
-[INFO ] 2024-05-24 03:24:33.223 [main] BrowserUtil - ************************ Page is refreshing *********************************
-[INFO ] 2024-05-24 03:24:33.711 [main] LoginStepDef - Page Title is =Sign in to your account
-[INFO ] 2024-05-24 03:24:33.711 [main] LoginStepDef - url From ConfigFile:  https://pdlconnect.test.govt.lh.primetherapeutics.com/?iss=https:%2F%2Fciam-dev.primetherapeutics.com
-[INFO ] 2024-05-24 03:24:33.713 [main] LoginStepDef - Step: user should land on my user page
-[INFO ] 2024-05-24 03:24:33.713 [main] CommonMethods - Expected Title from properties file is =PDL Connect
-[INFO ] 2024-05-24 03:24:37.936 [main] CommonMethods - Title: PDL Connect
-[INFO ] 2024-05-24 03:24:37.937 [main] SftAssert - User Landed on Homepage Successfully
-[INFO ] 2024-05-24 03:24:47.979 [main] Hooks - CLosing the Driver
-[INFO ] 2024-05-24 03:24:48.231 [main] Hooks - 
-------------------------------------------------------------------------------------------------------
-
-[INFO ] 2024-05-24 03:24:48.232 [main] Hooks - Scenario Description: Login : Status - PASSED
-[INFO ] 2024-05-24 03:24:48.232 [main] Hooks - 
-------------------------------------------------------------------------------------------------------
-
-[WARN ] 2024-05-24 03:24:48.868 [main] FileSystemFontProvider - New fonts found, font cache will be re-built
-[WARN ] 2024-05-24 03:24:48.868 [main] FileSystemFontProvider - Building on-disk font cache, this may take a while
-[WARN ] 2024-05-24 03:24:51.352 [main] FileSystemFontProvider - Finished building on-disk font cache, found 415 fonts
-[INFO ] 2024-05-24 03:32:13.946 [main] Hooks - Running Hooks before every scenario
-[INFO ] 2024-05-24 03:32:16.226 [main] Hooks - ***********this is new logger added**************
-[INFO ] 2024-05-24 03:32:16.226 [main] Hooks - Prining from Hooks:   https://pdlconnect.test.govt.lh.primetherapeutics.com/?iss=https:%2F%2Fciam-dev.primetherapeutics.com
-[INFO ] 2024-05-24 03:32:16.288 [main] Hooks - ================================================================
-[INFO ] 2024-05-24 03:32:16.288 [main] Hooks - Scenario Title: Scenario Description: Login :
-[INFO ] 2024-05-24 03:32:16.288 [main] Hooks - =================================================================
-[INFO ] 2024-05-24 03:32:16.385 [main] LoginStepDef - Executing first 
-[INFO ] 2024-05-24 03:32:16.406 [main] BrowserUtil - ************************ Page is refreshing *********************************
-[INFO ] 2024-05-24 03:32:16.925 [main] LoginStepDef - Page Title is =Mrx - Dev - Sign In
-[INFO ] 2024-05-24 03:32:16.926 [main] LoginStepDef - url From ConfigFile:  https://pdlconnect.test.govt.lh.primetherapeutics.com/?iss=https:%2F%2Fciam-dev.primetherapeutics.com
-[INFO ] 2024-05-24 03:32:17.048 [main] LoginStepDef - Step: user should land on my user page
-[INFO ] 2024-05-24 03:32:17.048 [main] CommonMethods - Expected Title from properties file is =PDL Connect
-[INFO ] 2024-05-24 03:32:22.910 [main] CommonMethods - Title: PDL Connect
-[INFO ] 2024-05-24 03:32:22.911 [main] SftAssert - User Landed on Homepage Successfully
-[INFO ] 2024-05-24 03:32:33.133 [main] Hooks - CLosing the Driver
-[INFO ] 2024-05-24 03:32:33.390 [main] Hooks - 
-------------------------------------------------------------------------------------------------------
-
-[INFO ] 2024-05-24 03:32:33.392 [main] Hooks - Scenario Description: Login : Status - PASSED
-[INFO ] 2024-05-24 03:32:33.392 [main] Hooks - 
-------------------------------------------------------------------------------------------------------
-
-[INFO ] 2024-05-24 03:35:10.091 [main] Hooks - ================================================================
-[INFO ] 2024-05-24 03:35:10.093 [main] Hooks - Scenario Title: Scenario Description: Login :
-[INFO ] 2024-05-24 03:35:10.093 [main] Hooks - =================================================================
-[INFO ] 2024-05-24 03:35:10.098 [main] Hooks - Running Hooks before every scenario
-[INFO ] 2024-05-24 03:35:12.190 [main] Hooks - ***********this is new logger added**************
-[INFO ] 2024-05-24 03:35:12.190 [main] Hooks - Prining from Hooks:   https://pdlconnect.test.govt.lh.primetherapeutics.com/?iss=https:%2F%2Fciam-dev.primetherapeutics.com
-[INFO ] 2024-05-24 03:35:12.316 [main] LoginStepDef - Executing first 
-[INFO ] 2024-05-24 03:35:12.330 [main] BrowserUtil - ************************ Page is refreshing *********************************
-[INFO ] 2024-05-24 03:35:12.892 [main] LoginStepDef - Page Title is =Mrx - Dev - Sign In
-[INFO ] 2024-05-24 03:35:12.892 [main] LoginStepDef - url From ConfigFile:  https://pdlconnect.test.govt.lh.primetherapeutics.com/?iss=https:%2F%2Fciam-dev.primetherapeutics.com
-[INFO ] 2024-05-24 03:35:13.015 [main] LoginStepDef - Step: user should land on my user page
-[INFO ] 2024-05-24 03:35:13.015 [main] CommonMethods - Expected Title from properties file is =PDL Connect
-[INFO ] 2024-05-24 03:35:18.627 [main] CommonMethods - Title: PDL Connect
-[INFO ] 2024-05-24 03:35:18.627 [main] SftAssert - User Landed on Homepage Successfully
-[INFO ] 2024-05-24 03:35:28.805 [main] Hooks - 
-------------------------------------------------------------------------------------------------------
-
-[INFO ] 2024-05-24 03:35:28.807 [main] Hooks - Scenario Description: Login : Status - PASSED
-[INFO ] 2024-05-24 03:35:28.807 [main] Hooks - 
-------------------------------------------------------------------------------------------------------
-
-[INFO ] 2024-05-24 03:35:28.822 [main] Hooks - CLosing the Driver
-[WARN ] 2024-05-24 03:35:28.880 [AsyncHttpClient-1-4] WebSocketHandler - onError
+[INFO ] 2024-07-25 14:49:23.483 [main] Hooks - ================================================================
+[INFO ] 2024-07-25 14:49:23.487 [main] Hooks - Scenario Title: Successful login valid credentials
+[INFO ] 2024-07-25 14:49:23.487 [main] Hooks - =================================================================
+[INFO ] 2024-07-25 14:49:23.497 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-25 14:49:26.563 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-25 14:49:26.563 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-25 14:49:26.589 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-25 14:49:26.590 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-25 14:49:26.618 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-25 14:49:26.623 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 14:49:26.623 [main] StepNameListener - Executing step: I am on the login page
+[INFO ] 2024-07-25 14:49:26.623 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 14:49:32.170 [main] Login_Stepdefination - landind on login page
+[INFO ] 2024-07-25 14:49:32.463 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 14:49:32.463 [main] StepNameListener - Executing step: I enter my email and password and click on the login button under the returning customer section
+[INFO ] 2024-07-25 14:49:32.463 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 14:49:38.164 [main] Login_Stepdefination - I enter my email and password and click on the login button under the returning customer section
+[INFO ] 2024-07-25 14:49:38.360 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 14:49:38.360 [main] StepNameListener - Executing step: Click on login button
+[INFO ] 2024-07-25 14:49:38.360 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 14:49:44.595 [main] Login_Stepdefination - Click on login button
+[INFO ] 2024-07-25 14:49:44.863 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 14:49:44.863 [main] StepNameListener - Executing step: I should see a welcome message and a list of options for my account
+[INFO ] 2024-07-25 14:49:44.863 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 14:49:45.084 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-25 14:49:45.090 [main] Hooks - Successful login valid credentials Status - PASSED
+[INFO ] 2024-07-25 14:49:45.090 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-25 14:49:45.145 [main] Hooks - ================================================================
+[INFO ] 2024-07-25 14:49:45.145 [main] Hooks - Scenario Title: Unsuccessful login with invalid credentials
+[INFO ] 2024-07-25 14:49:45.145 [main] Hooks - =================================================================
+[INFO ] 2024-07-25 14:49:45.145 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-25 14:49:46.220 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-25 14:49:46.220 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-25 14:49:46.266 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-25 14:49:46.266 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-25 14:49:46.300 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-25 14:49:46.310 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 14:49:46.310 [main] StepNameListener - Executing step: I am on the login page
+[INFO ] 2024-07-25 14:49:46.310 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 14:49:51.788 [main] Login_Stepdefination - landind on login page
+[INFO ] 2024-07-25 14:49:51.980 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 14:49:51.980 [main] StepNameListener - Executing step: I enter an incorrect email under the returning customer section
+[INFO ] 2024-07-25 14:49:51.980 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 14:49:57.435 [main] Login_Stepdefination - I enter an incorrect email under the returning customer section
+[INFO ] 2024-07-25 14:49:57.624 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 14:49:57.624 [main] StepNameListener - Executing step: I enter an incorrect password under the returning customer section
+[INFO ] 2024-07-25 14:49:57.624 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 14:50:02.897 [main] Login_Stepdefination - I enter an incorrect password under the returning customer section
+[INFO ] 2024-07-25 14:50:03.100 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 14:50:03.100 [main] StepNameListener - Executing step: I click on the login button I should see an error message saying “Warning: No match for E-Mail Address and/or Password.
+[INFO ] 2024-07-25 14:50:03.100 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 14:50:08.690 [main] Login_Stepdefination - I click on the login button I should see an error message saying “Warning: No match for E-Mail Address and\\/or Password.
+[INFO ] 2024-07-25 14:50:08.933 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-25 14:50:08.933 [main] Hooks - Unsuccessful login with invalid credentials Status - PASSED
+[INFO ] 2024-07-25 14:50:08.933 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-25 14:50:08.975 [main] Hooks - ================================================================
+[INFO ] 2024-07-25 14:50:08.975 [main] Hooks - Scenario Title: Requesting a password reset link
+[INFO ] 2024-07-25 14:50:08.975 [main] Hooks - =================================================================
+[INFO ] 2024-07-25 14:50:08.975 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-25 14:50:10.152 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-25 14:50:10.152 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-25 14:50:10.177 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-25 14:50:10.178 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-25 14:50:10.215 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-25 14:50:10.218 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 14:50:10.219 [main] StepNameListener - Executing step: I am on the login page
+[INFO ] 2024-07-25 14:50:10.219 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 14:50:15.792 [main] Login_Stepdefination - landind on login page
+[INFO ] 2024-07-25 14:50:16.004 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 14:50:16.004 [main] StepNameListener - Executing step: I click on the forgotten password link under the returning customer section
+[INFO ] 2024-07-25 14:50:16.005 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 14:50:22.126 [main] Login_Stepdefination - I click on the forgotten password link under the returning customer section
+[INFO ] 2024-07-25 14:50:22.310 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 14:50:22.310 [main] StepNameListener - Executing step: I should see a password reset form with a field for email
+[INFO ] 2024-07-25 14:50:22.310 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 14:50:27.609 [main] Login_Stepdefination - I should see a password reset form with a field for email
+[INFO ] 2024-07-25 14:50:27.844 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 14:50:27.844 [main] StepNameListener - Executing step: I should be able to request a password reset link after entering my email and clicking on the continue button
+[INFO ] 2024-07-25 14:50:27.844 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 14:50:29.908 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-25 14:50:29.909 [main] Hooks - Requesting a password reset link Status - PASSED
+[INFO ] 2024-07-25 14:50:29.909 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-25 14:50:29.984 [main] Hooks - ================================================================
+[INFO ] 2024-07-25 14:50:29.985 [main] Hooks - Scenario Title: Searching for a product by keyword
+[INFO ] 2024-07-25 14:50:29.985 [main] Hooks - =================================================================
+[INFO ] 2024-07-25 14:50:29.987 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-25 14:50:30.439 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-25 14:50:30.440 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-25 14:50:30.598 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-25 14:50:30.599 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-25 14:50:30.638 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-25 14:50:30.640 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 14:50:30.641 [main] StepNameListener - Executing step: I should see the search box
+[INFO ] 2024-07-25 14:50:30.641 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 14:50:30.723 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-07-25 14:50:30.820 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-07-25 14:50:30.883 [main] Validkeyword_SearchStep - search box should be visible
+[INFO ] 2024-07-25 14:50:31.153 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 14:50:31.153 [main] StepNameListener - Executing step: I enter a valid keyword in the search box
+[INFO ] 2024-07-25 14:50:31.153 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 14:50:31.356 [main] Validkeyword_SearchStep - valid keyword has enetred
+[INFO ] 2024-07-25 14:50:31.716 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 14:50:31.716 [main] StepNameListener - Executing step: I click on the search button
+[INFO ] 2024-07-25 14:50:31.717 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 14:50:32.694 [main] Validkeyword_SearchStep - search button in clicked
+[INFO ] 2024-07-25 14:50:32.952 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 14:50:32.952 [main] StepNameListener - Executing step: I should see a list of products that match the keyword with their images, names and prices
+[INFO ] 2024-07-25 14:50:32.952 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 14:50:33.260 [main] Validkeyword_SearchStep - the list of products that match the keyword with their images, names ans prieces are visible
+[INFO ] 2024-07-25 14:50:33.570 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-25 14:50:33.570 [main] Hooks - Searching for a product by keyword Status - PASSED
+[INFO ] 2024-07-25 14:50:33.570 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-25 14:50:33.634 [main] Hooks - ================================================================
+[INFO ] 2024-07-25 14:50:33.634 [main] Hooks - Scenario Title: Searching for a product by invalid keyword
+[INFO ] 2024-07-25 14:50:33.634 [main] Hooks - =================================================================
+[INFO ] 2024-07-25 14:50:33.636 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-25 14:50:34.230 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-25 14:50:34.231 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-25 14:50:34.250 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-25 14:50:34.250 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-25 14:50:34.284 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-25 14:50:34.285 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 14:50:34.285 [main] StepNameListener - Executing step: I enter an invalid "Maca" in the search box
+[INFO ] 2024-07-25 14:50:34.286 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 14:50:35.208 [main] InvalikeywordSearch_Step - invalid keword has entererd on search box and search button is clicked
+[INFO ] 2024-07-25 14:50:35.519 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 14:50:35.519 [main] StepNameListener - Executing step: I click on the search button
+[INFO ] 2024-07-25 14:50:35.520 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 14:50:36.008 [main] Validkeyword_SearchStep - search button in clicked
+[INFO ] 2024-07-25 14:50:36.261 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 14:50:36.261 [main] StepNameListener - Executing step: I should not be able to see any product images, names, or prices
+[INFO ] 2024-07-25 14:50:36.261 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 14:50:36.314 [main] InvalikeywordSearch_Step - No products infos are visible
+[INFO ] 2024-07-25 14:50:36.504 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 14:50:36.505 [main] StepNameListener - Executing step: I should receive a message.
+[INFO ] 2024-07-25 14:50:36.505 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 14:50:36.546 [main] InvalikeywordSearch_Step - no product matches message should display
+[INFO ] 2024-07-25 14:50:36.711 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-25 14:50:36.711 [main] Hooks - Searching for a product by invalid keyword Status - PASSED
+[INFO ] 2024-07-25 14:50:36.711 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-25 14:50:36.743 [main] Hooks - ================================================================
+[INFO ] 2024-07-25 14:50:36.743 [main] Hooks - Scenario Title: Searching for a product by category
+[INFO ] 2024-07-25 14:50:36.743 [main] Hooks - =================================================================
+[INFO ] 2024-07-25 14:50:36.745 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-25 14:50:37.328 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-25 14:50:37.329 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-25 14:50:37.353 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-25 14:50:37.353 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-25 14:50:37.380 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-25 14:50:37.381 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 14:50:37.381 [main] StepNameListener - Executing step: I click on “Search” button and it will land on Search page
+[INFO ] 2024-07-25 14:50:37.381 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 14:50:39.130 [main] SearchCatagory_Step - after clicking on search button, search page will land
+[INFO ] 2024-07-25 14:50:39.352 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 14:50:39.352 [main] StepNameListener - Executing step: I enter a "Mac" in the search criteria
+[INFO ] 2024-07-25 14:50:39.353 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 14:50:40.598 [main] SearchCatagory_Step - keyword has entered
+[INFO ] 2024-07-25 14:50:40.796 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 14:50:40.797 [main] StepNameListener - Executing step: I select a category from the drop-down menu and I click on the search button
+[INFO ] 2024-07-25 14:50:40.797 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 14:50:46.176 [main] SearchCatagory_Step - after selecting a catagory , search button should be clicked
+[INFO ] 2024-07-25 14:50:46.408 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 14:50:46.408 [main] StepNameListener - Executing step: I should see a list of products that belong to the category with their images, names, and prices
+[INFO ] 2024-07-25 14:50:46.409 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 14:51:48.552 [main] SearchCatagory_Step - mac page should display with all infos
+[INFO ] 2024-07-25 14:51:48.664 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-25 14:51:48.664 [main] Hooks - Searching for a product by category Status - PASSED
+[INFO ] 2024-07-25 14:51:48.664 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-25 14:51:48.678 [main] Hooks - ================================================================
+[INFO ] 2024-07-25 14:51:48.679 [main] Hooks - Scenario Title: Sorting the search results by name, price or rating
+[INFO ] 2024-07-25 14:51:48.679 [main] Hooks - =================================================================
+[INFO ] 2024-07-25 14:51:48.679 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-25 14:51:50.533 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-25 14:51:50.533 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-25 14:51:50.543 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-25 14:51:50.543 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-25 14:51:50.557 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-25 14:51:50.558 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 14:51:50.559 [main] StepNameListener - Executing step: I have performed a search and got some results
+[INFO ] 2024-07-25 14:51:50.559 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 14:51:50.659 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-07-25 14:51:50.686 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-07-25 14:51:51.389 [main] SearchCatagory_Step -  valid products have been searched and products have been displayed with results 
+[INFO ] 2024-07-25 14:51:51.617 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 14:51:51.617 [main] StepNameListener - Executing step: I select an option from the sort by drop-down menu on the right side of the page
+[INFO ] 2024-07-25 14:51:51.617 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 14:52:07.795 [main] SearchCatagory_Step - dropdown menu have sroting the products in different criteria
+[INFO ] 2024-07-25 14:52:07.969 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 14:52:07.969 [main] StepNameListener - Executing step: I should see the products sorted according to the option I have selected
+[INFO ] 2024-07-25 14:52:07.969 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 14:52:08.126 [main] SearchCatagory_Step - products sorted according to the option I have selected
+[INFO ] 2024-07-25 14:52:08.262 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-25 14:52:08.262 [main] Hooks - Sorting the search results by name, price or rating Status - PASSED
+[INFO ] 2024-07-25 14:52:08.262 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-25 14:52:08.278 [main] Hooks - ================================================================
+[INFO ] 2024-07-25 14:52:08.278 [main] Hooks - Scenario Title: Sorting the search results by name, price or rating
+[INFO ] 2024-07-25 14:52:08.278 [main] Hooks - =================================================================
+[INFO ] 2024-07-25 14:52:08.278 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-25 14:52:08.732 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-25 14:52:08.732 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-25 14:52:08.752 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-25 14:52:08.753 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-25 14:52:08.766 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-25 14:52:08.767 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 14:52:08.768 [main] StepNameListener - Executing step: I have performed a search and got some results
+[INFO ] 2024-07-25 14:52:08.768 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 14:52:08.857 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-07-25 14:52:08.883 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-07-25 14:52:09.507 [main] SearchCatagory_Step -  valid products have been searched and products have been displayed with results 
+[INFO ] 2024-07-25 14:52:09.691 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 14:52:09.691 [main] StepNameListener - Executing step: I select an option from the sort by drop-down menu on the right side of the page
+[INFO ] 2024-07-25 14:52:09.691 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 14:52:25.956 [main] SearchCatagory_Step - dropdown menu have sroting the products in different criteria
+[INFO ] 2024-07-25 14:52:26.122 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 14:52:26.122 [main] StepNameListener - Executing step: I should see the products sorted according to the option I have selected
+[INFO ] 2024-07-25 14:52:26.122 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 14:52:26.285 [main] SearchCatagory_Step - products sorted according to the option I have selected
+[INFO ] 2024-07-25 14:52:26.419 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-25 14:52:26.419 [main] Hooks - Sorting the search results by name, price or rating Status - PASSED
+[INFO ] 2024-07-25 14:52:26.420 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-25 14:52:26.434 [main] Hooks - ================================================================
+[INFO ] 2024-07-25 14:52:26.434 [main] Hooks - Scenario Title: Sorting the search results by name, price or rating
+[INFO ] 2024-07-25 14:52:26.434 [main] Hooks - =================================================================
+[INFO ] 2024-07-25 14:52:26.435 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-25 14:52:26.891 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-25 14:52:26.891 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-25 14:52:26.911 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-25 14:52:26.911 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-25 14:52:26.922 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-25 14:52:26.923 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 14:52:26.923 [main] StepNameListener - Executing step: I have performed a search and got some results
+[INFO ] 2024-07-25 14:52:26.923 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 14:52:27.009 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-07-25 14:52:27.037 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-07-25 14:52:27.638 [main] SearchCatagory_Step -  valid products have been searched and products have been displayed with results 
+[INFO ] 2024-07-25 14:52:27.840 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 14:52:27.840 [main] StepNameListener - Executing step: I select an option from the sort by drop-down menu on the right side of the page
+[INFO ] 2024-07-25 14:52:27.840 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 14:52:44.295 [main] SearchCatagory_Step - dropdown menu have sroting the products in different criteria
+[INFO ] 2024-07-25 14:52:44.478 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 14:52:44.478 [main] StepNameListener - Executing step: I should see the products sorted according to the option I have selected
+[INFO ] 2024-07-25 14:52:44.478 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 14:52:44.626 [main] SearchCatagory_Step - products sorted according to the option I have selected
+[INFO ] 2024-07-25 14:52:44.798 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-25 14:52:44.798 [main] Hooks - Sorting the search results by name, price or rating Status - PASSED
+[INFO ] 2024-07-25 14:52:44.798 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-25 14:52:44.808 [main] Hooks - ================================================================
+[INFO ] 2024-07-25 14:52:44.808 [main] Hooks - Scenario Title: Sorting the search results by name, price or rating
+[INFO ] 2024-07-25 14:52:44.808 [main] Hooks - =================================================================
+[INFO ] 2024-07-25 14:52:44.808 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-25 14:52:45.250 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-25 14:52:45.250 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-25 14:52:45.279 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-25 14:52:45.279 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-25 14:52:45.295 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-25 14:52:45.297 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 14:52:45.297 [main] StepNameListener - Executing step: I have performed a search and got some results
+[INFO ] 2024-07-25 14:52:45.297 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 14:52:45.388 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-07-25 14:52:45.412 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-07-25 14:52:46.025 [main] SearchCatagory_Step -  valid products have been searched and products have been displayed with results 
+[INFO ] 2024-07-25 14:52:46.195 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 14:52:46.195 [main] StepNameListener - Executing step: I select an option from the sort by drop-down menu on the right side of the page
+[INFO ] 2024-07-25 14:52:46.195 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 14:53:02.317 [main] SearchCatagory_Step - dropdown menu have sroting the products in different criteria
+[INFO ] 2024-07-25 14:53:02.474 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 14:53:02.474 [main] StepNameListener - Executing step: I should see the products sorted according to the option I have selected
+[INFO ] 2024-07-25 14:53:02.474 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 14:53:02.603 [main] SearchCatagory_Step - products sorted according to the option I have selected
+[INFO ] 2024-07-25 14:53:02.757 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-25 14:53:02.758 [main] Hooks - Sorting the search results by name, price or rating Status - PASSED
+[INFO ] 2024-07-25 14:53:02.758 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-25 14:53:02.766 [main] Hooks - ================================================================
+[INFO ] 2024-07-25 14:53:02.766 [main] Hooks - Scenario Title: Sorting the search results by name, price or rating
+[INFO ] 2024-07-25 14:53:02.766 [main] Hooks - =================================================================
+[INFO ] 2024-07-25 14:53:02.767 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-25 14:53:03.226 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-25 14:53:03.227 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-25 14:53:03.235 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-25 14:53:03.235 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-25 14:53:03.248 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-25 14:53:03.248 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 14:53:03.248 [main] StepNameListener - Executing step: I have performed a search and got some results
+[INFO ] 2024-07-25 14:53:03.248 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 14:53:03.334 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-07-25 14:53:03.358 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-07-25 14:53:03.918 [main] SearchCatagory_Step -  valid products have been searched and products have been displayed with results 
+[INFO ] 2024-07-25 14:53:04.112 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 14:53:04.112 [main] StepNameListener - Executing step: I select an option from the sort by drop-down menu on the right side of the page
+[INFO ] 2024-07-25 14:53:04.112 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 14:53:20.334 [main] SearchCatagory_Step - dropdown menu have sroting the products in different criteria
+[INFO ] 2024-07-25 14:53:20.497 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 14:53:20.498 [main] StepNameListener - Executing step: I should see the products sorted according to the option I have selected
+[INFO ] 2024-07-25 14:53:20.498 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 14:53:20.637 [main] SearchCatagory_Step - products sorted according to the option I have selected
+[INFO ] 2024-07-25 14:53:20.764 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-25 14:53:20.764 [main] Hooks - Sorting the search results by name, price or rating Status - PASSED
+[INFO ] 2024-07-25 14:53:20.764 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-25 14:53:20.776 [main] Hooks - ================================================================
+[INFO ] 2024-07-25 14:53:20.776 [main] Hooks - Scenario Title: Sorting the search results by name, price or rating
+[INFO ] 2024-07-25 14:53:20.776 [main] Hooks - =================================================================
+[INFO ] 2024-07-25 14:53:20.777 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-25 14:53:21.237 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-25 14:53:21.237 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-25 14:53:21.262 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-25 14:53:21.263 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-25 14:53:21.274 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-25 14:53:21.275 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 14:53:21.275 [main] StepNameListener - Executing step: I have performed a search and got some results
+[INFO ] 2024-07-25 14:53:21.275 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 14:53:21.347 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-07-25 14:53:21.371 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-07-25 14:53:21.953 [main] SearchCatagory_Step -  valid products have been searched and products have been displayed with results 
+[INFO ] 2024-07-25 14:53:22.122 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 14:53:22.122 [main] StepNameListener - Executing step: I select an option from the sort by drop-down menu on the right side of the page
+[INFO ] 2024-07-25 14:53:22.122 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 14:53:38.404 [main] SearchCatagory_Step - dropdown menu have sroting the products in different criteria
+[INFO ] 2024-07-25 14:53:38.565 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-25 14:53:38.565 [main] StepNameListener - Executing step: I should see the products sorted according to the option I have selected
+[INFO ] 2024-07-25 14:53:38.565 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-25 14:53:38.701 [main] SearchCatagory_Step - products sorted according to the option I have selected
+[INFO ] 2024-07-25 14:53:38.854 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-25 14:53:38.854 [main] Hooks - Sorting the search results by name, price or rating Status - PASSED
+[INFO ] 2024-07-25 14:53:38.854 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-25 14:53:38.873 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-25 14:53:38.873 [main] Hooks - Driver Closed
+[INFO ] 2024-07-25 14:53:38.873 [main] Hooks - CLosing the Driver
+[WARN ] 2024-07-25 14:53:38.922 [AsyncHttpClient-1-4] WebSocketHandler - onError
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
 	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
@@ -182,6 +340,7 @@ java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+<<<<<<< HEAD
 	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
 [INFO ] 2024-05-24 03:42:04.024 [main] Hooks - ================================================================
 [INFO ] 2024-05-24 03:42:04.027 [main] Hooks - Scenario Title: Scenario Description: Login :
@@ -19245,3 +19404,7 @@ java.net.SocketException: Connection reset
 [INFO ] 2024-07-25 16:23:02.682 [main] Hooks - Driver Closed
 [INFO ] 2024-07-25 16:23:02.682 [main] Hooks - CLosing the Driver
 [INFO ] 2024-07-25 16:23:03.132 [main] Hooks - Driver Closed
+=======
+	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
+[INFO ] 2024-07-25 14:53:39.113 [main] Hooks - Driver Closed
+>>>>>>> 16a3b7b9cf695eaade20f645961af14cc0cdda0a
