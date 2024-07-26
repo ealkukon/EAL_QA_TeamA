@@ -1,12 +1,11 @@
-
+@Search
 
 Feature:  Search Functionality
 	As a customer,
 	I want to search for a product,
 	so that I can find what i am looking for.
 	
-Background: 
-	 Given I am on the login page
+
 
 @validkeywordsearch
   Scenario: Searching for a product by keyword

@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
 import com.pdl.utilities.CommonMethods;
@@ -41,16 +42,7 @@ public class SearchCatagoryPage extends CommonMethods {
 		        throw e;  // Re-throw the assertion error to ensure the test fails
 		    }
 		}
-			
-			// Verify the title
-		    /*if(pageTitle.equals("Search")) {
-		        System.out.println("Title matches");
-		    } else {
-		        System.out.println("Title does not match");
-		        logger.info("logging should be successful and directed to the search Page");
-		    }*/
-	//}
-	
+
 	public void Enterkeyword() {
 		keyword_searchcriteria.clear();
 		keyword_searchcriteria.sendKeys("Mac");

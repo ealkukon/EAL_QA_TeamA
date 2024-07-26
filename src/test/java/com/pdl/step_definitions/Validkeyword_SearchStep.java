@@ -21,13 +21,13 @@ public class Validkeyword_SearchStep extends CommonMethods {
 	Searchpage validkeyword=new Searchpage();
 	public static final Logger logger = LogManager.getLogger(Validkeyword_SearchStep.class);
 	
-	@Given("I am on the login page")
+	/*@Given("I am on the login page")
 	public void i_am_on_the_login_page() throws InterruptedException {
 		logger.info("user is logging ");
 		Thread.sleep(10000);
 		logger.info("user is logged in");
 		Thread.sleep(3000);
-	}
+	}*/
 	  
 	
 	@Then("I should see the search box")

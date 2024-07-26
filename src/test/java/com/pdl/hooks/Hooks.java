@@ -48,7 +48,11 @@ public class Hooks extends CommonMethods {
 	@Before
 	public void setUp() {
 		if (ConfigurationReader.getProperty("browser").equals("headless")) {
+
 			//Driver.getDriver().manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);//this part we changed from green to black
+
+			
+
 			Driver.getDriver().get(ConfigurationReader.getProperty("url"));
 		} 
 		
@@ -64,7 +68,10 @@ public class Hooks extends CommonMethods {
 //			mReporter.addStepLog("Url Launched from @beforeHooks -"+URL);
 			logger.info("*URL Lunched from hooks : "+ ConfigurationReader.getProperty("url"));			
 			
+
         	//waitForPageToLoadfor(20);// page loading// green to black
+			
+
 			waitForPageToLoad();
 			waitForAJAXToLoad();
 			
@@ -120,30 +127,29 @@ public class Hooks extends CommonMethods {
 
 	}
 
-	@After
-	public void tearDown(Scenario scenario) {
+	@AfterAll
+	//public void tearDown(Scenario scenario) {
 		// taking a screenshot if the scenario fails
-		//if (ConfigurationReader.getProperty("browser").equals("headless")) {
+	
+    public static void after_all() {
+	if (ConfigurationReader.getProperty("browser").equals("headless")) {
 
-		//} else {
-		Driver.getDriver().manage().deleteAllCookies();
+
+	} else {
+	Driver.getDriver().manage().deleteAllCookies();
+
+	logger.info("CLosing the Driver");
+	//Driver.closeDriver();
+	
+	logger.info("Driver Closed");
+
 
 		logger.info("CLosing the Driver");
-		//Driver.closeDriver();
-		
+		Driver.closeDriver();
 		logger.info("Driver Closed");
+	}
 
-			
-					 }
-				//delete all cookies
-			//Driver.getDriver().manage().deleteAllCookies();
-
-			//logger.info("CLosing the Driver");
-			//Driver.closeDriver();
-			
-			//logger.info("Driver Closed");
-
-			/*
+	}	/*
 			 * if (scenario.isFailed()) { final byte[] screenshot = ((TakesScreenshot)
 			 * Driver.getDriver()).getScreenshotAs(OutputType.BYTES); // adding the
 			 * screenshot to the report scenario.attach(screenshot, "image/png",
@@ -154,7 +160,7 @@ public class Hooks extends CommonMethods {
 			 * }
 			 */
 		
-	 @AfterAll
+	/* @AfterAll
     public static void afterAll() {
 		 
 		// taking a screenshot if the scenario fails
@@ -162,7 +168,13 @@ public class Hooks extends CommonMethods {
 
 			} else 
 			{
-		 //delete all cookies
+				//delete all cookies
+				//Driver.getDriver().manage().deleteAllCookies();
+
+				//logger.info("CLosing the Driver");
+				//Driver.closeDriver();
+				
+				//logger.info("Driver Closed");
 				Driver.getDriver().manage().deleteAllCookies();
 
 				logger.info("CLosing the Driver");
@@ -176,7 +188,7 @@ public class Hooks extends CommonMethods {
         // Any cleanup code here, like closing database connections
         Driver.closeDriver();
      
-    }
+    }/*
     
 	
 	/*
@@ -199,4 +211,4 @@ public class Hooks extends CommonMethods {
 	
 	
 }
-}
+
