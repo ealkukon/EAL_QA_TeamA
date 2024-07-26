@@ -131,7 +131,6 @@ public class Hooks extends CommonMethods {
 
 	}
 
-<<<<<<< HEAD
 	/*
 	 * @After public void tearDown(Scenario scenario) throws InterruptedException {
 	 * // taking a screenshot if the scenario fails if
@@ -146,7 +145,7 @@ public class Hooks extends CommonMethods {
 	 * logger.info("Driver Closed"); }
 	 */
 		//	Thread.sleep(2000); 
-=======
+	
 	@AfterAll
 	//public void tearDown(Scenario scenario) {
 		// taking a screenshot if the scenario fails
@@ -163,7 +162,6 @@ public class Hooks extends CommonMethods {
 	
 	logger.info("Driver Closed");
 
->>>>>>> 16a3b7b9cf695eaade20f645961af14cc0cdda0a
 
 		logger.info("CLosing the Driver");
 		Driver.closeDriver();
@@ -180,10 +178,8 @@ public class Hooks extends CommonMethods {
 			 * 
 			 * }
 			 */
-<<<<<<< HEAD
 		//}
 		
-=======
 		
 	/* @AfterAll
     public static void afterAll() {
@@ -258,12 +254,8 @@ public class Hooks extends CommonMethods {
 	 * }
 	 */
 	
-<<<<<<< HEAD
-	int x=10; //just for testing
 
-		}}
-=======
+		}
 	
-}
 
->>>>>>> 16a3b7b9cf695eaade20f645961af14cc0cdda0a
+

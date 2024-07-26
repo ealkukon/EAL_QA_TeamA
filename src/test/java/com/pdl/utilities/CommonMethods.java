@@ -48,11 +48,6 @@ import org.apache.commons.io.FileDeleteStrategy;
 import org.apache.logging.log4j.LogManager;
 
 import org.apache.logging.log4j.Logger;
-<<<<<<< HEAD
-import org.apache.logging.log4j.core.util.Assert;
-=======
-import org.junit.Assert;
->>>>>>> 16a3b7b9cf695eaade20f645961af14cc0cdda0a
 import org.openqa.selenium.Alert;
 
 import org.openqa.selenium.By;
@@ -65,8 +60,6 @@ import org.openqa.selenium.WebDriver;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.PageFactory;
-
 import org.openqa.selenium.support.ui.ExpectedCondition;
 
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -1636,7 +1629,7 @@ public class CommonMethods extends Driver {
     		
     		  
     	  }
-<<<<<<< HEAD
+
     	  
     	// wait and click method
     	  public void waitAndClick(WebElement element) {
@@ -1649,14 +1642,13 @@ public class CommonMethods extends Driver {
     		}
     	
     	
-=======
     	// verify page title
-    	  public void VerifyPageTitle(String expectedTitle) {
+    	 /* public void VerifyPageTitle(String expectedTitle) {
     	 String ActualPageTitle=driver.getTitle();
     	 Assert.assertEquals(ActualPageTitle,expectedTitle,"pagetitle is verified");
     			
     			logger.info("************ pagetitle verified *********************");
-    		}
+    		}*/
     	  
     	  //WebDriver wait
     	  
@@ -1679,7 +1671,6 @@ public class CommonMethods extends Driver {
     	
     
     		
->>>>>>> 16a3b7b9cf695eaade20f645961af14cc0cdda0a
 	
 
 
