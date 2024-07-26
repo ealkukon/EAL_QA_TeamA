@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">PDL Automated Test</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Jun 02, 2024 14:54:21</span></a>
+<a href="#"><span class="badge badge-primary">Jul 16, 2024 12:35:04</span></a>
 </li>
 </ul>
 </div>
@@ -71,13 +71,13 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Jun 02, 2024 14:54:21</h3>
+<h3>Jul 16, 2024 12:35:04</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Jun 02, 2024 14:55:56</h3>
+<h3>Jul 16, 2024 12:35:17</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -148,10 +148,10 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='33%'><b>1</b> steps passed</small></div>
+<div><small data-tooltip='90%'><b>9</b> steps passed</small></div>
 <div>
-<small data-tooltip='33%'><b>1</b> steps failed,
-<b>1</b> skipped, <b data-tooltip='%'>0</b> others
+<small data-tooltip='10%'><b>1</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
 </div>
@@ -167,7 +167,7 @@
 </div></div>
 <script>
 var timeline = {
-"Login":93.219
+"Login":11.42
 };
 </script>
 <div class="row">
@@ -177,7 +177,7 @@ var timeline = {
 <div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
 <tr>
-<td>@ealLogin</td>
+<td>@validlogin</td>
 <td>0</td>
 <td>1</td>
 <td>0</td>
@@ -230,10 +230,10 @@ warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 1,
+passGrandChild: 9,
 failGrandChild: 1,
 warningGrandChild: 0,
-skipGrandChild: 1,
+skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
 };
@@ -255,7 +255,7 @@ eventsCount: 5,
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
 <ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" href="#">@ealLogin</a>
+<a class="dropdown-item" href="#">@validlogin</a>
 </ul>
 </li>
 </ul>
@@ -268,7 +268,7 @@ eventsCount: 5,
           <div class="test-detail">
             <p class="name">Login</p>
             <p class="text-sm">
-              <span>2:54:22 PM</span> / <span>00:01:33:219</span>
+              <span>12:35:05 PM</span> / <span>00:00:11:420</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -277,22 +277,24 @@ eventsCount: 5,
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-fail">Login</h5>
-<span class='badge badge-success'>06.02.2024 2:54:22 PM</span>
-<span class='badge badge-danger'>06.02.2024 2:55:56 PM</span>
-<span class='badge badge-default'>00:01:33:219</span>
+<span class='badge badge-success'>07.16.2024 12:35:05 PM</span>
+<span class='badge badge-danger'>07.16.2024 12:35:17 PM</span>
+<span class='badge badge-default'>00:00:11:420</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
-<div class="m-t-10 m-l-5"></div>
+<div class="m-t-10 m-l-5"> As a returning customer
+I want to log in with my email and password
+so that I can access my account and personal information.</div>
 </div>
 </div>
 <div class="accordion mt-4">
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>Scenario Description: Login :</div>
+        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>Successful login with valid credentials</div>
           <div class="status-avatar float-right mr-4">
             <i class="fa fa-paperclip"></i>
           </div>
@@ -300,23 +302,9 @@ eventsCount: 5,
     </div>
         <div class="">
           <div class="card-body">
-              <div class="step fail-bg" title="com.pdl.step_definitions.LoginStepDef.user_is_on_home_page()">
-                <span>Given user is on home page</span>
+              <div class="step pass-bg" title="com.pdl.step_definitions.Valid_LoginStep.i_am_on_the_login_page()">
+                <span>Given I am on the login page</span>
       <div>
-        <textarea disabled class="code-block">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to contain "https://pdlconnect.test.govt.lh.primetherapeutics.com". Current url: "https://www.walmart.com/" (tried for 40 second(s) with 500 milliseconds interval)
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.113, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\MCHOWD~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:2874}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:2874/devtool..., se:cdpVersion: 125.0.6422.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4edbcbb50ef80a542b517630bcff328e
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
-	at com.pdl.utilities.CommonMethods.waitForUrlContains(CommonMethods.java:405)
-	at com.pdl.pages.HomePage.verifyLandingOnHomepage(HomePage.java:84)
-	at com.pdl.step_definitions.LoginStepDef.user_is_on_home_page(LoginStepDef.java:68)
-	at ✽.user is on home page(file:///C:/EAL%20Repositories/Internship%20Main%20Project/PDLConnect-Automation-Testing/PDLConnect-Automation-Testing/src/test/resources/features/Login.feature:14)
-</textarea>
-      
       </div>
               </div>
               <div class="step pass-bg" title="AFTER_STEP">
@@ -330,9 +318,79 @@ Session ID: 4edbcbb50ef80a542b517630bcff328e
       <div>
       </div>
               </div>
-              <div class="step skip-bg" title="com.pdl.step_definitions.LoginStepDef.user_should_land_on_my_user_page()">
-                <span>Then user should land on my user page</span>
-      <div>Step skipped
+              <div class="step pass-bg" title="com.pdl.step_definitions.Valid_LoginStep.i_enter_my_valid_email_and_valid_password()">
+                <span>When I enter my valid email and valid password</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.pdl.hooks.Hooks.takeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>image
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../screenshot/embedded2.png' src="../screenshot/embedded2.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.pdl.step_definitions.Valid_LoginStep.i_click_on_the_login_button()">
+                <span>Then I click on the login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.pdl.hooks.Hooks.takeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>image
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../screenshot/embedded3.png' src="../screenshot/embedded3.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.pdl.step_definitions.Valid_LoginStep.i_should_be_logged_in_succesfully_and_directed_to_the_my_account_page()">
+                <span>When I should be logged in succesfully and directed to the My Account page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.pdl.hooks.Hooks.takeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>image
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../screenshot/embedded4.png' src="../screenshot/embedded4.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="com.pdl.step_definitions.Valid_LoginStep.the_list_of_options_for_the_account_should_include_options_for_my_account_my_orders_my_affiliate_account_and_newsletter()">
+                <span>Then the list of options for the account should include options for my account, my orders, My Affiliate Account and Newsletter</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: expected [true] but found [MyAccount should be displayed]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:644)
+	at com.pdl.pages.Valid_LoginPage.alloptions(Valid_LoginPage.java:69)
+	at com.pdl.step_definitions.Valid_LoginStep.the_list_of_options_for_the_account_should_include_options_for_my_account_my_orders_my_affiliate_account_and_newsletter(Valid_LoginStep.java:75)
+	at ✽.the list of options for the account should include options for my account, my orders, My Affiliate Account and Newsletter(file:///C:/Intership_repo/EAL_QA_TeamA/src/test/resources/features/Login_Folder/ValidLogin.feature:14)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.pdl.hooks.Hooks.takeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>image
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../screenshot/embedded5.png' src="../screenshot/embedded5.png">
+    
+    </div></div>
+</div>
+      <div>
       </div>
               </div>
           </div>
@@ -363,12 +421,12 @@ Session ID: 4edbcbb50ef80a542b517630bcff328e
 <span class="meta">
 <span class='badge log badge-danger'>1</span>
 </span>
-<p class="name">@ealLogin</p>
+<p class="name">@validlogin</p>
 <p class="duration text-sm">1 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>@ealLogin</h4>
+<h4>@validlogin</h4>
 <span status="fail" class='badge log badge-danger'>1 failed</span>
 </div>
 <table class='table table-sm mt-4'>
@@ -382,11 +440,11 @@ Session ID: 4edbcbb50ef80a542b517630bcff328e
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>14:54:22 PM</td>
+<td>12:35:05 PM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='2'>Scenario Description: Login :</a>
+<a href="#" class="linked" test-id='1' id='2'>Successful login with valid credentials</a>
 <div class="">
-<span class="badge badge-default">Login.Scenario Description: Login :</span>
+<span class="badge badge-default">Login.Successful login with valid credentials</span>
 </div>
 </td>
 </tr>
@@ -415,12 +473,12 @@ Session ID: 4edbcbb50ef80a542b517630bcff328e
 <span class="meta">
 <span class='badge log badge-danger'>1</span>
 </span>
-<p class="name">org.openqa.selenium.TimeoutException</p>
+<p class="name">java.lang.AssertionError</p>
 <p class="duration text-sm">1 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>org.openqa.selenium.TimeoutException</h4>
+<h4>java.lang.AssertionError</h4>
 <span status="fail" class='badge log badge-danger'>1 failed</span>
 </div>
 <table class='table table-sm mt-4'>
@@ -434,11 +492,11 @@ Session ID: 4edbcbb50ef80a542b517630bcff328e
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>14:54:33 PM</td>
+<td>12:35:16 PM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='5'>Given user is on home page</a>
+<a href="#" class="linked" test-id='1' id='13'>Then the list of options for the account should include options for my account, my orders, My Affiliate Account and Newsletter</a>
 <div class="">
-<span class="badge badge-default">Login.Scenario Description: Login :.Given user is on home page</span>
+<span class="badge badge-default">Login.Successful login with valid credentials.Then the list of options for the account should include options for my account, my orders, My Affiliate Account and Newsletter</span>
 </div>
 </td>
 </tr>

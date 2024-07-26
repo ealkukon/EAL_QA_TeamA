@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">PDL Automated Test</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Jun 02, 2024 15:36:58</span></a>
+<a href="#"><span class="badge badge-primary">Jul 16, 2024 12:05:46</span></a>
 </li>
 </ul>
 </div>
@@ -71,13 +71,13 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Jun 02, 2024 15:36:58</h3>
+<h3>Jul 16, 2024 12:05:46</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Jun 02, 2024 15:38:31</h3>
+<h3>Jul 16, 2024 12:05:55</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -148,10 +148,10 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='33%'><b>1</b> steps passed</small></div>
+<div><small data-tooltip='42%'><b>3</b> steps passed</small></div>
 <div>
-<small data-tooltip='33%'><b>1</b> steps failed,
-<b>1</b> skipped, <b data-tooltip='%'>0</b> others
+<small data-tooltip='14%'><b>1</b> steps failed,
+<b>3</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
 </div>
@@ -167,7 +167,7 @@
 </div></div>
 <script>
 var timeline = {
-"Login":91.693
+"Search Functionality":6.714
 };
 </script>
 <div class="row">
@@ -177,7 +177,7 @@ var timeline = {
 <div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
 <tr>
-<td>@ealLogin</td>
+<td>@validkeywordsearch</td>
 <td>0</td>
 <td>1</td>
 <td>0</td>
@@ -230,10 +230,10 @@ warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 1,
+passGrandChild: 3,
 failGrandChild: 1,
 warningGrandChild: 0,
-skipGrandChild: 1,
+skipGrandChild: 3,
 infoGrandChild: 0,
 eventsCount: 5,
 };
@@ -255,7 +255,7 @@ eventsCount: 5,
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
 <ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" href="#">@ealLogin</a>
+<a class="dropdown-item" href="#">@validkeywordsearch</a>
 </ul>
 </li>
 </ul>
@@ -266,9 +266,9 @@ eventsCount: 5,
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">Login</p>
+            <p class="name">Search Functionality</p>
             <p class="text-sm">
-              <span>3:36:59 PM</span> / <span>00:01:31:693</span>
+              <span>12:05:48 PM</span> / <span>00:00:06:714</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -276,23 +276,25 @@ eventsCount: 5,
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">Login</h5>
-<span class='badge badge-success'>06.02.2024 3:36:59 PM</span>
-<span class='badge badge-danger'>06.02.2024 3:38:31 PM</span>
-<span class='badge badge-default'>00:01:31:693</span>
+<h5 class="test-status text-fail">Search Functionality</h5>
+<span class='badge badge-success'>07.16.2024 12:05:48 PM</span>
+<span class='badge badge-danger'>07.16.2024 12:05:55 PM</span>
+<span class='badge badge-default'>00:00:06:714</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
-<div class="m-t-10 m-l-5"></div>
+<div class="m-t-10 m-l-5"> As a customer,
+I want to search for a product,
+so that I can find what i am looking for.</div>
 </div>
 </div>
 <div class="accordion mt-4">
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>Scenario Description: Login :</div>
+        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>Searching for a product by keyword</div>
           <div class="status-avatar float-right mr-4">
             <i class="fa fa-paperclip"></i>
           </div>
@@ -300,23 +302,9 @@ eventsCount: 5,
     </div>
         <div class="">
           <div class="card-body">
-              <div class="step fail-bg" title="com.pdl.step_definitions.LoginStepDef.user_is_on_home_page()">
-                <span>Given user is on home page</span>
+              <div class="step pass-bg" title="com.pdl.step_definitions.Valid_LoginStep.i_am_on_the_login_page()">
+                <span>Given I am on the login page</span>
       <div>
-        <textarea disabled class="code-block">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to contain "https://pdlconnect.test.govt.lh.primetherapeutics.com". Current url: "https://www.walmart.com/" (tried for 40 second(s) with 500 milliseconds interval)
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.113, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\MCHOWD~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:4611}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:4611/devtool..., se:cdpVersion: 125.0.6422.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 03674869353e8ab81d33dc75fba76073
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
-	at com.pdl.utilities.CommonMethods.waitForUrlContains(CommonMethods.java:405)
-	at com.pdl.pages.HomePage.verifyLandingOnHomepage(HomePage.java:84)
-	at com.pdl.step_definitions.LoginStepDef.user_is_on_home_page(LoginStepDef.java:68)
-	at ✽.user is on home page(file:///C:/EAL%20Repositories/Internship%20Main%20Project/PDLConnect-Automation-Testing/PDLConnect-Automation-Testing/src/test/resources/features/Login.feature:14)
-</textarea>
-      
       </div>
               </div>
               <div class="step pass-bg" title="AFTER_STEP">
@@ -330,8 +318,44 @@ Session ID: 03674869353e8ab81d33dc75fba76073
       <div>
       </div>
               </div>
-              <div class="step skip-bg" title="com.pdl.step_definitions.LoginStepDef.user_should_land_on_my_user_page()">
-                <span>Then user should land on my user page</span>
+              <div class="step fail-bg" title="com.pdl.step_definitions.Validkeyword_SearchStep.i_should_see_the_search_box()">
+                <span>Then I should see the search box</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: expected:<searchbox should display> but was:<true>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.pdl.pages.Searchpage.search_box(Searchpage.java:41)
+	at com.pdl.step_definitions.Validkeyword_SearchStep.i_should_see_the_search_box(Validkeyword_SearchStep.java:25)
+	at ✽.I should see the search box(file:///C:/Intership_repo/EAL_QA_TeamA/src/test/resources/features/Search_Functionality/Search.feature:13)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.pdl.hooks.Hooks.takeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>image
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../screenshot/embedded2.png' src="../screenshot/embedded2.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.pdl.step_definitions.Validkeyword_SearchStep.i_enter_a_valid_keyword_in_the_search_box()">
+                <span>When I enter a valid keyword in the search box</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.pdl.step_definitions.Validkeyword_SearchStep.i_click_on_the_search_button()">
+                <span>And I click on the search button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.pdl.step_definitions.Validkeyword_SearchStep.i_should_see_a_list_of_products_that_match_the_keyword_with_their_images_names_and_prices()">
+                <span>Then I should see a list of products that match the keyword with their images, names and prices</span>
       <div>Step skipped
       </div>
               </div>
@@ -363,12 +387,12 @@ Session ID: 03674869353e8ab81d33dc75fba76073
 <span class="meta">
 <span class='badge log badge-danger'>1</span>
 </span>
-<p class="name">@ealLogin</p>
+<p class="name">@validkeywordsearch</p>
 <p class="duration text-sm">1 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>@ealLogin</h4>
+<h4>@validkeywordsearch</h4>
 <span status="fail" class='badge log badge-danger'>1 failed</span>
 </div>
 <table class='table table-sm mt-4'>
@@ -382,11 +406,11 @@ Session ID: 03674869353e8ab81d33dc75fba76073
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>15:36:59 PM</td>
+<td>12:05:48 PM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='2'>Scenario Description: Login :</a>
+<a href="#" class="linked" test-id='1' id='2'>Searching for a product by keyword</a>
 <div class="">
-<span class="badge badge-default">Login.Scenario Description: Login :</span>
+<span class="badge badge-default">Search Functionality.Searching for a product by keyword</span>
 </div>
 </td>
 </tr>
@@ -415,12 +439,12 @@ Session ID: 03674869353e8ab81d33dc75fba76073
 <span class="meta">
 <span class='badge log badge-danger'>1</span>
 </span>
-<p class="name">org.openqa.selenium.TimeoutException</p>
+<p class="name">java.lang.AssertionError</p>
 <p class="duration text-sm">1 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>org.openqa.selenium.TimeoutException</h4>
+<h4>java.lang.AssertionError</h4>
 <span status="fail" class='badge log badge-danger'>1 failed</span>
 </div>
 <table class='table table-sm mt-4'>
@@ -434,11 +458,11 @@ Session ID: 03674869353e8ab81d33dc75fba76073
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>15:37:06 PM</td>
+<td>12:05:55 PM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='5'>Given user is on home page</a>
+<a href="#" class="linked" test-id='1' id='7'>Then I should see the search box</a>
 <div class="">
-<span class="badge badge-default">Login.Scenario Description: Login :.Given user is on home page</span>
+<span class="badge badge-default">Search Functionality.Searching for a product by keyword.Then I should see the search box</span>
 </div>
 </td>
 </tr>

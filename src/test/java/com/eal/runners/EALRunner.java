@@ -23,15 +23,25 @@ import io.cucumber.junit.CucumberOptions;
 		features = "src/test/resources/features", 
 		glue = {"com.pdl.step_definitions","com.pdl.hooks"},
 		dryRun=false,
-		tags="@Login"
 		
-//		monochrome=false
-)
+		tags="@Login or @Search"
+		)
+          //@Login or
+		//("@validlogin")
+		//("@validkeywordsearch or @invalidkeywordsearch or @searchByCatagory or @sortsearchresults")
+		
+		
+		
+	//		monochrome=false
+
+		
+
+		
+
 
 public class EALRunner {
 	
 
-	
 	@After
 	public static void teardown() {
 		Reporter.setSystemInfo("user", System.getProperty("user.name"));
@@ -39,4 +49,5 @@ public class EALRunner {
 		Reporter.setTestRunnerOutput("Sample test runner output message");
 	
 }
+	
 	}
