@@ -20,8 +20,6 @@ import com.pdl.utilities.SftAssert;
 	
 		
 		
-		int x=10; // demo commit test
-		
 		
 		public SignInPage() {
 			PageFactory.initElements(Driver.getDriver(), this);

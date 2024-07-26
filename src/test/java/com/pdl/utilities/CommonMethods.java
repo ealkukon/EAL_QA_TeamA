@@ -1,5 +1,8 @@
 package com.pdl.utilities;
 
+import static org.junit.Assert.assertTrue;
+import static org.testng.Assert.assertTrue;
+
 import java.io.File;
 
 import java.io.IOException;
@@ -45,7 +48,6 @@ import org.apache.commons.io.FileDeleteStrategy;
 import org.apache.logging.log4j.LogManager;
 
 import org.apache.logging.log4j.Logger;
-import org.junit.Assert;
 import org.openqa.selenium.Alert;
 
 import org.openqa.selenium.By;
@@ -58,8 +60,6 @@ import org.openqa.selenium.WebDriver;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.PageFactory;
-
 import org.openqa.selenium.support.ui.ExpectedCondition;
 
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -73,19 +73,25 @@ import org.testng.asserts.SoftAssert;
 
 import com.google.common.base.Function;
 
+
 public class CommonMethods extends Driver {
 
 	public static WebDriver driver = Driver.getDriver();
 
 	public static final int ELEMENT_WAIT_TIMEOUT_SECONDS = 40;
+	//how long the system should wait for an element to be available during test execution. 
 
 	public static final int ELEMENT_POLLING_TIME_MILIS = 50;
+	//how long the system should wait for an element to be polled.
 
 	public static final int PAGE_LOAD_TIMEOUT_SECONDS = 40;
+	//used to control how long the system should wait for page to load
 
 	public static final int JQUERY_LOAD_TIMEOUT_SECONDS = 30;
+	//used to control how long the system should wait for jQuery to load
 
 	public static final int SESSION_TIMEOUT_MINUTES = 16;
+	// the maximum duration for a session or connection to remain active
 
     JavascriptExecutor js= (JavascriptExecutor)driver;;
 
@@ -359,7 +365,6 @@ public class CommonMethods extends Driver {
 		return wait.until(ExpectedConditions.titleIs(pageTitle));
 
 	}
-	
 	
 	
 //	from browserUtils
@@ -712,7 +717,7 @@ public class CommonMethods extends Driver {
 	
 	
 //	   From Browser Utils
-       public static String selectFromropDownRendomOption(WebElement dropdown) {
+       public static String selectFromDropDownRendomOption(WebElement dropdown) {
     	   
 		Select select = new Select(dropdown);
 		List<WebElement> i =select.getOptions();	
@@ -1308,6 +1313,7 @@ public class CommonMethods extends Driver {
     		try {
 				Thread.sleep(2000);
 			} catch (InterruptedException e) {
+				
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
@@ -1623,13 +1629,26 @@ public class CommonMethods extends Driver {
     		
     		  
     	  }
+
+    	  
+    	// wait and click method
+    	  public void waitAndClick(WebElement element) {
+    		    try {
+    		        Thread.sleep(2000); // Wait for 2 seconds
+    		        element.click();
+    		    } catch (InterruptedException e) {
+    		        Thread.currentThread().interrupt();
+    		    }
+    		}
+    	
+    	
     	// verify page title
-    	  public void VerifyPageTitle(String expectedTitle) {
+    	 /* public void VerifyPageTitle(String expectedTitle) {
     	 String ActualPageTitle=driver.getTitle();
     	 Assert.assertEquals(ActualPageTitle,expectedTitle,"pagetitle is verified");
     			
     			logger.info("************ pagetitle verified *********************");
-    		}
+    		}*/
     	  
     	  //WebDriver wait
     	  

@@ -1,4 +1,4 @@
-package com.pdl.step_definitions;
+ package com.pdl.step_definitions;
 
 import static org.junit.Assert.assertEquals;
 
@@ -40,13 +40,12 @@ import io.cucumber.java.en.When;
 
 //import cucumber.api.java.en.Given;
 //import cucumber.api.java.en.Then;
-//import cucumber.api.java.en.When;
+//import cucumber.api.java.en.When; 
 
 public class LoginStepDef extends CommonMethods  {
 	
 	WebDriver driver=Driver.getDriver();
 	public static final Logger logger = LogManager.getLogger(LoginStepDef.class);
-
 
 	
 	BufferedImage image;
