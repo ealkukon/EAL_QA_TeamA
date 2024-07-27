@@ -20169,3 +20169,353 @@ java.net.SocketException: Connection reset
 [INFO ] 2024-07-26 00:01:12.581 [main] Hooks - Driver Closed
 [INFO ] 2024-07-26 00:01:12.581 [main] Hooks - CLosing the Driver
 [INFO ] 2024-07-26 00:01:13.086 [main] Hooks - Driver Closed
+[INFO ] 2024-07-27 15:22:56.659 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-27 15:22:59.902 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-27 15:22:59.902 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-27 15:22:59.923 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-27 15:22:59.923 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-27 15:22:59.946 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-27 15:22:59.953 [main] Hooks - ================================================================
+[INFO ] 2024-07-27 15:22:59.953 [main] Hooks - Scenario Title: Successful login valid credentials
+[INFO ] 2024-07-27 15:22:59.953 [main] Hooks - =================================================================
+[INFO ] 2024-07-27 15:22:59.960 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-27 15:22:59.961 [main] StepNameListener - Executing step: I am on the login page
+[INFO ] 2024-07-27 15:22:59.961 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-27 15:23:00.254 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-27 15:23:00.254 [main] StepNameListener - Executing step: I enter my email and password and click on the login button under the returning customer section
+[INFO ] 2024-07-27 15:23:00.254 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-27 15:23:00.256 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-27 15:23:00.256 [main] StepNameListener - Executing step: Click on login button
+[INFO ] 2024-07-27 15:23:00.256 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-27 15:23:00.259 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-27 15:23:00.259 [main] StepNameListener - Executing step: I should see a welcome message and a list of options for my account
+[INFO ] 2024-07-27 15:23:00.260 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-27 15:23:00.261 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-27 15:23:00.264 [main] Hooks - Successful login valid credentials Status - UNDEFINED
+[INFO ] 2024-07-27 15:23:00.264 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-27 15:23:00.291 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-27 15:23:00.736 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-27 15:23:00.737 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-27 15:23:00.756 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-27 15:23:00.757 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-27 15:23:00.779 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-27 15:23:00.780 [main] Hooks - ================================================================
+[INFO ] 2024-07-27 15:23:00.780 [main] Hooks - Scenario Title: Unsuccessful login with invalid credentials
+[INFO ] 2024-07-27 15:23:00.780 [main] Hooks - =================================================================
+[INFO ] 2024-07-27 15:23:00.782 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-27 15:23:00.782 [main] StepNameListener - Executing step: I am on the login page
+[INFO ] 2024-07-27 15:23:00.782 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-27 15:23:01.045 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-27 15:23:01.046 [main] StepNameListener - Executing step: I enter an incorrect email under the returning customer section
+[INFO ] 2024-07-27 15:23:01.046 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-27 15:23:01.051 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-27 15:23:01.051 [main] StepNameListener - Executing step: I enter an incorrect password under the returning customer section
+[INFO ] 2024-07-27 15:23:01.051 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-27 15:23:01.054 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-27 15:23:01.055 [main] StepNameListener - Executing step: I click on the login button I should see an error message saying “Warning: No match for E-Mail Address and/or Password.
+[INFO ] 2024-07-27 15:23:01.055 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-27 15:23:01.058 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-27 15:23:01.058 [main] Hooks - Unsuccessful login with invalid credentials Status - UNDEFINED
+[INFO ] 2024-07-27 15:23:01.058 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-27 15:23:01.084 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-27 15:23:01.603 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-27 15:23:01.603 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-27 15:23:01.620 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-27 15:23:01.620 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-27 15:23:01.638 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-27 15:23:01.639 [main] Hooks - ================================================================
+[INFO ] 2024-07-27 15:23:01.640 [main] Hooks - Scenario Title: Requesting a password reset link
+[INFO ] 2024-07-27 15:23:01.640 [main] Hooks - =================================================================
+[INFO ] 2024-07-27 15:23:01.641 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-27 15:23:01.641 [main] StepNameListener - Executing step: I am on the login page
+[INFO ] 2024-07-27 15:23:01.641 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-27 15:23:01.882 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-27 15:23:01.882 [main] StepNameListener - Executing step: I click on the forgotten password link under the returning customer section
+[INFO ] 2024-07-27 15:23:01.882 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-27 15:23:01.884 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-27 15:23:01.884 [main] StepNameListener - Executing step: I should see a password reset form with a field for email
+[INFO ] 2024-07-27 15:23:01.884 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-27 15:23:01.885 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-27 15:23:01.886 [main] StepNameListener - Executing step: I should be able to request a password reset link after entering my email and clicking on the continue button
+[INFO ] 2024-07-27 15:23:01.886 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-27 15:23:01.887 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-27 15:23:01.887 [main] Hooks - Requesting a password reset link Status - UNDEFINED
+[INFO ] 2024-07-27 15:23:01.887 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-27 15:23:01.907 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-27 15:23:01.907 [main] Hooks - Driver Closed
+[INFO ] 2024-07-27 15:23:01.907 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-27 15:23:02.093 [main] Hooks - Driver Closed
+[INFO ] 2024-07-27 15:26:51.950 [main] Hooks - ================================================================
+[INFO ] 2024-07-27 15:26:51.955 [main] Hooks - Scenario Title: Successful login valid credentials
+[INFO ] 2024-07-27 15:26:51.955 [main] Hooks - =================================================================
+[INFO ] 2024-07-27 15:26:51.966 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-27 15:26:55.318 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-27 15:26:55.318 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-27 15:26:55.339 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-27 15:26:55.339 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-27 15:26:55.362 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-27 15:26:55.366 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-27 15:26:55.366 [main] StepNameListener - Executing step: I am on the login page
+[INFO ] 2024-07-27 15:26:55.366 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-27 15:26:55.635 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-27 15:26:55.635 [main] StepNameListener - Executing step: I enter my email and password and click on the login button under the returning customer section
+[INFO ] 2024-07-27 15:26:55.635 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-27 15:26:55.638 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-27 15:26:55.639 [main] StepNameListener - Executing step: Click on login button
+[INFO ] 2024-07-27 15:26:55.639 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-27 15:26:55.642 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-27 15:26:55.642 [main] StepNameListener - Executing step: I should see a welcome message and a list of options for my account
+[INFO ] 2024-07-27 15:26:55.642 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-27 15:26:55.645 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-27 15:26:55.647 [main] Hooks - Successful login valid credentials Status - UNDEFINED
+[INFO ] 2024-07-27 15:26:55.647 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-27 15:26:55.674 [main] Hooks - ================================================================
+[INFO ] 2024-07-27 15:26:55.674 [main] Hooks - Scenario Title: Unsuccessful login with invalid credentials
+[INFO ] 2024-07-27 15:26:55.675 [main] Hooks - =================================================================
+[INFO ] 2024-07-27 15:26:55.675 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-27 15:26:56.132 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-27 15:26:56.133 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-27 15:26:56.152 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-27 15:26:56.153 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-27 15:26:56.173 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-27 15:26:56.175 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-27 15:26:56.175 [main] StepNameListener - Executing step: I am on the login page
+[INFO ] 2024-07-27 15:26:56.175 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-27 15:26:56.399 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-27 15:26:56.400 [main] StepNameListener - Executing step: I enter an incorrect email under the returning customer section
+[INFO ] 2024-07-27 15:26:56.400 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-27 15:26:56.404 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-27 15:26:56.404 [main] StepNameListener - Executing step: I enter an incorrect password under the returning customer section
+[INFO ] 2024-07-27 15:26:56.405 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-27 15:26:56.408 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-27 15:26:56.409 [main] StepNameListener - Executing step: I click on the login button I should see an error message saying “Warning: No match for E-Mail Address and/or Password.
+[INFO ] 2024-07-27 15:26:56.409 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-27 15:26:56.410 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-27 15:26:56.410 [main] Hooks - Unsuccessful login with invalid credentials Status - UNDEFINED
+[INFO ] 2024-07-27 15:26:56.410 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-27 15:26:56.429 [main] Hooks - ================================================================
+[INFO ] 2024-07-27 15:26:56.430 [main] Hooks - Scenario Title: Requesting a password reset link
+[INFO ] 2024-07-27 15:26:56.430 [main] Hooks - =================================================================
+[INFO ] 2024-07-27 15:26:56.431 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-27 15:26:56.876 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-27 15:26:56.877 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-27 15:26:56.899 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-27 15:26:56.899 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-27 15:26:56.917 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-27 15:26:56.918 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-27 15:26:56.918 [main] StepNameListener - Executing step: I am on the login page
+[INFO ] 2024-07-27 15:26:56.918 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-27 15:26:57.146 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-27 15:26:57.146 [main] StepNameListener - Executing step: I click on the forgotten password link under the returning customer section
+[INFO ] 2024-07-27 15:26:57.146 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-27 15:26:57.148 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-27 15:26:57.149 [main] StepNameListener - Executing step: I should see a password reset form with a field for email
+[INFO ] 2024-07-27 15:26:57.149 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-27 15:26:57.150 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-27 15:26:57.151 [main] StepNameListener - Executing step: I should be able to request a password reset link after entering my email and clicking on the continue button
+[INFO ] 2024-07-27 15:26:57.151 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-27 15:26:57.152 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-27 15:26:57.152 [main] Hooks - Requesting a password reset link Status - UNDEFINED
+[INFO ] 2024-07-27 15:26:57.153 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-27 15:26:57.199 [main] Hooks - ================================================================
+[INFO ] 2024-07-27 15:26:57.199 [main] Hooks - Scenario Title: Searching for a product by keyword
+[INFO ] 2024-07-27 15:26:57.199 [main] Hooks - =================================================================
+[INFO ] 2024-07-27 15:26:57.200 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-27 15:26:57.689 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-27 15:26:57.689 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-27 15:26:57.716 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-27 15:26:57.716 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-27 15:26:57.736 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-27 15:26:57.737 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-27 15:26:57.737 [main] StepNameListener - Executing step: I should see the search box
+[INFO ] 2024-07-27 15:26:57.738 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-27 15:26:58.005 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-27 15:26:58.005 [main] StepNameListener - Executing step: I enter a valid keyword in the search box
+[INFO ] 2024-07-27 15:26:58.006 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-27 15:26:58.007 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-27 15:26:58.007 [main] StepNameListener - Executing step: I click on the search button
+[INFO ] 2024-07-27 15:26:58.007 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-27 15:26:58.008 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-27 15:26:58.009 [main] StepNameListener - Executing step: I should see a list of products that match the keyword with their images, names and prices
+[INFO ] 2024-07-27 15:26:58.009 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-27 15:26:58.010 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-27 15:26:58.010 [main] Hooks - Searching for a product by keyword Status - UNDEFINED
+[INFO ] 2024-07-27 15:26:58.010 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-27 15:26:58.042 [main] Hooks - ================================================================
+[INFO ] 2024-07-27 15:26:58.042 [main] Hooks - Scenario Title: Searching for a product by invalid keyword
+[INFO ] 2024-07-27 15:26:58.042 [main] Hooks - =================================================================
+[INFO ] 2024-07-27 15:26:58.043 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-27 15:26:58.520 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-27 15:26:58.521 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-27 15:26:58.538 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-27 15:26:58.538 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-27 15:26:58.560 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-27 15:26:58.561 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-27 15:26:58.561 [main] StepNameListener - Executing step: I enter an invalid "Maca" in the search box
+[INFO ] 2024-07-27 15:26:58.561 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-27 15:26:58.827 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-27 15:26:58.827 [main] StepNameListener - Executing step: I click on the search button
+[INFO ] 2024-07-27 15:26:58.827 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-27 15:26:58.829 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-27 15:26:58.829 [main] StepNameListener - Executing step: I should not be able to see any product images, names, or prices
+[INFO ] 2024-07-27 15:26:58.830 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-27 15:26:58.831 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-27 15:26:58.831 [main] StepNameListener - Executing step: I should receive a message.
+[INFO ] 2024-07-27 15:26:58.831 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-27 15:26:58.832 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-27 15:26:58.832 [main] Hooks - Searching for a product by invalid keyword Status - UNDEFINED
+[INFO ] 2024-07-27 15:26:58.832 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-27 15:26:58.854 [main] Hooks - ================================================================
+[INFO ] 2024-07-27 15:26:58.854 [main] Hooks - Scenario Title: Searching for a product by category
+[INFO ] 2024-07-27 15:26:58.854 [main] Hooks - =================================================================
+[INFO ] 2024-07-27 15:26:58.856 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-27 15:26:59.347 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-27 15:26:59.347 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-27 15:26:59.360 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-27 15:26:59.361 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-27 15:26:59.378 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-27 15:26:59.379 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-27 15:26:59.379 [main] StepNameListener - Executing step: I click on “Search” button and it will land on Search page
+[INFO ] 2024-07-27 15:26:59.379 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-27 15:26:59.598 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-27 15:26:59.598 [main] StepNameListener - Executing step: I enter a "Mac" in the search criteria
+[INFO ] 2024-07-27 15:26:59.598 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-27 15:26:59.599 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-27 15:26:59.599 [main] StepNameListener - Executing step: I select a category from the drop-down menu and I click on the search button
+[INFO ] 2024-07-27 15:26:59.599 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-27 15:26:59.600 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-27 15:26:59.600 [main] StepNameListener - Executing step: I should see a list of products that belong to the category with their images, names, and prices
+[INFO ] 2024-07-27 15:26:59.600 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-27 15:26:59.601 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-27 15:26:59.601 [main] Hooks - Searching for a product by category Status - UNDEFINED
+[INFO ] 2024-07-27 15:26:59.601 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-27 15:26:59.617 [main] Hooks - ================================================================
+[INFO ] 2024-07-27 15:26:59.617 [main] Hooks - Scenario Title: Sorting the search results by name, price or rating
+[INFO ] 2024-07-27 15:26:59.618 [main] Hooks - =================================================================
+[INFO ] 2024-07-27 15:26:59.618 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-27 15:27:00.063 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-27 15:27:00.063 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-27 15:27:00.077 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-27 15:27:00.077 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-27 15:27:00.098 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-27 15:27:00.099 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-27 15:27:00.099 [main] StepNameListener - Executing step: I have performed a search and got some results
+[INFO ] 2024-07-27 15:27:00.099 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-27 15:27:00.364 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-27 15:27:00.364 [main] StepNameListener - Executing step: I select an option from the sort by drop-down menu on the right side of the page
+[INFO ] 2024-07-27 15:27:00.364 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-27 15:27:00.365 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-27 15:27:00.366 [main] StepNameListener - Executing step: I should see the products sorted according to the option I have selected
+[INFO ] 2024-07-27 15:27:00.366 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-27 15:27:00.367 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-27 15:27:00.368 [main] Hooks - Sorting the search results by name, price or rating Status - UNDEFINED
+[INFO ] 2024-07-27 15:27:00.368 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-27 15:27:00.385 [main] Hooks - ================================================================
+[INFO ] 2024-07-27 15:27:00.385 [main] Hooks - Scenario Title: Sorting the search results by name, price or rating
+[INFO ] 2024-07-27 15:27:00.385 [main] Hooks - =================================================================
+[INFO ] 2024-07-27 15:27:00.386 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-27 15:27:00.873 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-27 15:27:00.874 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-27 15:27:00.893 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-27 15:27:00.893 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-27 15:27:00.914 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-27 15:27:00.914 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-27 15:27:00.914 [main] StepNameListener - Executing step: I have performed a search and got some results
+[INFO ] 2024-07-27 15:27:00.914 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-27 15:27:01.142 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-27 15:27:01.143 [main] StepNameListener - Executing step: I select an option from the sort by drop-down menu on the right side of the page
+[INFO ] 2024-07-27 15:27:01.143 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-27 15:27:01.144 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-27 15:27:01.144 [main] StepNameListener - Executing step: I should see the products sorted according to the option I have selected
+[INFO ] 2024-07-27 15:27:01.144 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-27 15:27:01.145 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-27 15:27:01.145 [main] Hooks - Sorting the search results by name, price or rating Status - UNDEFINED
+[INFO ] 2024-07-27 15:27:01.145 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-27 15:27:01.163 [main] Hooks - ================================================================
+[INFO ] 2024-07-27 15:27:01.163 [main] Hooks - Scenario Title: Sorting the search results by name, price or rating
+[INFO ] 2024-07-27 15:27:01.163 [main] Hooks - =================================================================
+[INFO ] 2024-07-27 15:27:01.164 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-27 15:27:01.619 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-27 15:27:01.619 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-27 15:27:01.636 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-27 15:27:01.636 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-27 15:27:01.657 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-27 15:27:01.658 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-27 15:27:01.658 [main] StepNameListener - Executing step: I have performed a search and got some results
+[INFO ] 2024-07-27 15:27:01.658 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-27 15:27:01.877 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-27 15:27:01.877 [main] StepNameListener - Executing step: I select an option from the sort by drop-down menu on the right side of the page
+[INFO ] 2024-07-27 15:27:01.878 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-27 15:27:01.878 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-27 15:27:01.878 [main] StepNameListener - Executing step: I should see the products sorted according to the option I have selected
+[INFO ] 2024-07-27 15:27:01.878 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-27 15:27:01.880 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-27 15:27:01.880 [main] Hooks - Sorting the search results by name, price or rating Status - UNDEFINED
+[INFO ] 2024-07-27 15:27:01.880 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-27 15:27:01.901 [main] Hooks - ================================================================
+[INFO ] 2024-07-27 15:27:01.901 [main] Hooks - Scenario Title: Sorting the search results by name, price or rating
+[INFO ] 2024-07-27 15:27:01.901 [main] Hooks - =================================================================
+[INFO ] 2024-07-27 15:27:01.903 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-27 15:27:02.411 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-27 15:27:02.411 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-27 15:27:02.425 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-27 15:27:02.426 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-27 15:27:02.449 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-27 15:27:02.450 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-27 15:27:02.450 [main] StepNameListener - Executing step: I have performed a search and got some results
+[INFO ] 2024-07-27 15:27:02.450 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-27 15:27:02.713 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-27 15:27:02.713 [main] StepNameListener - Executing step: I select an option from the sort by drop-down menu on the right side of the page
+[INFO ] 2024-07-27 15:27:02.713 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-27 15:27:02.714 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-27 15:27:02.714 [main] StepNameListener - Executing step: I should see the products sorted according to the option I have selected
+[INFO ] 2024-07-27 15:27:02.714 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-27 15:27:02.717 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-27 15:27:02.717 [main] Hooks - Sorting the search results by name, price or rating Status - UNDEFINED
+[INFO ] 2024-07-27 15:27:02.717 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-27 15:27:02.731 [main] Hooks - ================================================================
+[INFO ] 2024-07-27 15:27:02.731 [main] Hooks - Scenario Title: Sorting the search results by name, price or rating
+[INFO ] 2024-07-27 15:27:02.731 [main] Hooks - =================================================================
+[INFO ] 2024-07-27 15:27:02.732 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-27 15:27:03.229 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-27 15:27:03.229 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-27 15:27:03.244 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-27 15:27:03.244 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-27 15:27:03.259 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-27 15:27:03.259 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-27 15:27:03.259 [main] StepNameListener - Executing step: I have performed a search and got some results
+[INFO ] 2024-07-27 15:27:03.259 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-27 15:27:03.483 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-27 15:27:03.483 [main] StepNameListener - Executing step: I select an option from the sort by drop-down menu on the right side of the page
+[INFO ] 2024-07-27 15:27:03.483 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-27 15:27:03.486 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-27 15:27:03.486 [main] StepNameListener - Executing step: I should see the products sorted according to the option I have selected
+[INFO ] 2024-07-27 15:27:03.486 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-27 15:27:03.487 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-27 15:27:03.487 [main] Hooks - Sorting the search results by name, price or rating Status - UNDEFINED
+[INFO ] 2024-07-27 15:27:03.487 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-27 15:27:03.505 [main] Hooks - ================================================================
+[INFO ] 2024-07-27 15:27:03.505 [main] Hooks - Scenario Title: Sorting the search results by name, price or rating
+[INFO ] 2024-07-27 15:27:03.505 [main] Hooks - =================================================================
+[INFO ] 2024-07-27 15:27:03.506 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-27 15:27:03.920 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-07-27 15:27:03.920 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-27 15:27:03.937 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-27 15:27:03.939 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-27 15:27:03.955 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-27 15:27:03.955 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-27 15:27:03.956 [main] StepNameListener - Executing step: I have performed a search and got some results
+[INFO ] 2024-07-27 15:27:03.956 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-27 15:27:04.168 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-27 15:27:04.168 [main] StepNameListener - Executing step: I select an option from the sort by drop-down menu on the right side of the page
+[INFO ] 2024-07-27 15:27:04.169 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-27 15:27:04.170 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-27 15:27:04.171 [main] StepNameListener - Executing step: I should see the products sorted according to the option I have selected
+[INFO ] 2024-07-27 15:27:04.171 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-27 15:27:04.172 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-27 15:27:04.172 [main] Hooks - Sorting the search results by name, price or rating Status - UNDEFINED
+[INFO ] 2024-07-27 15:27:04.172 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-27 15:27:04.195 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-27 15:27:04.195 [main] Hooks - Driver Closed
+[INFO ] 2024-07-27 15:27:04.195 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-27 15:27:04.396 [main] Hooks - Driver Closed
