@@ -11,7 +11,7 @@ import com.pdl.utilities.CommonMethods;
 
 import io.cucumber.java.en.*;
 
-;
+
 public class SearchCatagory_Step extends CommonMethods {
 	
 	
