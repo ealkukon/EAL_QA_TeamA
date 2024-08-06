@@ -94,6 +94,10 @@ public class Login_Stepdefination extends CommonMethods{
     	validloginpage.continueagain();
    
 }
+    @Given("User should be logged out")
+	public void user_should_be_logged_out() {
+	   logger.info("user is logged out");
+	}
 
 }
 

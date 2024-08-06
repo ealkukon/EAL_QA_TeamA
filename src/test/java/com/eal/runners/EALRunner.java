@@ -21,24 +21,28 @@ import io.cucumber.junit.CucumberOptions;
 		"com.pdl.hooks.StepNameListener"}, // here "com.pdl.hooks" this is package and stepname is insider class
 
 		features = "src/test/resources/features", 
-		glue = {"Step_definitions","com.pdl.hooks"},
-		dryRun=false,
 
-		//tags= ("@AddToCart or @ViewEditMyShoppingCart")
-	//"@checkout"
+		glue = {"com\\pdl\\step_definitions","com.pdl.hooks"},
+		dryRun= false,
+
+		tags = /*
+				 * ("@Login or " + "@Search or " + "@AddToCart or " +
+				 * "@ViewEditMyShoppingCart or " + "@checkout")
+				 */
+//"@checkout1"
+		//"@smoke"
+	//"@smoketest1"
+		"@AddToCart"
+		//"@confirmationmsg"
+	//	"@ViewEditMyShoppingCart"
+		//"@checkout"
 	
-  // "@checkout"
-		//"@billing&delivery"
-	//	"@checkoutascustomer"
+
+	
 
 		
-		tags="@Login or @Search"
 		)
-          //@Login or
-		//("@validlogin")
-		//("@validkeywordsearch or @invalidkeywordsearch or @searchByCatagory or @sortsearchresults")
-		
-		
+          
 		
 	//		monochrome=false
 
