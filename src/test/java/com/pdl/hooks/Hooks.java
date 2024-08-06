@@ -178,7 +178,7 @@ public class Hooks extends CommonMethods {
 			 * 
 			 * }
 			 */
-<<<<<<< HEAD
+
 		
 	/* @AfterAll
     public static void afterAll() {
@@ -210,42 +210,9 @@ public class Hooks extends CommonMethods {
      
     }/*
     
-=======
 		//}
 		
-		
-	/* @AfterAll
-    public static void afterAll() {
-		 
-		// taking a screenshot if the scenario fails
-			if (ConfigurationReader.getProperty("browser").equals("headless")) {
-
-			} else 
-			{
-				//delete all cookies
-				//Driver.getDriver().manage().deleteAllCookies();
-
-				//logger.info("CLosing the Driver");
-				//Driver.closeDriver();
-				
-				//logger.info("Driver Closed");
-				Driver.getDriver().manage().deleteAllCookies();
-
-				logger.info("CLosing the Driver");
-				Driver.closeDriver();
-
-				logger.info("Driver Closed");
-
-        // Code to run after all tests/scenarios
-       
-		 logger.info("Executing after all tests");
-        // Any cleanup code here, like closing database connections
-        Driver.closeDriver();
-     
-    }/*
-    
->>>>>>> 16a3b7b9cf695eaade20f645961af14cc0cdda0a
->>>>>>> branch 'main' of https://github.com/ealkukon/EAL_QA_TeamA.git
+	
 	
 	
 	
@@ -288,13 +255,11 @@ public class Hooks extends CommonMethods {
 	 * }
 	 */
 	
-<<<<<<< HEAD
-	
+
 }
-=======
 
-		}
+
+		
 	
 
->>>>>>> branch 'main' of https://github.com/ealkukon/EAL_QA_TeamA.git
 

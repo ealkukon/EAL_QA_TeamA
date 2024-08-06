@@ -132,6 +132,8 @@ public class KcAddToCartPage extends CommonMethods{
 	}
 	
 	
+	
+
 	public void hoverover() throws InterruptedException {
 		hover(AddtoCartbtn); 
 	}

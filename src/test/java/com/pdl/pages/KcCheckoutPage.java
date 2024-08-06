@@ -26,9 +26,10 @@ public class KcCheckoutPage extends CommonMethods {
 	
 	@FindBy(xpath = "(//span[@class=\"hidden-xs hidden-sm hidden-md\"])[7]") public WebElement AddtoCartbtn;
 	@FindBy(xpath = "//span[text()='Shopping Cart']") public WebElement shoppingcartbtn;
-    @FindBy(xpath = "//a[text()='Checkout']") public WebElement checkoutbtn;
-	
-    @FindBy(xpath = "//*[@id=\"top-links\"]/ul/li[2]/a/span[1]") public WebElement myaccount;
+    //@FindBy(xpath = "//a[text()='Checkout']") public WebElement checkoutbtn;
+	@FindBy(xpath="//span[text()='Checkout']")public WebElement checkoutbtn;
+    
+	@FindBy(xpath = "//*[@id=\"top-links\"]/ul/li[2]/a/span[1]") public WebElement myaccount;
     @FindBy(xpath = "//*[@id=\"top-links\"]/ul/li[2]/ul/li[1]/a") public WebElement myaccountbtn;
 	@FindBy(xpath = "//*[@id=\"column-right\"]/div/a[4]") public WebElement addressbookbtn;
     @FindBy(xpath = "//*[@id=\"content\"]") public WebElement addressbookentries;
@@ -47,6 +48,8 @@ public class KcCheckoutPage extends CommonMethods {
 	@FindBy(xpath = "//*[@id=\"content\"]/form/fieldset/div[10]/div/label[2]/input") public WebElement defautlNo;
 	@FindBy(xpath = "//*[@id=\"account-address\"]/div[1]")public WebElement successfulyaddedmsg;
 	
+	//@FindBy(xpath="//a[text()='Logout']")public WebElement logout;
+	//@FindBy(xpath="//span[text()='Add to Cart'][1]")public WebElement addtocartbtn;
 	
 	//3.action method
 	
@@ -139,4 +142,5 @@ public class KcCheckoutPage extends CommonMethods {
 			drawborder(successfulyaddedmsg);
 			}
 		
-}
+		
+		}

@@ -48,10 +48,13 @@ import org.apache.commons.io.FileDeleteStrategy;
 import org.apache.logging.log4j.LogManager;
 
 import org.apache.logging.log4j.Logger;
-<<<<<<< HEAD
+
+
 import org.junit.Assert;
-=======
->>>>>>> branch 'main' of https://github.com/ealkukon/EAL_QA_TeamA.git
+
+
+
+
 import org.openqa.selenium.Alert;
 
 import org.openqa.selenium.By;
@@ -300,6 +303,12 @@ public class CommonMethods extends Driver {
 		return e;
 
 	}
+
+	
+		
+	
+
+
 
 	// wait for element implementation using fluent wait
 
@@ -1633,7 +1642,7 @@ public class CommonMethods extends Driver {
     		
     		  
     	  }
-<<<<<<< HEAD
+
     	// verify page title
     	  public void VerifyPageTitle(String expectedTitle) {
     	 String ActualPageTitle=driver.getTitle();
@@ -1656,10 +1665,30 @@ public class CommonMethods extends Driver {
     			logger.info("waiting for element to be clickable");
     		}
  	  
+
+
+
+
+
+    	
+
+    	  //WebDriver wait
+    	  
+    	 /* public WebElement waitForElement(By locator, int timeout) {
+    	        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeout));
+    	        return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+    	    }
+
+    	//wait for element to click
+    	  public void waitforelementclickable(WebElement elementvairable) {
+    			WebDriverWait wait= new WebDriverWait(driver, Duration.ofSeconds(30));
+    		    wait.until(ExpectedConditions.elementToBeClickable(elementvairable));
+    			logger.info("waiting for element to be clickable");
+    		}
 }
+*/
     	  
 
-=======
 
     	  
     	// wait and click method
@@ -1670,12 +1699,12 @@ public class CommonMethods extends Driver {
     		    } catch (InterruptedException e) {
     		        Thread.currentThread().interrupt();
     		    }
-    		}
->>>>>>> branch 'main' of https://github.com/ealkukon/EAL_QA_TeamA.git
+    	  
+    	  }  	
+    	  
     	
-    	
-<<<<<<< HEAD
-=======
+}
+
     	// verify page title
     	 /* public void VerifyPageTitle(String expectedTitle) {
     	 String ActualPageTitle=driver.getTitle();
@@ -1684,7 +1713,8 @@ public class CommonMethods extends Driver {
     			logger.info("************ pagetitle verified *********************");
     		}*/
     	  
-    	  //WebDriver wait
+    	 
+ /*WebDriver wait
     	  
     	  public WebElement waitForElement(By locator, int timeout) {
     	        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeout));
@@ -1697,16 +1727,16 @@ public class CommonMethods extends Driver {
     		    wait.until(ExpectedConditions.elementToBeClickable(elementvairable));
     			logger.info("waiting for element to be clickable");
     		}
- 	  
-}
-    	  
+    	  }*/
 
-    	
-    	
->>>>>>> branch 'main' of https://github.com/ealkukon/EAL_QA_TeamA.git
-    
-    		
+	
+
+    	  		
 	
 
 
 
+
+
+
+	
