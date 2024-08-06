@@ -18,7 +18,7 @@ Background:
     Then confirmation message should show the product name, image and price
     And  Verify that available product is added to the cart
 
-    @borders
+    @borders 
   Scenario: red border
   
    When hover over on the add to cart button,  A Red border should appear surrounding it

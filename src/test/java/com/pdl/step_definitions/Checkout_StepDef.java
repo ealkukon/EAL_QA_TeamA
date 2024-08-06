@@ -3,9 +3,11 @@ package com.pdl.step_definitions;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 
 import com.pdl.pages.KcAddToCartPage;
 import com.pdl.pages.KcCheckoutPage;
+import com.pdl.pages.KukonLogin;
 import com.pdl.pages.Searchpage;
 import com.pdl.utilities.CommonMethods;
 import com.pdl.utilities.Driver;
@@ -20,26 +22,30 @@ public class Checkout_StepDef extends CommonMethods{
 	
 	 public static final Logger logger = LogManager.getLogger(Checkout_StepDef.class);
 	   
-	 Searchpage validkeyword=new Searchpage();
+		KukonLogin validloginpage=new KukonLogin();
+		Searchpage validkeyword=new Searchpage();
 		KcAddToCartPage kcaddtocart= new KcAddToCartPage();
 		KcCheckoutPage kccheckoutpage= new KcCheckoutPage();
 
 		
-		
-@Then("User navigates to homepage")
-public void user_navigates_to_homepage() throws InterruptedException {
 	
+
+
+@Given("User navigates to homepage")
+public void user_navigates_to_homepage() throws InterruptedException {
 logger.info("********* start navigating on home page *************"); 
-Thread.sleep(3000);
+
 logger.info("*********** log in time is ended ***************");
 	    
 }
 @Then("search a product, and click on add to cart")
 public void search_a_product_and_click_on_add_to_cart() throws InterruptedException {
-	validkeyword.search_box();
-	 validkeyword.validatekeyword();
-	 validkeyword.searchbtn();
 logger.info("*********** search is started *************");
+validkeyword.search_box();
+Thread.sleep(3000);
+validkeyword.validatekeyword();
+Thread.sleep(3000);
+validkeyword.searchbtn();
 Thread.sleep(3000);
 logger.info("****************** add to cart *************");
 kcaddtocart.click_AddtoCart();
@@ -76,9 +82,16 @@ public void i_should_be_able_to_enter_my_billing_details_delivery_details_delive
 
 @Given("I have some products in my shopping cart and I am logged in to my account")
 public void i_have_some_products_in_my_shopping_cart_and_i_am_logged_in_to_my_account() throws InterruptedException {
-	Thread.sleep(10000);
+	//Thread.sleep(10000);
 	logger.info(" user is already logged in");
-	Thread.sleep(10000);
+	driver.get("https://tutorialsninja.com/demo/index.php?route=account/login");
+	validloginpage.emaillogin();
+	validloginpage.passwordenter();
+	validloginpage.loginbutton();
+
+	 Assert.assertTrue(KukonLogin.getMyAccount().contains("account/account"));
+	Thread.sleep(1000);
+//	Thread.sleep(10000);
 	kccheckoutpage.click_ShoppingCart();
 	logger.info("user already has some product in shopping cart");
     
@@ -105,6 +118,13 @@ public void i_should_be_able_to_use_my_saved_billing_and_delivery_details_or_ent
 
 @Given("the user is already in my account page")
 public void the_user_is_already_in_my_account_page() throws InterruptedException {
+	driver.get("https://tutorialsninja.com/demo/index.php?route=account/login");
+	validloginpage.emaillogin();
+	validloginpage.passwordenter();
+	validloginpage.loginbutton();
+
+	 Assert.assertTrue(KukonLogin.getMyAccount().contains("account/account"));
+	Thread.sleep(3000);
    kccheckoutpage.click_myaccount();
    logger.info("my account page in displayed");
 }
@@ -148,6 +168,7 @@ public void the_delivery_method_and_payment_method_should_have_at_least_one_opti
 public void the_order_confirmation_page_should_show_the_order_number_order_details_payment_details_and_delivery_details() {
    
 }
+
 
 
 }

@@ -25,11 +25,13 @@ public class KcCheckoutPage extends CommonMethods {
 	//locator
 	
 	@FindBy(xpath = "(//span[@class=\"hidden-xs hidden-sm hidden-md\"])[7]") public WebElement AddtoCartbtn;
+
 	@FindBy(xpath = "//span[text()='Shopping Cart']") public WebElement shoppingcartbtn;
     //@FindBy(xpath = "//a[text()='Checkout']") public WebElement checkoutbtn;
 	@FindBy(xpath="//span[text()='Checkout']")public WebElement checkoutbtn;
     
 	@FindBy(xpath = "//*[@id=\"top-links\"]/ul/li[2]/a/span[1]") public WebElement myaccount;
+
     @FindBy(xpath = "//*[@id=\"top-links\"]/ul/li[2]/ul/li[1]/a") public WebElement myaccountbtn;
 	@FindBy(xpath = "//*[@id=\"column-right\"]/div/a[4]") public WebElement addressbookbtn;
     @FindBy(xpath = "//*[@id=\"content\"]") public WebElement addressbookentries;
@@ -69,6 +71,7 @@ public class KcCheckoutPage extends CommonMethods {
 	public void click_myaccount() throws InterruptedException {
 		myaccount.click();
 		Thread.sleep(20000);
+		myaccountbtn.click();
 		//myaccountbtn.click();
 	}
 	public void addressbook() throws InterruptedException {

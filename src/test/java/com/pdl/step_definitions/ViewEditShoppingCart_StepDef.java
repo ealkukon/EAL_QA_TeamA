@@ -3,9 +3,12 @@ package com.pdl.step_definitions;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 
 import com.pdl.pages.KcAddToCartPage;
 import com.pdl.pages.KcViewEditShoppingCartPage;
+import com.pdl.pages.KukonLogin;
+import com.pdl.pages.Searchpage;
 import com.pdl.utilities.CommonMethods;
 import com.pdl.utilities.Driver;
 
@@ -19,13 +22,25 @@ public class ViewEditShoppingCart_StepDef extends CommonMethods{
 	WebDriver driver=Driver.getDriver();
 	public static final Logger logger = LogManager.getLogger(ViewEditShoppingCart_StepDef.class);
 	
+	KukonLogin validloginpage=new KukonLogin();
+	Searchpage validkeyword=new Searchpage();
 	KcAddToCartPage kcaddtocart= new KcAddToCartPage();
 	KcViewEditShoppingCartPage kcviewcart= new KcViewEditShoppingCartPage();
 
 	
 	@Given("I have added some products to the cart")
 	public void i_have_added_some_products_to_the_cart() throws InterruptedException {
-	kcaddtocart.click_multipleproducts();	
+   
+	driver.get("https://tutorialsninja.com/demo/index.php?route=account/login");
+
+	validloginpage.emaillogin();
+	validloginpage.passwordenter();
+	validloginpage.loginbutton();
+	 Assert.assertTrue(KukonLogin.getMyAccount().contains("account/account"));
+
+	//kcaddtocart.click_multipleproducts();
+
+
 	logger.info("i have some product in my shopping cart");  
 	
 	}
