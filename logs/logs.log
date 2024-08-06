@@ -1936,3 +1936,134 @@
 [INFO ] 2024-08-05 20:49:48.999 [main] StepNameListener - ---------------------------------------------------------------------
 [WARN ] 2024-08-05 20:49:48.999 [main] StepNameListener - Executing step: I should see a list of products that match the keyword with their images, names and prices
 [INFO ] 2024-08-05 20:49:49.000 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-06 12:57:02.653 [main] Hooks - CLosing the Driver
+[INFO ] 2024-08-06 12:57:02.914 [main] Hooks - Driver Closed
+[INFO ] 2024-08-06 12:57:02.915 [main] Hooks - CLosing the Driver
+[INFO ] 2024-08-06 12:57:02.915 [main] Hooks - Driver Closed
+[INFO ] 2024-08-06 12:57:02.916 [main] Hooks - CLosing the Driver
+[INFO ] 2024-08-06 12:57:02.916 [main] Hooks - Driver Closed
+[INFO ] 2024-08-06 13:02:11.691 [main] Hooks - CLosing the Driver
+[INFO ] 2024-08-06 13:02:11.922 [main] Hooks - Driver Closed
+[INFO ] 2024-08-06 13:02:11.923 [main] Hooks - CLosing the Driver
+[INFO ] 2024-08-06 13:02:11.924 [main] Hooks - Driver Closed
+[INFO ] 2024-08-06 13:02:11.924 [main] Hooks - CLosing the Driver
+[INFO ] 2024-08-06 13:02:11.924 [main] Hooks - Driver Closed
+[INFO ] 2024-08-06 13:04:52.450 [main] Hooks - CLosing the Driver
+[INFO ] 2024-08-06 13:04:52.696 [main] Hooks - Driver Closed
+[INFO ] 2024-08-06 13:04:52.697 [main] Hooks - CLosing the Driver
+[INFO ] 2024-08-06 13:04:52.698 [main] Hooks - Driver Closed
+[INFO ] 2024-08-06 13:04:52.698 [main] Hooks - CLosing the Driver
+[INFO ] 2024-08-06 13:04:52.699 [main] Hooks - Driver Closed
+[INFO ] 2024-08-06 13:28:24.540 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-08-06 13:28:27.304 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-08-06 13:28:27.305 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-08-06 13:28:27.322 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-08-06 13:28:27.322 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-08-06 13:28:27.349 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-08-06 13:28:27.355 [main] Hooks - ================================================================
+[INFO ] 2024-08-06 13:28:27.355 [main] Hooks - Scenario Title: Successful login valid credentials
+[INFO ] 2024-08-06 13:28:27.356 [main] Hooks - =================================================================
+[INFO ] 2024-08-06 13:28:32.868 [main] Login_Stepdefination - landind on login page
+[INFO ] 2024-08-06 13:28:38.496 [main] Login_Stepdefination - I enter my email and password and click on the login button under the returning customer section
+[INFO ] 2024-08-06 13:28:44.891 [main] Login_Stepdefination - Click on login button
+[INFO ] 2024-08-06 13:28:45.272 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-06 13:28:45.275 [main] Hooks - Successful login valid credentials Status - PASSED
+[INFO ] 2024-08-06 13:28:45.275 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-06 13:28:45.299 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-08-06 13:28:46.422 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-08-06 13:28:46.423 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-08-06 13:28:46.437 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-08-06 13:28:46.438 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-08-06 13:28:46.459 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-08-06 13:28:46.459 [main] Hooks - ================================================================
+[INFO ] 2024-08-06 13:28:46.459 [main] Hooks - Scenario Title: Searching for a product by keyword
+[INFO ] 2024-08-06 13:28:46.459 [main] Hooks - =================================================================
+[INFO ] 2024-08-06 13:28:46.504 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-06 13:28:46.553 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-06 13:28:46.593 [main] Validkeyword_SearchStep - search box should be visible
+[INFO ] 2024-08-06 13:28:46.985 [main] Validkeyword_SearchStep - valid keyword has enetred
+[INFO ] 2024-08-06 13:28:48.503 [main] Validkeyword_SearchStep - search button in clicked
+[INFO ] 2024-08-06 13:28:48.913 [main] Validkeyword_SearchStep - the list of products that match the keyword with their images, names ans prieces are visible
+[INFO ] 2024-08-06 13:28:49.108 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-06 13:28:49.108 [main] Hooks - Searching for a product by keyword Status - PASSED
+[INFO ] 2024-08-06 13:28:49.108 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-06 13:28:49.134 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-08-06 13:28:49.633 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-08-06 13:28:49.633 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-08-06 13:28:49.658 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-08-06 13:28:49.658 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-08-06 13:28:49.688 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-08-06 13:28:49.688 [main] Hooks - ================================================================
+[INFO ] 2024-08-06 13:28:49.688 [main] Hooks - Scenario Title: verify the confirmation message after adding to cart
+[INFO ] 2024-08-06 13:28:49.688 [main] Hooks - =================================================================
+[INFO ] 2024-08-06 13:28:49.752 [main] AddToCart_StepDef - *****click add to cart ********
+[INFO ] 2024-08-06 13:28:51.898 [main] AddToCart_StepDef - *************** the product was added to the cart ******************
+[INFO ] 2024-08-06 13:28:55.162 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-06 13:28:55.196 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-06 13:28:57.230 [main] AddToCart_StepDef - ************** confirmation message displyed *********
+[INFO ] 2024-08-06 13:29:00.504 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-06 13:29:00.543 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-06 13:29:02.573 [main] AddToCart_StepDef - *************** shopping cart increased by one ***************
+[INFO ] 2024-08-06 13:29:05.793 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-06 13:29:05.793 [main] Hooks - verify the confirmation message after adding to cart Status - PASSED
+[INFO ] 2024-08-06 13:29:05.794 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-06 13:29:05.818 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-08-06 13:29:06.524 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-08-06 13:29:06.525 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-08-06 13:29:06.538 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-08-06 13:29:06.539 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-08-06 13:29:06.559 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-08-06 13:29:06.559 [main] Hooks - ================================================================
+[INFO ] 2024-08-06 13:29:06.560 [main] Hooks - Scenario Title: Check out as a registered customer
+[INFO ] 2024-08-06 13:29:06.560 [main] Hooks - =================================================================
+[INFO ] 2024-08-06 13:29:06.621 [main] Checkout_StepDef -  user is already logged in
+[INFO ] 2024-08-06 13:29:10.106 [main] Checkout_StepDef - user already has some product in shopping cart
+[INFO ] 2024-08-06 13:29:16.725 [main] Checkout_StepDef - checkout button is functionnal
+[INFO ] 2024-08-06 13:29:37.475 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-06 13:29:37.476 [main] Hooks - Check out as a registered customer Status - FAILED
+[INFO ] 2024-08-06 13:29:37.476 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-06 13:29:37.503 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-08-06 13:29:38.517 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-08-06 13:29:38.517 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-08-06 13:29:38.537 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-08-06 13:29:38.538 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-08-06 13:29:38.567 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-08-06 13:29:38.567 [main] Hooks - ================================================================
+[INFO ] 2024-08-06 13:29:38.567 [main] Hooks - Scenario Title: billing and delivery
+[INFO ] 2024-08-06 13:29:38.568 [main] Hooks - =================================================================
+[INFO ] 2024-08-06 13:30:04.293 [main] Checkout_StepDef - my account page in displayed
+[INFO ] 2024-08-06 13:30:04.493 [main] Checkout_StepDef - the user clicks on address book
+[INFO ] 2024-08-06 13:30:11.359 [main] Checkout_StepDef - he is seeing address book intries information
+[INFO ] 2024-08-06 13:30:32.093 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-06 13:30:32.095 [main] Hooks - billing and delivery Status - FAILED
+[INFO ] 2024-08-06 13:30:32.095 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-06 13:30:32.146 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-08-06 13:30:33.235 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-08-06 13:30:33.235 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-08-06 13:30:33.245 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-08-06 13:30:33.245 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-08-06 13:30:33.263 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-08-06 13:30:33.264 [main] Hooks - ================================================================
+[INFO ] 2024-08-06 13:30:33.264 [main] Hooks - Scenario Title: checkout as a guest
+[INFO ] 2024-08-06 13:30:33.264 [main] Hooks - =================================================================
+[INFO ] 2024-08-06 13:30:33.300 [main] Login_Stepdefination - user is logged out
+[INFO ] 2024-08-06 13:30:33.610 [main] Checkout_StepDef - ********* start navigating on home page *************
+[INFO ] 2024-08-06 13:30:33.610 [main] Checkout_StepDef - *********** log in time is ended ***************
+[INFO ] 2024-08-06 13:30:33.857 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-06 13:30:33.891 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-06 13:30:33.919 [main] Validkeyword_SearchStep - search box should be visible
+[INFO ] 2024-08-06 13:30:34.280 [main] Validkeyword_SearchStep - valid keyword has enetred
+[INFO ] 2024-08-06 13:30:35.017 [main] Validkeyword_SearchStep - search button in clicked
+[INFO ] 2024-08-06 13:30:35.428 [main] Validkeyword_SearchStep - the list of products that match the keyword with their images, names ans prieces are visible
+[INFO ] 2024-08-06 13:30:35.630 [main] AddToCart_StepDef - *****click add to cart ********
+[INFO ] 2024-08-06 13:30:37.753 [main] AddToCart_StepDef - *************** the product was added to the cart ******************
+[INFO ] 2024-08-06 13:30:40.926 [main] Checkout_StepDef - *************** the product was added to the cart ******************
+[INFO ] 2024-08-06 13:30:44.730 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-06 13:30:44.730 [main] Hooks - checkout as a guest Status - FAILED
+[INFO ] 2024-08-06 13:30:44.730 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-06 13:30:44.746 [main] Hooks - CLosing the Driver
+[INFO ] 2024-08-06 13:30:44.996 [main] Hooks - Driver Closed
+[INFO ] 2024-08-06 13:30:44.996 [main] Hooks - CLosing the Driver
+[INFO ] 2024-08-06 13:30:44.997 [main] Hooks - Driver Closed
+[INFO ] 2024-08-06 13:30:44.997 [main] Hooks - CLosing the Driver
+[INFO ] 2024-08-06 13:30:44.997 [main] Hooks - Driver Closed
