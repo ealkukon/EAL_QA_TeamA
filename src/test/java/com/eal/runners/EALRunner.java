@@ -25,8 +25,8 @@ import io.cucumber.junit.CucumberOptions;
 		//dryRun=false,
 		dryRun=true,
 
-		//tags="@Login"
-		tags="@smoke"
+		tags="@Login"
+		//tags="@smoke"
 
 )
 		
