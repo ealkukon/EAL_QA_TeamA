@@ -9,6 +9,7 @@ Feature: smoke test
     Then Click on login button
     Then I should see a welcome message and a list of options for my account
 
+
 @ur2
   Scenario: Searching for a product by keyword
   

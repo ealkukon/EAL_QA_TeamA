@@ -24,15 +24,14 @@ import io.cucumber.junit.CucumberOptions;
 		glue = {"com\\pdl\\step_definitions","com.pdl.hooks"},
 		dryRun= false,
 
-		tags= ("@Login or "
-				+ "@Search or "
-				+ "@AddToCart or "
-				+ "@ViewEditMyShoppingCart or "
-			+ "@checkout")
+		tags = /*
+				 * ("@Login or " + "@Search or " + "@AddToCart or " +
+				 * "@ViewEditMyShoppingCart or " + "@checkout")
+				 */
 //"@checkout1"
 		//"@smoke"
 	//"@smoketest1"
-		//"@AddToCart"
+		"@AddToCart"
 		//"@confirmationmsg"
 	//	"@ViewEditMyShoppingCart"
 		//"@checkout"
