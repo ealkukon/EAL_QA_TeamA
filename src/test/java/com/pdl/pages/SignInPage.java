@@ -16,10 +16,9 @@ import com.pdl.utilities.SftAssert;
 	public class SignInPage extends CommonMethods {
 		
 		public static Logger logger = LogManager.getLogger(SignInPage.class);
+		
 	
 		
-		
-		int x=10; // demo commit test
 		
 		
 		public SignInPage() {
