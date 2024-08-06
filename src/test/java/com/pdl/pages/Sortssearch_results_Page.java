@@ -25,7 +25,7 @@ public class Sortssearch_results_Page extends CommonMethods {
 		 
 		 public void sort_drop_down() {
 			 sortByDropdown.click();
-			 CommonMethods.jsclick(driver, sortByDropdown);
+			 //CommonMethods.jsclick(driver, sortByDropdown);
 		 }
 		 
 		 public void selectSortOption(String option) {//call the method from Commonmethods

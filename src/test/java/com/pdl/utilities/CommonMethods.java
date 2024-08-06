@@ -48,6 +48,13 @@ import org.apache.commons.io.FileDeleteStrategy;
 import org.apache.logging.log4j.LogManager;
 
 import org.apache.logging.log4j.Logger;
+
+
+import org.junit.Assert;
+
+
+
+
 import org.openqa.selenium.Alert;
 
 import org.openqa.selenium.By;
@@ -296,6 +303,12 @@ public class CommonMethods extends Driver {
 		return e;
 
 	}
+
+	
+		
+	
+
+
 
 	// wait for element implementation using fluent wait
 
@@ -1630,25 +1643,13 @@ public class CommonMethods extends Driver {
     		  
     	  }
 
-    	  
-    	// wait and click method
-    	  public void waitAndClick(WebElement element) {
-    		    try {
-    		        Thread.sleep(2000); // Wait for 2 seconds
-    		        element.click();
-    		    } catch (InterruptedException e) {
-    		        Thread.currentThread().interrupt();
-    		    }
-    		}
-    	
-    	
     	// verify page title
-    	 /* public void VerifyPageTitle(String expectedTitle) {
+    	  public void VerifyPageTitle(String expectedTitle) {
     	 String ActualPageTitle=driver.getTitle();
     	 Assert.assertEquals(ActualPageTitle,expectedTitle,"pagetitle is verified");
     			
     			logger.info("************ pagetitle verified *********************");
-    		}*/
+    		}
     	  
     	  //WebDriver wait
     	  
@@ -1664,14 +1665,78 @@ public class CommonMethods extends Driver {
     			logger.info("waiting for element to be clickable");
     		}
  	  
-}
-    	  
+
+
+
+
 
     	
+
+    	  //WebDriver wait
+    	  
+    	 /* public WebElement waitForElement(By locator, int timeout) {
+    	        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeout));
+    	        return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+    	    }
+
+    	//wait for element to click
+    	  public void waitforelementclickable(WebElement elementvairable) {
+    			WebDriverWait wait= new WebDriverWait(driver, Duration.ofSeconds(30));
+    		    wait.until(ExpectedConditions.elementToBeClickable(elementvairable));
+    			logger.info("waiting for element to be clickable");
+    		}
+}
+*/
+    	  
+
+
+    	  
+    	// wait and click method
+    	  public void waitAndClick(WebElement element) {
+    		    try {
+    		        Thread.sleep(2000); // Wait for 2 seconds
+    		        element.click();
+    		    } catch (InterruptedException e) {
+    		        Thread.currentThread().interrupt();
+    		    }
+    	  
+    	  }  	
+    	  
     	
-    
-    		
+}
+
+    	// verify page title
+    	 /* public void VerifyPageTitle(String expectedTitle) {
+    	 String ActualPageTitle=driver.getTitle();
+    	 Assert.assertEquals(ActualPageTitle,expectedTitle,"pagetitle is verified");
+    			
+    			logger.info("************ pagetitle verified *********************");
+    		}*/
+    	  
+    	 
+ /*WebDriver wait
+    	  
+    	  public WebElement waitForElement(By locator, int timeout) {
+    	        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeout));
+    	        return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+    	    }
+
+    	//wait for element to click
+    	  public void waitforelementclickable(WebElement elementvairable) {
+    			WebDriverWait wait= new WebDriverWait(driver, Duration.ofSeconds(30));
+    		    wait.until(ExpectedConditions.elementToBeClickable(elementvairable));
+    			logger.info("waiting for element to be clickable");
+    		}
+    	  }*/
+
+	
+
+    	  		
 	
 
 
 
+
+
+
+	

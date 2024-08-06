@@ -15,7 +15,7 @@ Feature: checkout
     Then I should see an option to checkout as a guest
     Then I should be able to enter my billing details, delivery details, delivery method, payment method and confirm my order
   
-   @checkoutascustomer
+   @checkoutascustomer @smoke
   Scenario: Check out as a registered customer
     Given I have some products in my shopping cart and I am logged in to my account
     When I click on the checkout button on the shopping cart page

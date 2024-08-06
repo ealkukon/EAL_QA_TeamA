@@ -1,4 +1,4 @@
-@ViewEditMyShoppingCart
+@ViewEditMyShoppingCart @smoke
 Feature: View & Edit my Shopping Cart
 
 Scenario: Viewing my shopping cart

@@ -178,8 +178,7 @@ public class Hooks extends CommonMethods {
 			 * 
 			 * }
 			 */
-		//}
-		
+
 		
 	/* @AfterAll
     public static void afterAll() {
@@ -211,7 +210,9 @@ public class Hooks extends CommonMethods {
      
     }/*
     
->>>>>>> 16a3b7b9cf695eaade20f645961af14cc0cdda0a
+		//}
+		
+	
 	
 	
 	
@@ -255,7 +256,10 @@ public class Hooks extends CommonMethods {
 	 */
 	
 
-		}
+}
+
+
+		
 	
 
 

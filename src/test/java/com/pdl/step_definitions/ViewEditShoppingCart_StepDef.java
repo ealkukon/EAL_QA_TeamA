@@ -6,7 +6,6 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
 import com.pdl.pages.KcAddToCartPage;
-import com.pdl.pages.KcCheckoutPage;
 import com.pdl.pages.KcViewEditShoppingCartPage;
 import com.pdl.pages.KukonLogin;
 import com.pdl.pages.Searchpage;
@@ -40,6 +39,7 @@ public class ViewEditShoppingCart_StepDef extends CommonMethods{
 	 Assert.assertTrue(KukonLogin.getMyAccount().contains("account/account"));
 
 	//kcaddtocart.click_multipleproducts();
+
 
 	logger.info("i have some product in my shopping cart");  
 	
