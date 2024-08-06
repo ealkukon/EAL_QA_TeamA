@@ -25,8 +25,9 @@ public class KcCheckoutPage extends CommonMethods {
 	//locator
 	
 	@FindBy(xpath = "(//span[@class=\"hidden-xs hidden-sm hidden-md\"])[7]") public WebElement AddtoCartbtn;
-	//@FindBy(xpath = "//span[text()='Shopping Cart']") public WebElement shoppingcartbtn; 
+
 	@FindBy(xpath = "//span[text()='Shopping Cart']") public WebElement shoppingcartbtn; 
+
 
     @FindBy(xpath = "//a[text()='Checkout']") public WebElement checkoutbtn;
 	
@@ -69,6 +70,7 @@ public class KcCheckoutPage extends CommonMethods {
 		myaccount.click();
 		Thread.sleep(20000);
 		myaccountbtn.click();
+		//myaccountbtn.click();
 	}
 	public void addressbook() throws InterruptedException {
 		addressbookbtn.click();
