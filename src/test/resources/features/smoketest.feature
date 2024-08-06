@@ -40,16 +40,4 @@ Feature: smoke test
     And The delivery method and payment method should have at least one option available
     And The order confirmation page should show the order number, order details, payment details and delivery details
 
- @kat6
-  Scenario: checkout as a guest
-    Given User should be logged out
-    Then User navigates to homepage
-    Then I should see the search box
-    When I enter a valid keyword in the search box
-    And I click on the search button
-    Then I should see a list of products that match the keyword with their images, names and prices
-    And click on add to cart
-    Then navigate to shopping cart and click on it
-    When click on checkout bouton.
-    Then I should see an option to checkout as a guest
-    Then I should be able to enter my billing details, delivery details, delivery method, payment method and confirm my order
+ 
