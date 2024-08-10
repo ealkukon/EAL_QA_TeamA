@@ -3010,3 +3010,66 @@
 [INFO ] 2024-08-09 19:03:41.454 [main] Hooks - Driver Closed
 [INFO ] 2024-08-09 19:03:41.454 [main] Hooks - CLosing the Driver
 [INFO ] 2024-08-09 19:03:41.454 [main] Hooks - Driver Closed
+[INFO ] 2024-08-10 15:19:00.748 [main] Hooks - ================================================================
+[INFO ] 2024-08-10 15:19:00.753 [main] Hooks - Scenario Title: Successful login valid credentials
+[INFO ] 2024-08-10 15:19:00.754 [main] Hooks - =================================================================
+[INFO ] 2024-08-10 15:19:00.761 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-08-10 15:19:03.908 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-08-10 15:19:03.908 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-08-10 15:19:03.950 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-08-10 15:19:03.950 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-08-10 15:19:04.000 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-08-10 15:19:04.007 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-10 15:19:04.007 [main] StepNameListener - Executing step: I am on the login page
+[INFO ] 2024-08-10 15:19:04.007 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-10 15:19:09.551 [main] Login_Stepdefination - landind on login page
+[INFO ] 2024-08-10 15:19:09.756 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-10 15:19:09.756 [main] StepNameListener - Executing step: I enter my email and password and click on the login button under the returning customer section
+[INFO ] 2024-08-10 15:19:09.756 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-10 15:19:15.086 [main] Login_Stepdefination - I enter my email and password and click on the login button under the returning customer section
+[INFO ] 2024-08-10 15:19:15.274 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-10 15:19:15.274 [main] StepNameListener - Executing step: Click on login button
+[INFO ] 2024-08-10 15:19:15.274 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-10 15:19:22.151 [main] Login_Stepdefination - Click on login button
+[INFO ] 2024-08-10 15:19:22.342 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-10 15:19:22.342 [main] StepNameListener - Executing step: I should see a welcome message and a list of options for my account
+[INFO ] 2024-08-10 15:19:22.342 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-10 15:19:22.509 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-10 15:19:22.511 [main] Hooks - Successful login valid credentials Status - PASSED
+[INFO ] 2024-08-10 15:19:22.511 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-10 15:19:22.556 [main] Hooks - ================================================================
+[INFO ] 2024-08-10 15:19:22.556 [main] Hooks - Scenario Title: Searching for a product by keyword
+[INFO ] 2024-08-10 15:19:22.556 [main] Hooks - =================================================================
+[INFO ] 2024-08-10 15:19:22.557 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-08-10 15:19:23.548 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-08-10 15:19:23.548 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-08-10 15:19:23.563 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-08-10 15:19:23.563 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-08-10 15:19:23.578 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-08-10 15:19:23.579 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-10 15:19:23.579 [main] StepNameListener - Executing step: I should see the search box
+[INFO ] 2024-08-10 15:19:23.579 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-10 15:19:23.632 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-10 15:19:23.680 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-10 15:19:23.715 [main] Validkeyword_SearchStep - search box should be visible
+[INFO ] 2024-08-10 15:19:23.912 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-10 15:19:23.912 [main] StepNameListener - Executing step: I enter a valid keyword in the search box
+[INFO ] 2024-08-10 15:19:23.912 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-10 15:19:24.026 [main] Validkeyword_SearchStep - valid keyword has enetred
+[INFO ] 2024-08-10 15:19:24.340 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-10 15:19:24.340 [main] StepNameListener - Executing step: I click on the search button
+[INFO ] 2024-08-10 15:19:24.340 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-10 15:19:25.446 [main] Validkeyword_SearchStep - search button in clicked
+[INFO ] 2024-08-10 15:19:25.645 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-10 15:19:25.645 [main] StepNameListener - Executing step: I should see a list of products that match the keyword with their images, names and prices
+[INFO ] 2024-08-10 15:19:25.645 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-10 15:19:25.785 [main] Validkeyword_SearchStep - the list of products that match the keyword with their images, names ans prieces are visible
+[INFO ] 2024-08-10 15:19:25.935 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-10 15:19:25.935 [main] Hooks - Searching for a product by keyword Status - PASSED
+[INFO ] 2024-08-10 15:19:25.935 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-10 15:19:25.954 [main] Hooks - CLosing the Driver
+[INFO ] 2024-08-10 15:19:26.189 [main] Hooks - Driver Closed
+[INFO ] 2024-08-10 15:19:26.189 [main] Hooks - CLosing the Driver
+[INFO ] 2024-08-10 15:19:26.189 [main] Hooks - Driver Closed
+[INFO ] 2024-08-10 15:19:26.189 [main] Hooks - CLosing the Driver
+[INFO ] 2024-08-10 15:19:26.189 [main] Hooks - Driver Closed
