@@ -1,4 +1,4 @@
-@smoketest1
+@smoketestUrmin
 Feature: smoke test
 
   @kk1

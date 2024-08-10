@@ -20829,3 +20829,203 @@ java.net.SocketException: Connection reset
 [INFO ] 2024-08-06 11:20:06.491 [main] StepNameListener - ---------------------------------------------------------------------
 [WARN ] 2024-08-06 11:20:06.491 [main] StepNameListener - Executing step: I should be able to enter my billing details, delivery details, delivery method, payment method and confirm my order
 [INFO ] 2024-08-06 11:20:06.491 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-07 13:33:03.746 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-07 13:33:03.751 [main] StepNameListener - Executing step: I have some products in my shopping cart and I am logged in to my account
+[INFO ] 2024-08-07 13:33:03.751 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-07 13:33:03.763 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-07 13:33:03.764 [main] StepNameListener - Executing step: I click on the checkout button on the shopping cart page
+[INFO ] 2024-08-07 13:33:03.764 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-07 13:33:03.769 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-07 13:33:03.769 [main] StepNameListener - Executing step: I should see an option to check out with my account
+[INFO ] 2024-08-07 13:33:03.770 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-07 13:33:03.777 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-07 13:33:03.777 [main] StepNameListener - Executing step: I should be able to use my saved billing and delivery details or enter new ones, choose a delivery method, a payment method and confirm my order
+[INFO ] 2024-08-07 13:33:03.777 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-07 13:33:03.816 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-07 13:33:03.816 [main] StepNameListener - Executing step: the user is already in my account page
+[INFO ] 2024-08-07 13:33:03.816 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-07 13:33:03.819 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-07 13:33:03.819 [main] StepNameListener - Executing step: the user clicks on address book, he should see address book intries information
+[INFO ] 2024-08-07 13:33:03.819 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-07 13:33:03.828 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-07 13:33:03.829 [main] StepNameListener - Executing step: The saved billing and delivery details should be pre-filled in the form and editable
+[INFO ] 2024-08-07 13:33:03.829 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-07 13:33:03.831 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-07 13:33:03.832 [main] StepNameListener - Executing step: The delivery method and payment method should have at least one option available
+[INFO ] 2024-08-07 13:33:03.832 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-07 13:33:03.834 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-07 13:33:03.835 [main] StepNameListener - Executing step: The order confirmation page should show the order number, order details, payment details and delivery details
+[INFO ] 2024-08-07 13:33:03.835 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-07 13:33:03.891 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-07 13:33:03.891 [main] StepNameListener - Executing step: User should be logged out
+[INFO ] 2024-08-07 13:33:03.891 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-07 13:33:03.895 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-07 13:33:03.896 [main] StepNameListener - Executing step: User navigates to homepage
+[INFO ] 2024-08-07 13:33:03.896 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-07 13:33:03.899 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-07 13:33:03.899 [main] StepNameListener - Executing step: I should see the search box
+[INFO ] 2024-08-07 13:33:03.899 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-07 13:33:03.901 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-07 13:33:03.902 [main] StepNameListener - Executing step: I enter a valid keyword in the search box
+[INFO ] 2024-08-07 13:33:03.903 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-07 13:33:03.905 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-07 13:33:03.906 [main] StepNameListener - Executing step: I click on the search button
+[INFO ] 2024-08-07 13:33:03.906 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-07 13:33:03.910 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-07 13:33:03.910 [main] StepNameListener - Executing step: I should see a list of products that match the keyword with their images, names and prices
+[INFO ] 2024-08-07 13:33:03.910 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-07 13:33:03.913 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-07 13:33:03.913 [main] StepNameListener - Executing step: click on add to cart
+[INFO ] 2024-08-07 13:33:03.913 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-07 13:33:03.915 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-07 13:33:03.916 [main] StepNameListener - Executing step: navigate to shopping cart and click on it
+[INFO ] 2024-08-07 13:33:03.916 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-07 13:33:03.919 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-07 13:33:03.919 [main] StepNameListener - Executing step: click on checkout bouton.
+[INFO ] 2024-08-07 13:33:03.919 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-07 13:33:03.922 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-07 13:33:03.923 [main] StepNameListener - Executing step: I should see an option to checkout as a guest
+[INFO ] 2024-08-07 13:33:03.923 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-07 13:33:03.925 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-07 13:33:03.926 [main] StepNameListener - Executing step: I should be able to enter my billing details, delivery details, delivery method, payment method and confirm my order
+[INFO ] 2024-08-07 13:33:03.926 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-08 21:25:53.614 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-08 21:25:53.622 [main] StepNameListener - Executing step: I want to write a step with precondition
+[INFO ] 2024-08-08 21:25:53.622 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-08 21:25:53.635 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-08 21:25:53.635 [main] StepNameListener - Executing step: some other precondition
+[INFO ] 2024-08-08 21:25:53.636 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-08 21:25:53.723 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-08 21:25:53.723 [main] StepNameListener - Executing step: I should see the search box
+[INFO ] 2024-08-08 21:25:53.723 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-08 21:25:53.729 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-08 21:25:53.729 [main] StepNameListener - Executing step: I enter a valid keyword in the search box
+[INFO ] 2024-08-08 21:25:53.730 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-08 21:25:53.734 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-08 21:25:53.734 [main] StepNameListener - Executing step: I click on the search button
+[INFO ] 2024-08-08 21:25:53.734 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-08 21:25:53.738 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-08 21:25:53.738 [main] StepNameListener - Executing step: I should see a list of products that match the keyword with their images, names and prices
+[INFO ] 2024-08-08 21:25:53.738 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-08 21:26:32.404 [main] Hooks - ================================================================
+[INFO ] 2024-08-08 21:26:32.407 [main] Hooks - Scenario Title: running abc tag
+[INFO ] 2024-08-08 21:26:32.407 [main] Hooks - =================================================================
+[INFO ] 2024-08-08 21:26:32.418 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-08-08 21:26:35.668 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-08-08 21:26:35.668 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-08-08 21:26:35.695 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-08-08 21:26:35.695 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-08-08 21:26:35.726 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-08-08 21:26:35.733 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-08 21:26:35.733 [main] StepNameListener - Executing step: I want to write a step with precondition
+[INFO ] 2024-08-08 21:26:35.733 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-08 21:26:35.733 [main] abc_SetpD - ************************-----------------------abc tag---------------------------******************************
+[INFO ] 2024-08-08 21:26:36.061 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-08 21:26:36.062 [main] StepNameListener - Executing step: some other precondition
+[INFO ] 2024-08-08 21:26:36.062 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-08 21:26:36.062 [main] abc_SetpD - ************************-----------------------ABC tag---------------------------******************************
+[INFO ] 2024-08-08 21:26:36.275 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-08 21:26:36.277 [main] Hooks - running abc tag Status - PASSED
+[INFO ] 2024-08-08 21:26:36.278 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-08 21:26:36.342 [main] Hooks - ================================================================
+[INFO ] 2024-08-08 21:26:36.342 [main] Hooks - Scenario Title: Searching for a product by keyword
+[INFO ] 2024-08-08 21:26:36.342 [main] Hooks - =================================================================
+[INFO ] 2024-08-08 21:26:36.344 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-08-08 21:26:36.835 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-08-08 21:26:36.835 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-08-08 21:26:36.857 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-08-08 21:26:36.857 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-08-08 21:26:36.878 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-08-08 21:26:36.879 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-08 21:26:36.879 [main] StepNameListener - Executing step: I should see the search box
+[INFO ] 2024-08-08 21:26:36.879 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-08 21:26:36.964 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-08 21:26:37.009 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-08 21:26:37.051 [main] Validkeyword_SearchStep - search box should be visible
+[INFO ] 2024-08-08 21:26:37.330 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-08 21:26:37.331 [main] StepNameListener - Executing step: I enter a valid keyword in the search box
+[INFO ] 2024-08-08 21:26:37.331 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-08 21:26:37.632 [main] Validkeyword_SearchStep - valid keyword has enetred
+[INFO ] 2024-08-08 21:26:37.927 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-08 21:26:37.929 [main] StepNameListener - Executing step: I click on the search button
+[INFO ] 2024-08-08 21:26:37.929 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-08 21:26:38.975 [main] Validkeyword_SearchStep - search button in clicked
+[INFO ] 2024-08-08 21:26:39.244 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-08 21:26:39.244 [main] StepNameListener - Executing step: I should see a list of products that match the keyword with their images, names and prices
+[INFO ] 2024-08-08 21:26:39.244 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-08 21:26:39.292 [main] Validkeyword_SearchStep - the list of products that match the keyword with their images, names ans prieces are visible
+[INFO ] 2024-08-08 21:26:39.543 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-08 21:26:39.543 [main] Hooks - Searching for a product by keyword Status - PASSED
+[INFO ] 2024-08-08 21:26:39.543 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-08 21:26:39.585 [main] Hooks - CLosing the Driver
+[INFO ] 2024-08-08 21:26:39.586 [main] Hooks - Driver Closed
+[INFO ] 2024-08-08 21:26:39.586 [main] Hooks - CLosing the Driver
+[INFO ] 2024-08-08 21:26:39.852 [main] Hooks - Driver Closed
+[INFO ] 2024-08-08 23:19:28.199 [main] Hooks - ================================================================
+[INFO ] 2024-08-08 23:19:28.203 [main] Hooks - Scenario Title: Searching for a product by keyword
+[INFO ] 2024-08-08 23:19:28.203 [main] Hooks - =================================================================
+[INFO ] 2024-08-08 23:19:28.210 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-08-08 23:19:31.794 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-08-08 23:19:31.795 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-08-08 23:19:31.833 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-08-08 23:19:31.833 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-08-08 23:19:31.890 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-08-08 23:19:31.895 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-08 23:19:31.896 [main] StepNameListener - Executing step: I should see the search box
+[INFO ] 2024-08-08 23:19:31.896 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-08 23:19:31.975 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-08 23:19:32.021 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-08 23:19:32.049 [main] Validkeyword_SearchStep - search box should be visible
+[INFO ] 2024-08-08 23:19:32.267 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-08 23:19:32.267 [main] StepNameListener - Executing step: I enter a valid keyword in the search box
+[INFO ] 2024-08-08 23:19:32.267 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-08 23:19:32.428 [main] Validkeyword_SearchStep - valid keyword has enetred
+[INFO ] 2024-08-08 23:19:32.655 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-08 23:19:32.655 [main] StepNameListener - Executing step: I click on the search button
+[INFO ] 2024-08-08 23:19:32.655 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-08 23:19:33.364 [main] Validkeyword_SearchStep - search button in clicked
+[INFO ] 2024-08-08 23:19:33.646 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-08 23:19:33.646 [main] StepNameListener - Executing step: I should see a list of products that match the keyword with their images, names and prices
+[INFO ] 2024-08-08 23:19:33.646 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-08 23:19:33.714 [main] Validkeyword_SearchStep - the list of products that match the keyword with their images, names ans prieces are visible
+[INFO ] 2024-08-08 23:19:33.971 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-08 23:19:33.974 [main] Hooks - Searching for a product by keyword Status - PASSED
+[INFO ] 2024-08-08 23:19:33.975 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-08 23:19:34.018 [main] Hooks - CLosing the Driver
+[INFO ] 2024-08-08 23:19:34.018 [main] Hooks - Driver Closed
+[INFO ] 2024-08-08 23:19:34.018 [main] Hooks - CLosing the Driver
+[INFO ] 2024-08-08 23:19:34.217 [main] Hooks - Driver Closed
+[INFO ] 2024-08-08 23:23:50.592 [main] Hooks - ================================================================
+[INFO ] 2024-08-08 23:23:50.597 [main] Hooks - Scenario Title: Searching for a product by keyword
+[INFO ] 2024-08-08 23:23:50.597 [main] Hooks - =================================================================
+[INFO ] 2024-08-08 23:23:50.606 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-08-08 23:23:54.024 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-08-08 23:23:54.025 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-08-08 23:23:54.042 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-08-08 23:23:54.042 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-08-08 23:23:54.063 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-08-08 23:23:54.067 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-08 23:23:54.067 [main] StepNameListener - Executing step: I should see the search box
+[INFO ] 2024-08-08 23:23:54.067 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-08 23:23:54.135 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-08 23:23:54.170 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-08 23:23:54.202 [main] Validkeyword_SearchStep - search box should be visible
+[INFO ] 2024-08-08 23:23:54.391 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-08 23:23:54.391 [main] StepNameListener - Executing step: I enter a valid keyword in the search box
+[INFO ] 2024-08-08 23:23:54.391 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-08 23:23:54.560 [main] Validkeyword_SearchStep - valid keyword has enetred
+[INFO ] 2024-08-08 23:23:54.803 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-08 23:23:54.803 [main] StepNameListener - Executing step: I click on the search button
+[INFO ] 2024-08-08 23:23:54.803 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-08 23:23:55.494 [main] Validkeyword_SearchStep - search button in clicked
+[INFO ] 2024-08-08 23:23:55.760 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-08 23:23:55.760 [main] StepNameListener - Executing step: I should see a list of products that match the keyword with their images, names and prices
+[INFO ] 2024-08-08 23:23:55.760 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-08 23:23:55.816 [main] Validkeyword_SearchStep - the list of products that match the keyword with their images, names ans prieces are visible
+[INFO ] 2024-08-08 23:23:56.046 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-08 23:23:56.046 [main] Hooks - Searching for a product by keyword Status - PASSED
+[INFO ] 2024-08-08 23:23:56.046 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-08 23:23:56.090 [main] Hooks - CLosing the Driver
+[INFO ] 2024-08-08 23:23:56.090 [main] Hooks - Driver Closed
+[INFO ] 2024-08-08 23:23:56.090 [main] Hooks - CLosing the Driver
+[INFO ] 2024-08-08 23:23:56.090 [main] Hooks - Driver Closed

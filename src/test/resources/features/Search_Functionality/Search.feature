@@ -6,7 +6,7 @@ Feature:  Search Functionality
 	so that I can find what i am looking for.
 	
 
-
+@searchnew
 @validkeywordsearch @smoke
   Scenario: Searching for a product by keyword
   Then I should see the search box
@@ -17,7 +17,7 @@ Feature:  Search Functionality
 
 
 @invalidkeywordsearch
-  Scenario: Searching for a product by invalid keyword
+  Scenario Outline: Searching for a product by invalid keyword
    When I enter an invalid "<keyword>" in the search box
    And I click on the search button
    Then I should not be able to see any product images, names, or prices
@@ -27,7 +27,7 @@ Feature:  Search Functionality
  	|Maca|
  	
  	@searchByCatagory
-  Scenario: Searching for a product by category
+  Scenario Outline: Searching for a product by category
      Then I click on “Search” button and it will land on Search page
      When I enter a "<keyword>" in the search criteria
      And I select a category from the drop-down menu and I click on the search button

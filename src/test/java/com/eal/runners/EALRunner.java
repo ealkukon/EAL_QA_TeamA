@@ -27,7 +27,7 @@ import io.cucumber.junit.CucumberOptions;
 		dryRun=false,
 		//dryRun=true,
 
-		tags = "@smoke" 
+		tags = "@searchnew"
 		/*
 		 * ("@Login or " + "@Search or " + "@AddToCart or " +
 		 * "@ViewEditMyShoppingCart or " + "@checkout")
