@@ -22,11 +22,11 @@ import io.cucumber.junit.CucumberOptions;
 
 		features = "src/test/resources/features", 
 		glue = {"com.pdl.step_definitions","com.pdl.hooks"},
-		//dryRun=false,
-		dryRun=true,
+		dryRun=false,
+		//dryRun=true,
 
-		tags="@Login"
-		//tags="@smoke"
+		//tags="@Login"
+	  	tags="@smoke"
 
 )
 		

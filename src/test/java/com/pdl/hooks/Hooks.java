@@ -162,9 +162,6 @@ public class Hooks extends CommonMethods {
 	    public static void after_all() {
 		if (ConfigurationReader.getProperty("browser").equals("headless")) {
 
-	
-   
-
 	} else {
 	Driver.getDriver().manage().deleteAllCookies();
 
