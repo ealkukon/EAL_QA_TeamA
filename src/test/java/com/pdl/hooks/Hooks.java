@@ -64,8 +64,8 @@ public class Hooks extends CommonMethods {
 			logger.info("*URL Lunched from hooks : "+ ConfigurationReader.getProperty("url"));			
 			
 //			waitForPageToLoadfor(20);
-			waitForPageToLoad();
-			waitForAJAXToLoad();
+			//waitForPageToLoad();
+			//waitForAJAXToLoad();
 			
 		}
 	}
@@ -120,8 +120,9 @@ public class Hooks extends CommonMethods {
 	}
 
 	@After
-	public void tearDown(Scenario scenario) {
+	//public void tearDown(Scenario scenario) {
 		// taking a screenshot if the scenario fails
+	    public static void after_all() {
 		if (ConfigurationReader.getProperty("browser").equals("headless")) {
 
 		} else {
