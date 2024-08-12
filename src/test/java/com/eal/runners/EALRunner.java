@@ -34,6 +34,7 @@ import io.cucumber.junit.CucumberOptions;
 					 + "@checkout")
 		*/
 	"@smoketest1"
+	//	"@checkout"
 		)
           
 		
