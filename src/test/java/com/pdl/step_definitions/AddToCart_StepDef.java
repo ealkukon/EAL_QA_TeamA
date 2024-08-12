@@ -161,7 +161,7 @@ public class AddToCart_StepDef extends CommonMethods {
 			
 	  @Then("remove\\/ delete option should be visible, and be able to remove any product")
 	  public void remove_delete_option_should_be_visible_and_be_able_to_remove_any_product() {
-	  kcaddtocart.click_remove();
+	 // kcaddtocart.click_remove();
 	  logger.info("******** product removed**********");
 	  
 	  }

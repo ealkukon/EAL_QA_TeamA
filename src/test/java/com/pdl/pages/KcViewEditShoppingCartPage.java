@@ -21,20 +21,21 @@ public static Logger logger = LogManager.getLogger(KcViewEditShoppingCartPage.cl
 	
 	//2.locators:
 	
-	@FindBy(xpath = "//*[@id=\"cart\"]/button") public WebElement CartIcon;
+	@FindBy(xpath = "//span[@id='cart-total']") public WebElement CartIcon;
 	@FindBy(xpath = "//*[@id=\"cart\"]/ul") public WebElement sammary;
-	@FindBy(xpath = "//*[@id=\"cart\"]/ul/li[1]/table/tbody/tr[1]/td[1]/a/img") public WebElement image;
-	@FindBy(xpath = "//*[@id=\"cart\"]/ul/li[1]/table/tbody/tr[1]/td[2]/a") public WebElement name;
-	@FindBy(xpath = "//*[@id=\"cart\"]/ul/li[1]/table/tbody/tr[1]/td[3]") public WebElement quantity;
-	@FindBy(xpath = "//*[@id=\"cart\"]/ul/li[1]/table/tbody/tr[1]/td[4]") public WebElement price;
-	@FindBy(xpath = "//*[@id=\"cart\"]/ul/li[2]/div/table/tbody/tr[1]/td[1]/strong") public WebElement subtotal;
-	@FindBy(xpath = "//*[@id=\"cart\"]/ul/li[2]/div/table/tbody/tr[4]/td[1]/strong") public WebElement total;
+	@FindBy(xpath = "//td[@class='text-center']/a/img") public WebElement image;
+	@FindBy(xpath = "//td[@class='text-left']/a") public WebElement name;
+	@FindBy(xpath = "//td[@class='text-right'] ") public WebElement quantity;
+	@FindBy(xpath = "(//td[@class='text-right'] )[2]") public WebElement price;
+	
+	@FindBy(xpath = "(//td[@class='text-right']/strong)[1]") public WebElement subtotal;
+	@FindBy(xpath = "(//td[@class='text-right']/strong)[2]") public WebElement total;
 	
 	@FindBy(xpath = "//span[text()='Shopping Cart']") public WebElement shoppingcartbtn;
 
-	@FindBy(xpath = "//*[@id=\"content\"]/form/div/table/tbody/tr[1]/td[4]/div/input") public WebElement EditQuantity;
-	@FindBy(xpath = "//*[@id=\"content\"]/form/div/table/tbody/tr[1]/td[4]/div/span/button[1]/i") public WebElement refreshbtn;
-
+	@FindBy(xpath = "(//input[@type='text'])[2]") public WebElement EditQuantity;
+	@FindBy(xpath = "//button[@type='submit']") public WebElement refreshbtn;
+    @FindBy(xpath = "(//td[@class='text-right'])[16]") public WebElement updprice;
 
 
 	//3.action method
@@ -75,15 +76,25 @@ public static Logger logger = LogManager.getLogger(KcViewEditShoppingCartPage.cl
 	public void click_ShoppingCart() { 
 		shoppingcartbtn.click();
 	}
-	public void changeQuantity() {
+	public void changeQuantity() throws InterruptedException {
 		EditQuantity.clear();
-		EditQuantity.sendKeys("2");
+		Thread.sleep(1000);
+		EditQuantity.sendKeys("3");
 		
 		
 	}
 	
-	public void refresh() {
+	public void refresh() throws InterruptedException {
 		refreshbtn.click();
+		Thread.sleep(3000);
 	}
 	
+	public void updatedprice() throws InterruptedException {
+		isElementDisplayed(EditQuantity);
+		drawborder(EditQuantity);
+		Thread.sleep(1000);
+		isElementDisplayed(updprice);
+		drawborder(updprice);
+		Thread.sleep(1000);
+	}
 }

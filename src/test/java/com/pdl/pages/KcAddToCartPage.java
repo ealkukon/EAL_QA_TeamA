@@ -27,8 +27,8 @@ public class KcAddToCartPage extends CommonMethods{
 	}
 	
 	
-	//2.locators
-	@FindBy(xpath = "(//span[@class=\"hidden-xs hidden-sm hidden-md\"])[7]")
+	//2.locators //
+	@FindBy(xpath ="(//span[@class='hidden-xs hidden-sm hidden-md'])[7]")
 	public WebElement AddtoCartbtn;
 	
 	@FindBy(xpath="(//span[@class='hidden-xs hidden-sm hidden-md'])[8]")
@@ -40,24 +40,23 @@ public class KcAddToCartPage extends CommonMethods{
 	@FindBy(xpath ="//div[@class='alert alert-success alert-dismissible']")
 	public WebElement AlertMessage;
 	
-	@FindBy(id="cart-total") public WebElement TotalItems;
+	@FindBy(xpath ="//span[@id='cart-total']") public WebElement TotalItems;
 	
-	@FindBy(css = "td.text-left>a") public WebElement Productname;
+	@FindBy(css = "(//a[text()='iMac'])[2]") public WebElement Productname;
 	
-	@FindBy(xpath = "//*[@id=\"content\"]/div[2]/div[1]/div/div[1]/a/img")
+	@FindBy(xpath = "//div[@class='row']/div/div/div/a/img")
 	public WebElement productimage;
 	
     
-	@FindBy(xpath = "//*[@id=\"content\"]/div[2]/div[1]/div/div[2]/div[1]/p[2]")
+	@FindBy(xpath = "//p[@class='price']")
     public WebElement productprice;
 	
 	@FindBy(xpath = "//span[text()='Shopping Cart']") public WebElement shoppingcartbtn;
 	
-    @FindBy(xpath = "//*[@id=\"content\"]/form/div/table/tbody/tr/td[4]/div/span/button[2]")
-    public WebElement removebtn;
+   // @FindBy(xpath = "//*[@id=\"content\"]/form/div/table/tbody/tr/td[4]/div/span/button[2]")
+   // public WebElement removebtn;
     
-  @FindBy(xpath = "//*[@id=\"checkout-cart\"]/div[1]") public WebElement outstockmsg;
-  @FindBy(xpath = "//*[@id=\"menu\"]/div[2]") public WebElement stock;
+  @FindBy(xpath = "//nav[@id='menu']/div[2]") public WebElement stock;
     
     
 	//3.action method
@@ -160,12 +159,10 @@ public class KcAddToCartPage extends CommonMethods{
 			Thread.sleep(3000);
 	}
 	
-	public void click_remove() { 
-		shoppingcartbtn.click();
-		isElementDisplayed(removebtn);
-		drawborder(removebtn);
-		removebtn.click();
-	}
+	/*
+	 * public void click_remove() { shoppingcartbtn.click();
+	 * isElementDisplayed(removebtn); drawborder(removebtn); removebtn.click(); }
+	 */
 
 }
 

@@ -55,6 +55,12 @@ public class KukonLogin extends CommonMethods {
 	@FindBy(xpath="//*[@value=\"Continue\"]")
     public WebElement continuebtm;
 	
+     //logout
+    @FindBy(xpath = "//*[@id=\"top-links\"]/ul/li[2]/a/span[1]") 
+    public WebElement myaccount;
+    
+    @FindBy(xpath="//a[text()='Logout']")
+    public WebElement logoutbtn;;
 
 	//3.Action methods valid login
 	public void emaillogin() {
@@ -98,6 +104,13 @@ public class KukonLogin extends CommonMethods {
 		String getMyAccount=driver.getCurrentUrl();
 		return getMyAccount;
 		}
+	
+	//4.
+	public void logout() throws InterruptedException {
+		myaccount.click();
+		Thread.sleep(1000);
+		logoutbtn.click();
+	}
 	
 	}		
 	

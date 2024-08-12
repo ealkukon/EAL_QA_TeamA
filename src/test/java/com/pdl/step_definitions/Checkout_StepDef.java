@@ -28,7 +28,53 @@ public class Checkout_StepDef extends CommonMethods{
 		KcCheckoutPage kccheckoutpage= new KcCheckoutPage();
 
 		
-	
+		@Given("I have some products in my shopping cart and I am logged in to my account")
+		public void i_have_some_products_in_my_shopping_cart_and_i_am_logged_in_to_my_account() throws InterruptedException {
+			//Thread.sleep(10000);
+			logger.info(" user is already logged in");
+			
+			 driver.get("https://tutorialsninja.com/demo/index.php?route=account/login");
+			 validloginpage.emaillogin(); validloginpage.passwordenter();
+			 validloginpage.loginbutton();
+			 
+
+			 Assert.assertTrue(KukonLogin.getMyAccount().contains("account/account"));
+			Thread.sleep(1000);
+			kccheckoutpage.click_ShoppingCart();
+			logger.info("user already has some product in shopping cart");
+		    
+		}
+
+		@When("I click on the checkout button on the shopping cart page")
+		public void i_click_on_the_checkout_button_on_the_shopping_cart_page() throws InterruptedException {
+			kccheckoutpage.outstockalertmsg();
+			logger.info("checkout button is functionnal");
+			kccheckoutpage.click_checkout();
+			logger.info("checkout button is already clicked");
+		  
+		}
+		@When("the product is not in stock, we should see the message: ”Products marked with *** are not available in the desired quantity or not in stock!”")
+		public void the_product_is_not_in_stock_we_should_see_the_message_products_marked_with_are_not_available_in_the_desired_quantity_or_not_in_stock() throws InterruptedException {
+		    logger.info("the product is not in stock");
+			kccheckoutpage.outstockalertmsg();
+            Thread.sleep(2000);
+		    logger.info("outstock msg is displayed");
+
+		}
+
+		@Then("I should see an option to check out with my account")
+		public void i_should_see_an_option_to_check_out_with_my_account() {
+			
+
+		}
+
+		@Then("I should be able to use my saved billing and delivery details or enter new ones, choose a delivery method, a payment method and confirm my order")
+		public void i_should_be_able_to_use_my_saved_billing_and_delivery_details_or_enter_new_ones_choose_a_delivery_method_a_payment_method_and_confirm_my_order() {
+
+		}
+
+
+
 
 
 @Given("User navigates to homepage")
@@ -71,7 +117,7 @@ public void click_on_checkout_bouton() {
 @Then("I should see an option to checkout as a guest")
 public void i_should_see_an_option_to_checkout_as_a_guest() {
 	logger.info("checkout as a guest option");
-
+	kccheckoutpage.outstockmsgs();
 }
 
 @Then("I should be able to enter my billing details, delivery details, delivery method, payment method and confirm my order")
@@ -80,94 +126,6 @@ public void i_should_be_able_to_enter_my_billing_details_delivery_details_delive
 	logger.info("entring  my billing details, delivery details, delivery method, payment method and confirm my order");
 }
 
-@Given("I have some products in my shopping cart and I am logged in to my account")
-public void i_have_some_products_in_my_shopping_cart_and_i_am_logged_in_to_my_account() throws InterruptedException {
-	//Thread.sleep(10000);
-	logger.info(" user is already logged in");
-	driver.get("https://tutorialsninja.com/demo/index.php?route=account/login");
-	validloginpage.emaillogin();
-	validloginpage.passwordenter();
-	validloginpage.loginbutton();
-
-	 Assert.assertTrue(KukonLogin.getMyAccount().contains("account/account"));
-	Thread.sleep(1000);
-//	Thread.sleep(10000);
-	kccheckoutpage.click_ShoppingCart();
-	logger.info("user already has some product in shopping cart");
-    
-}
-
-@When("I click on the checkout button on the shopping cart page")
-public void i_click_on_the_checkout_button_on_the_shopping_cart_page() throws InterruptedException {
-	kccheckoutpage.checkoutbtnclickable();
-	logger.info("checkout button is functionnal");
-	kccheckoutpage.click_checkout();
-	logger.info("checkout button is already clicked");
-  
-}
-
-@Then("I should see an option to check out with my account")
-public void i_should_see_an_option_to_check_out_with_my_account() {
-   
-}
-
-@Then("I should be able to use my saved billing and delivery details or enter new ones, choose a delivery method, a payment method and confirm my order")
-public void i_should_be_able_to_use_my_saved_billing_and_delivery_details_or_enter_new_ones_choose_a_delivery_method_a_payment_method_and_confirm_my_order() {
-
-}
-
-@Given("the user is already in my account page")
-public void the_user_is_already_in_my_account_page() throws InterruptedException {
-	driver.get("https://tutorialsninja.com/demo/index.php?route=account/login");
-	validloginpage.emaillogin();
-	validloginpage.passwordenter();
-	validloginpage.loginbutton();
-
-	 Assert.assertTrue(KukonLogin.getMyAccount().contains("account/account"));
-	Thread.sleep(3000);
-   kccheckoutpage.click_myaccount();
-   logger.info("my account page in displayed");
-}
-
-@When("the user clicks on address book, he should see address book intries information")
-public void the_user_clicks_on_address_book_he_should_see_address_book_intries_information() throws InterruptedException {
- logger.info("the user clicks on address book");
-	kccheckoutpage.addressbook();
-	 logger.info("he is seeing address book intries information");
-	
-}
-
-@Then("The saved billing and delivery details should be pre-filled in the form and editable")
-public void the_saved_billing_and_delivery_details_should_be_pre_filled_in_the_form_and_editable() throws InterruptedException {
-  kccheckoutpage.click_edit();
-  logger.info("delivery details are editable");
-   Thread.sleep(3000);
-   kccheckoutpage.displayedupdatedmsg();
-   logger.info("display msg is displayed");
-   Thread.sleep(3000);
-}
-
-@And("The delivery method and payment method should have at least one option available")
-public void the_delivery_method_and_payment_method_should_have_at_least_one_option_available() throws InterruptedException {
-	logger.info("user starts adding a new address");
-	   kccheckoutpage.addaddress();
-	logger.info("user clicked on new address");
-	   kccheckoutpage.completeinfo();
-    logger.info("user is adding his info");
-	   kccheckoutpage.selectcountry();
-	logger.info("user selected a country");
-	   kccheckoutpage.selectstate();
-	logger.info("user selected a state");
-	   kccheckoutpage.addressdefault();
-	logger.info("new address was added");
-	   kccheckoutpage.displayedsuccessfullyaddedmsg();
-	   
-}
-
-@And("The order confirmation page should show the order number, order details, payment details and delivery details")
-public void the_order_confirmation_page_should_show_the_order_number_order_details_payment_details_and_delivery_details() {
-   
-}
 
 
 

@@ -69,27 +69,34 @@ public class ViewEditShoppingCart_StepDef extends CommonMethods{
 	}
 
 	@Given("I am on the shopping cart page")
-	public void i_am_on_the_shopping_cart_page() {
-		// kcviewcart.click_ShoppingCart();
+	public void i_am_on_the_shopping_cart_page() throws InterruptedException {
+		driver.get("https://tutorialsninja.com/demo/index.php?route=account/login");
+
+		validloginpage.emaillogin();
+		validloginpage.passwordenter();
+		validloginpage.loginbutton();
+		 Assert.assertTrue(KukonLogin.getMyAccount().contains("account/account"));
+		 kcviewcart.click_ShoppingCart();
+		 Thread.sleep(2000);
 		logger.info("user can be in shopping cart page");
 	 
 	}
 
 	@When("I change the quantity of a product and click on the refresh button")
 	public void i_change_the_quantity_of_a_product_and_click_on_the_refresh_button() throws InterruptedException {
-		//kcviewcart.changeQuantity(); 
+		kcviewcart.changeQuantity(); 
 		logger.info("the quantity of the product have been changed");
 		Thread.sleep(3000);
-	//	kcviewcart.refresh();
+	kcviewcart.refresh();
 		logger.info("refresh button is clickable");
 		
 	  
 	}
 
 	@Then("I should see the updated quantity and price of the product")
-	public void i_should_see_the_updated_quantity_and_price_of_the_product() {
+	public void i_should_see_the_updated_quantity_and_price_of_the_product() throws InterruptedException {
 		logger.info("quantity and price of the product have been updated");
-	  
+	  kcviewcart.updatedprice();
 	}
 
 	@And("I should see the updated subtotal and total amount of my order")

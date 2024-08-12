@@ -22,25 +22,18 @@ import io.cucumber.junit.CucumberOptions;
 
 		features = "src/test/resources/features", 
 
-		glue = {"com\\pdl\\step_definitions","com.pdl.hooks"},
+		glue = {"com.pdl.step_definitions","com.pdl.hooks"},
 		dryRun= false,
+			//	dryRun= true,
 
-		tags = /*
-				 * ("@Login or " + "@Search or " + "@AddToCart or " +
-				 * "@ViewEditMyShoppingCart or " + "@checkout")
-				 */
-//"@checkout1"
-		//"@smoke"
-	//"@smoketest1"
-		"@AddToCart"
-		//"@confirmationmsg"
-	//	"@ViewEditMyShoppingCart"
-		//"@checkout"
-	
-
-	
-
-		
+		tags = 
+		/*("@Login or " 
+		+ "@Search or " 
+        + "@AddToCart or " 
+	+ "@ViewEditMyShoppingCart or " 
+					 + "@checkout")
+		*/
+	"@smoketest1"
 		)
           
 		
