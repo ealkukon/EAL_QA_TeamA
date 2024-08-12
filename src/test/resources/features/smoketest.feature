@@ -1,4 +1,4 @@
-@smoketest
+@smoke
 Feature: smoke test
 
 
