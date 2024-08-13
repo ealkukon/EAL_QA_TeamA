@@ -1,4 +1,11 @@
 mvn test -Dcucumber.filter.tags="@abc or @def"   (it will run all the scenarios which has one of them) 
+
+mvn test -Dcucumber.filter.tags="@validlogin" 
+
+mvn test -Dcucumber.filter.tags="@Unsuccessfullogin" 
+
+mvn test -Dcucumber.filter.tags="@resetlink"
+
  
 mvn test -Dcucumber.filter.tags="@abc and @def"   === scenarion have to have both of them 
 
