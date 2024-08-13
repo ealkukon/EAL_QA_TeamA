@@ -29,6 +29,7 @@ import io.cucumber.junit.CucumberOptions;
 )
 
 public class EALRunner {
+	int a=40;
 	
 	@After
 	public static void teardown() {
