@@ -74,15 +74,15 @@ public class Hooks extends CommonMethods {
 			logger.info("*URL Lunched from hooks : "+ ConfigurationReader.getProperty("url"));			
 			
 
+
 			//waitForPageToLoadfor(20);
 
 
-        	//waitForPageToLoadfor(20);// page loading// green to black
-			
+//			waitForPageToLoadfor(20);
+			//waitForPageToLoad();
+			//waitForAJAXToLoad();
 
 
-			waitForPageToLoad();
-			waitForAJAXToLoad();
 			
 		}
 	}
@@ -159,8 +159,19 @@ public class Hooks extends CommonMethods {
 	@AfterAll
 	//public void tearDown(Scenario scenario) {
 		// taking a screenshot if the scenario fails
+
 	    public static void after_all() {
 		if (ConfigurationReader.getProperty("browser").equals("headless")) {
+
+	
+
+	@After
+	//public void tearDown(Scenario scenario) {
+		// taking a screenshot if the scenario fails
+	    public static void after_all() {
+		if (ConfigurationReader.getProperty("browser").equals("headless")) {
+
+
 
 	} else {
 	Driver.getDriver().manage().deleteAllCookies();
@@ -268,6 +279,8 @@ public class Hooks extends CommonMethods {
 	 * }
 	 */
 	
+
+
 
 		}
 	
