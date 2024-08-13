@@ -21,17 +21,43 @@ import io.cucumber.junit.CucumberOptions;
 		"com.pdl.hooks.StepNameListener"}, // here "com.pdl.hooks" this is package and stepname is insider class
 
 		features = "src/test/resources/features", 
-		glue = {"com.pdl.step_definitions","com.pdl.hooks"},
-		dryRun=false,
-		//dryRun=true,
+		glue = {"Step_definitions","com.pdl.hooks"},
+		//dryRun=false,
 
-		//tags="@Login"
-	  	tags="@smoke"
+		//tags= ("@AddToCart or @ViewEditMyShoppingCart")
+	//"@checkout"
+	
+  // "@checkout"
+		//"@billing&delivery"
+	//	"@checkoutascustomer"
 
-)
+
+		dryRun=true,
+
+				
+				/*
+				 * ("@Login or " + "@Search or " + "@AddToCart or " +
+				 * "@ViewEditMyShoppingCart or " + "@checkout")
+				 */
+
+		
+		tags="@smoke"
+		)
+          //@Login or
+		//("@validlogin")
+		//("@validkeywordsearch or @invalidkeywordsearch or @searchByCatagory or @sortsearchresults")
+		
+		
+		
+	//		monochrome=false
+
 		
 
+		
+
+
 public class EALRunner {
+	
 
 	@After
 	public static void teardown() {
