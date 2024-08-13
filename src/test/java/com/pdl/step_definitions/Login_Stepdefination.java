@@ -14,10 +14,11 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class Login_Stepdefination extends CommonMethods{
+
 	
 	
 	WebDriver driver=Driver.getDriver();
-	
+
 	public static final Logger logger = LogManager.getLogger(Login_Stepdefination.class);
 	KukonLogin validloginpage=new KukonLogin();//Called KukonLogin page from pom page
 	
@@ -94,15 +95,11 @@ public class Login_Stepdefination extends CommonMethods{
     	validloginpage.continueagain();
    
 }
+    @Given("User should be logged out")
+	public void user_should_be_logged_out() {
+	   logger.info("user is logged out");
+	}
+
 
 }
 
-  
-
-
-
-
-
-	
-
-	 

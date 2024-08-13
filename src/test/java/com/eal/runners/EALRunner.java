@@ -22,7 +22,7 @@ import io.cucumber.junit.CucumberOptions;
 
 		features = "src/test/resources/features", 
 		glue = {"Step_definitions","com.pdl.hooks"},
-		dryRun=false,
+		//dryRun=false,
 
 		//tags= ("@AddToCart or @ViewEditMyShoppingCart")
 	//"@checkout"
@@ -31,8 +31,17 @@ import io.cucumber.junit.CucumberOptions;
 		//"@billing&delivery"
 	//	"@checkoutascustomer"
 
+
+		dryRun=true,
+
+				
+				/*
+				 * ("@Login or " + "@Search or " + "@AddToCart or " +
+				 * "@ViewEditMyShoppingCart or " + "@checkout")
+				 */
+
 		
-		tags="@Login or @Search"
+		tags="@smoke"
 		)
           //@Login or
 		//("@validlogin")
