@@ -16,10 +16,12 @@ import com.pdl.utilities.Driver;
 
 
 import io.cucumber.java.After;
+import io.cucumber.java.AfterAll;
 import io.cucumber.java.AfterStep;
 import io.cucumber.java.Before;
 import io.cucumber.java.BeforeStep;
 import io.cucumber.java.Scenario;
+import io.cucumber.java.AfterAll;
 
 
 
@@ -47,7 +49,15 @@ public class Hooks extends CommonMethods {
 	@Before
 	public void setUp() {
 		if (ConfigurationReader.getProperty("browser").equals("headless")) {
-			// Driver.getDriver().manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+
+			//Driver.getDriver().manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+
+
+			//Driver.getDriver().manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);//this part we changed from green to black
+
+			
+
+
 			Driver.getDriver().get(ConfigurationReader.getProperty("url"));
 		} 
 		
@@ -63,15 +73,25 @@ public class Hooks extends CommonMethods {
 //			mReporter.addStepLog("Url Launched from @beforeHooks -"+URL);
 			logger.info("*URL Lunched from hooks : "+ ConfigurationReader.getProperty("url"));			
 			
+
+
+			//waitForPageToLoadfor(20);
+
+
 //			waitForPageToLoadfor(20);
-			waitForPageToLoad();
-			waitForAJAXToLoad();
+			//waitForPageToLoad();
+			//waitForAJAXToLoad();
+
+
 			
 		}
 	}
 	
 	
-
+	//@Before
+	//public void beforeScenario() {
+	//    driver = new WebDriver();}
+	  
 	@Before
 	public void scenarioName(Scenario scenario) {
 		logger.info("================================================================");
@@ -119,21 +139,61 @@ public class Hooks extends CommonMethods {
 
 	}
 
-	@After
-	public void tearDown(Scenario scenario) {
+
+	/*
+	 * @After public void tearDown(Scenario scenario) throws InterruptedException {
+	 * // taking a screenshot if the scenario fails if
+	 * (ConfigurationReader.getProperty("browser").equals("headless")) {
+	 * 
+	 * } else {
+	 * 
+	 * Driver.getDriver().manage().deleteAllCookies();
+	 * 
+	 * logger.info("CLosing the Driver"); Driver.closeDriver(); Thread.sleep(2000);
+	 * 
+	 * logger.info("Driver Closed"); }
+	 */
+		//	Thread.sleep(2000); 
+	
+
+	@AfterAll
+	//public void tearDown(Scenario scenario) {
 		// taking a screenshot if the scenario fails
+
+	    public static void after_all() {
 		if (ConfigurationReader.getProperty("browser").equals("headless")) {
 
-		} else {
+	
 
-			Driver.getDriver().manage().deleteAllCookies();
+	@After
+	//public void tearDown(Scenario scenario) {
+		// taking a screenshot if the scenario fails
+	    public static void after_all() {
+		if (ConfigurationReader.getProperty("browser").equals("headless")) {
+
+
+
+	} else {
+	Driver.getDriver().manage().deleteAllCookies();
+
 
 			logger.info("CLosing the Driver");
 			Driver.closeDriver();
-
 			logger.info("Driver Closed");
 
-			/*
+	logger.info("CLosing the Driver");
+	//Driver.closeDriver();
+	
+	logger.info("Driver Closed");
+
+
+
+		logger.info("CLosing the Driver");
+		Driver.closeDriver();
+		logger.info("Driver Closed");
+	}
+
+	}	/*
 			 * if (scenario.isFailed()) { final byte[] screenshot = ((TakesScreenshot)
 			 * Driver.getDriver()).getScreenshotAs(OutputType.BYTES); // adding the
 			 * screenshot to the report scenario.attach(screenshot, "image/png",
@@ -143,9 +203,64 @@ public class Hooks extends CommonMethods {
 			 * 
 			 * }
 			 */
-		}
-	}
+		//}
+		
+		
+	/* @AfterAll
+    public static void afterAll() {
+		 
+		// taking a screenshot if the scenario fails
+			if (ConfigurationReader.getProperty("browser").equals("headless")) {
+
+			} else 
+			{
+				//delete all cookies
+				//Driver.getDriver().manage().deleteAllCookies();
+
+				//logger.info("CLosing the Driver");
+				//Driver.closeDriver();
+				
+				//logger.info("Driver Closed");
+				Driver.getDriver().manage().deleteAllCookies();
+
+				logger.info("CLosing the Driver");
+				Driver.closeDriver();
+
+				logger.info("Driver Closed");
+
+        // Code to run after all tests/scenarios
+       
+		 logger.info("Executing after all tests");
+        // Any cleanup code here, like closing database connections
+        Driver.closeDriver();
+     
+    }/*
+    
+
 	
+	
+	
+			@AfterAll
+			//public void tearDown(Scenario scenario) {
+				// taking a screenshot if the scenario fails
+			
+		    public static void after_all() {
+			if (ConfigurationReader.getProperty("browser").equals("headless")) {
+
+
+			} else {
+			Driver.getDriver().manage().deleteAllCookies();
+
+			logger.info("CLosing the Driver");
+			//Driver.closeDriver();
+			
+			logger.info("Driver Closed");
+
+
+				logger.info("CLosing the Driver");
+				Driver.closeDriver();
+				logger.info("Driver Closed");
+			}
 	/*
 	 * Disabled by Shams --- Database Connections.
 	  
@@ -164,6 +279,10 @@ public class Hooks extends CommonMethods {
 	 * }
 	 */
 	
-	int x=10; //just for testing
 
-}
+
+
+		}
+	
+
+
