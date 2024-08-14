@@ -1,4 +1,4 @@
-package step_definitions;
+package com.pdl.step_definitions;
 
 
 import org.apache.logging.log4j.LogManager;

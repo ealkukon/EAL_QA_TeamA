@@ -9,6 +9,8 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
+
+
 import com.pdl.utilities.BrowserUtil;
 import com.pdl.utilities.CommonMethods;
 import com.pdl.utilities.ConfigurationReader;
@@ -21,7 +23,7 @@ import io.cucumber.java.AfterStep;
 import io.cucumber.java.Before;
 import io.cucumber.java.BeforeStep;
 import io.cucumber.java.Scenario;
-import io.cucumber.java.AfterAll;
+
 
 
 
@@ -156,13 +158,7 @@ public class Hooks extends CommonMethods {
 		//	Thread.sleep(2000); 
 	
 
-	@AfterAll
-	//public void tearDown(Scenario scenario) {
-		// taking a screenshot if the scenario fails
-
-	    public static void after_all() {
-		if (ConfigurationReader.getProperty("browser").equals("headless")) {
-
+	
 	
 
 	@After
