@@ -50,9 +50,13 @@ public class Hooks extends CommonMethods {
 	public void setUp() {
 		if (ConfigurationReader.getProperty("browser").equals("headless")) {
 
+			//Driver.getDriver().manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+
+
 			//Driver.getDriver().manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);//this part we changed from green to black
 
 			
+
 
 			Driver.getDriver().get(ConfigurationReader.getProperty("url"));
 		} 
@@ -70,11 +74,15 @@ public class Hooks extends CommonMethods {
 			logger.info("*URL Lunched from hooks : "+ ConfigurationReader.getProperty("url"));			
 			
 
-        	//waitForPageToLoadfor(20);// page loading// green to black
-			
 
-			waitForPageToLoad();
-			waitForAJAXToLoad();
+			//waitForPageToLoadfor(20);
+
+
+//			waitForPageToLoadfor(20);
+			//waitForPageToLoad();
+			//waitForAJAXToLoad();
+
+
 			
 		}
 	}
@@ -131,6 +139,7 @@ public class Hooks extends CommonMethods {
 
 	}
 
+
 	/*
 	 * @After public void tearDown(Scenario scenario) throws InterruptedException {
 	 * // taking a screenshot if the scenario fails if
@@ -146,21 +155,37 @@ public class Hooks extends CommonMethods {
 	 */
 		//	Thread.sleep(2000); 
 	
+
 	@AfterAll
 	//public void tearDown(Scenario scenario) {
 		// taking a screenshot if the scenario fails
+
+	    public static void after_all() {
+		if (ConfigurationReader.getProperty("browser").equals("headless")) {
+
 	
-    public static void after_all() {
-	if (ConfigurationReader.getProperty("browser").equals("headless")) {
+
+	@After
+	//public void tearDown(Scenario scenario) {
+		// taking a screenshot if the scenario fails
+	    public static void after_all() {
+		if (ConfigurationReader.getProperty("browser").equals("headless")) {
+
 
 
 	} else {
 	Driver.getDriver().manage().deleteAllCookies();
 
+
+			logger.info("CLosing the Driver");
+			Driver.closeDriver();
+			logger.info("Driver Closed");
+
 	logger.info("CLosing the Driver");
 	//Driver.closeDriver();
 	
 	logger.info("Driver Closed");
+
 
 
 		logger.info("CLosing the Driver");
@@ -211,7 +236,7 @@ public class Hooks extends CommonMethods {
      
     }/*
     
->>>>>>> 16a3b7b9cf695eaade20f645961af14cc0cdda0a
+
 	
 	
 	
@@ -254,6 +279,8 @@ public class Hooks extends CommonMethods {
 	 * }
 	 */
 	
+
+
 
 		}
 	
