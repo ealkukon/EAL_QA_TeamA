@@ -165,12 +165,6 @@ public class Hooks extends CommonMethods {
 
 	
 
-	@After
-	//public void tearDown(Scenario scenario) {
-		// taking a screenshot if the scenario fails
-	    public static void after_all() {
-		if (ConfigurationReader.getProperty("browser").equals("headless")) {
-
 
 
 	} else {

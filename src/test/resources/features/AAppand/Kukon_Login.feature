@@ -4,38 +4,22 @@ Feature: Login functionality for openCart E-commerce Webside
   As a returning customer,
   I want to log in with my email and password
   so that I can access my account and personal information.
-<<<<<<< HEAD
-  
-  @smoke
-=======
 
   @BSmoke @smoke
->>>>>>> Kukon_new_QA
   Scenario: Successful login valid credentials
     Given I am on the login page
     When I enter my email and password and click on the login button under the returning customer section
     Then Click on login button
     Then I should see a welcome message and a list of options for my account
-<<<<<<< HEAD
-  
-  @Regrassion
-=======
 
   @CRegrassion
->>>>>>> Kukon_new_QA
   Scenario: Unsuccessful login with invalid credentials
     Given I am on the login page
     When I enter an incorrect email under the returning customer section
     Then I enter an incorrect password under the returning customer section
-<<<<<<< HEAD
-    And  I click on the login button I should see an error message saying “Warning: No match for E-Mail Address and/or Password.
-    
-  @regression
-=======
     And I click on the login button I should see an error message saying “Warning: No match for E-Mail Address and/or Password.
 
   @Dregression
->>>>>>> Kukon_new_QA
   Scenario: Requesting a password reset link
     Given I am on the login page
     When I click on the forgotten password link under the returning customer section

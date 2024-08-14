@@ -24242,3 +24242,79 @@ java.net.SocketException: Connection reset
 [WARN ] 2024-08-12 23:47:26.798 [main] StepNameListener - Executing step: I should see a welcome message and a list of options for my account
 [INFO ] 2024-08-12 23:47:26.798 [main] StepNameListener - ---------------------------------------------------------------------
 >>>>>>> Kukon_new_QA
+[INFO ] 2024-08-14 13:47:26.928 [main] Hooks - ================================================================
+[INFO ] 2024-08-14 13:47:26.936 [main] Hooks - Scenario Title: Successful login valid credentials
+[INFO ] 2024-08-14 13:47:26.937 [main] Hooks - =================================================================
+[INFO ] 2024-08-14 13:47:26.953 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-08-14 13:47:41.664 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-08-14 13:47:41.671 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-14 13:47:41.672 [main] StepNameListener - Executing step: I am on the login page
+[INFO ] 2024-08-14 13:47:41.672 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-14 13:47:47.324 [main] Login_Stepdefination - landind on login page
+[INFO ] 2024-08-14 13:47:47.543 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-14 13:47:47.543 [main] StepNameListener - Executing step: I enter my email and password and click on the login button under the returning customer section
+[INFO ] 2024-08-14 13:47:47.543 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-14 13:47:52.924 [main] Login_Stepdefination - I enter my email and password and click on the login button under the returning customer section
+[INFO ] 2024-08-14 13:47:53.113 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-14 13:47:53.114 [main] StepNameListener - Executing step: Click on login button
+[INFO ] 2024-08-14 13:47:53.114 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-14 13:47:59.576 [main] Login_Stepdefination - Click on login button
+[INFO ] 2024-08-14 13:47:59.809 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-14 13:47:59.809 [main] StepNameListener - Executing step: I should see a welcome message and a list of options for my account
+[INFO ] 2024-08-14 13:47:59.810 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-14 13:47:59.990 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-14 13:47:59.992 [main] Hooks - Successful login valid credentials Status - PASSED
+[INFO ] 2024-08-14 13:47:59.992 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-14 13:48:00.023 [main] Hooks - ================================================================
+[INFO ] 2024-08-14 13:48:00.024 [main] Hooks - Scenario Title: Unsuccessful login with invalid credentials
+[INFO ] 2024-08-14 13:48:00.024 [main] Hooks - =================================================================
+[INFO ] 2024-08-14 13:48:00.025 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-08-14 13:48:04.570 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-08-14 13:48:04.573 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-14 13:48:04.573 [main] StepNameListener - Executing step: I am on the login page
+[INFO ] 2024-08-14 13:48:04.574 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-14 13:48:11.873 [main] Login_Stepdefination - landind on login page
+[INFO ] 2024-08-14 13:48:12.061 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-14 13:48:12.061 [main] StepNameListener - Executing step: I enter an incorrect email under the returning customer section
+[INFO ] 2024-08-14 13:48:12.061 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-14 13:48:17.281 [main] Login_Stepdefination - I enter an incorrect email under the returning customer section
+[INFO ] 2024-08-14 13:48:17.438 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-14 13:48:17.439 [main] StepNameListener - Executing step: I enter an incorrect password under the returning customer section
+[INFO ] 2024-08-14 13:48:17.439 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-14 13:48:22.642 [main] Login_Stepdefination - I enter an incorrect password under the returning customer section
+[INFO ] 2024-08-14 13:48:22.795 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-14 13:48:22.795 [main] StepNameListener - Executing step: I click on the login button I should see an error message saying “Warning: No match for E-Mail Address and/or Password.
+[INFO ] 2024-08-14 13:48:22.795 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-14 13:48:29.070 [main] Login_Stepdefination - I click on the login button I should see an error message saying “Warning: No match for E-Mail Address and\\/or Password.
+[INFO ] 2024-08-14 13:48:29.262 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-14 13:48:29.262 [main] Hooks - Unsuccessful login with invalid credentials Status - PASSED
+[INFO ] 2024-08-14 13:48:29.262 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-14 13:48:29.281 [main] Hooks - ================================================================
+[INFO ] 2024-08-14 13:48:29.281 [main] Hooks - Scenario Title: Requesting a password reset link
+[INFO ] 2024-08-14 13:48:29.281 [main] Hooks - =================================================================
+[INFO ] 2024-08-14 13:48:29.283 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-08-14 13:48:31.485 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-08-14 13:48:31.487 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-14 13:48:31.489 [main] StepNameListener - Executing step: I am on the login page
+[INFO ] 2024-08-14 13:48:31.490 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-14 13:48:37.774 [main] Login_Stepdefination - landind on login page
+[INFO ] 2024-08-14 13:48:37.960 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-14 13:48:37.960 [main] StepNameListener - Executing step: I click on the forgotten password link under the returning customer section
+[INFO ] 2024-08-14 13:48:37.961 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-14 13:48:46.299 [main] Login_Stepdefination - I click on the forgotten password link under the returning customer section
+[INFO ] 2024-08-14 13:48:46.481 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-14 13:48:46.481 [main] StepNameListener - Executing step: I should see a password reset form with a field for email
+[INFO ] 2024-08-14 13:48:46.481 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-14 13:48:51.732 [main] Login_Stepdefination - I should see a password reset form with a field for email
+[INFO ] 2024-08-14 13:48:51.887 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-14 13:48:51.888 [main] StepNameListener - Executing step: I should be able to request a password reset link after entering my email and clicking on the continue button
+[INFO ] 2024-08-14 13:48:51.888 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-14 13:48:55.425 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-14 13:48:55.426 [main] Hooks - Requesting a password reset link Status - PASSED
+[INFO ] 2024-08-14 13:48:55.426 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-14 13:48:55.447 [main] Hooks - CLosing the Driver
+[INFO ] 2024-08-14 13:48:55.699 [main] Hooks - Driver Closed
+[INFO ] 2024-08-14 13:48:55.699 [main] Hooks - CLosing the Driver
+[INFO ] 2024-08-14 13:48:55.699 [main] Hooks - Driver Closed
+[INFO ] 2024-08-14 13:48:55.699 [main] Hooks - CLosing the Driver
+[INFO ] 2024-08-14 13:48:55.699 [main] Hooks - Driver Closed
