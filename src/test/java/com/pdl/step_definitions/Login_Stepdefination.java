@@ -95,12 +95,11 @@ public class Login_Stepdefination extends CommonMethods{
     	validloginpage.continueagain();
    
 }
-/*
- * @Given("User should be logged out") public void user_should_be_logged_out()
- * throws InterruptedException { //validloginpage.logout();
- * logger.info("user is logged out"); } public void user_should_be_logged_out()
- * { logger.info("user is logged out"); }
- */
+ @Given("User should be logged out") 
+ public void user_should_be_logged_out()  { 
+	 //validloginpage.logout();
+ 
+	 logger.info("user is logged out"); } 
 
 
 }
