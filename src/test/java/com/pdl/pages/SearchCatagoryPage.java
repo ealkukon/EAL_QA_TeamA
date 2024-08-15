@@ -1,19 +1,15 @@
 package com.pdl.pages;
-
-
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
 import com.pdl.utilities.CommonMethods;
 import com.pdl.utilities.Driver;
 
-public class SearchCatagoryPage extends CommonMethods {
-	
+public class SearchCatagoryPage extends CommonMethods{
+
 	WebDriver driver = Driver.getDriver();
 	Searchpage validkeyword=new Searchpage();
 	// pagefactory constructor
@@ -27,6 +23,9 @@ public class SearchCatagoryPage extends CommonMethods {
 	
 	@FindBy(xpath="//select[@name='category_id']")////*[@id="content"]/div/div[2]/select
     public WebElement categorydropdown;
+	
+	@FindBy(xpath="//input[@type='button']")
+	public WebElement catagorysearchbtn;
 	
 	
 	public void searchpage() {
@@ -53,15 +52,26 @@ public class SearchCatagoryPage extends CommonMethods {
 		categorydropdown.click();
 		
 	}
+	
+	public void searchbtncatagory() {
+		catagorysearchbtn.click();
+	}
 	public void catagoryselection() {
 		CommonMethods.selectFromDropDownbyValue( categorydropdown, "20");
 		categorydropdown.click();
 	}
 
+	//public void catagorysearchbtn() {
+		//catagorysearchbtn.click();
+		
 	}
+
+	
+		
 	
 
 	
-	
-	
+
+
+
 

@@ -1,6 +1,5 @@
 package com.pdl.pages;
 
-
 import static org.testng.Assert.assertEquals;
 
 import org.apache.logging.log4j.LogManager;
@@ -18,6 +17,7 @@ import com.pdl.utilities.Driver;
 
 public class KukonLogin extends CommonMethods {
 	
+
 
 	//1.constructor
 	public KukonLogin() {

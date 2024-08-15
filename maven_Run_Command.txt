@@ -4,7 +4,7 @@ mvn test -Dcucumber.filter.tags="@validlogin"
 
 mvn test -Dcucumber.filter.tags="@Unsuccessfullogin" 
 
-mvn test -Dcucumber.filter.tags="@@resetlink"
+mvn test -Dcucumber.filter.tags="@resetlink"
 
 
  

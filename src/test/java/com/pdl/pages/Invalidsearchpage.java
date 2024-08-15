@@ -8,9 +8,8 @@ import org.openqa.selenium.support.PageFactory;
 import com.pdl.utilities.CommonMethods;
 import com.pdl.utilities.Driver;
 
-public class Invalidsearchpage  extends CommonMethods{
-	
-	WebDriver driver = Driver.getDriver();
+public class Invalidsearchpage extends CommonMethods{
+WebDriver driver = Driver.getDriver();
 	
 	// pagefactory constructor
 	public Invalidsearchpage() {
@@ -47,5 +46,3 @@ public class Invalidsearchpage  extends CommonMethods{
 }
 
 
-
-  

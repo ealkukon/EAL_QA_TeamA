@@ -21,34 +21,24 @@ import io.cucumber.junit.CucumberOptions;
 		"com.pdl.hooks.StepNameListener"}, // here "com.pdl.hooks" this is package and stepname is insider class
 
 
+
 		features = "src/test/resources/features",	
 		glue = {"com.pdl.step_definitions","com.pdl.hooks"},
 		 
 		dryRun=false,
 		//dryRun=true,
 
-		tags = "@smoketest"
-		/*
-		 * ("@Login or " + "@Search or " + "@AddToCart or " +
-		 * "@ViewEditMyShoppingCart or " + "@checkout")
-		 */
+		tags = //"@searchByCatagory"
+		"@Search"
+	
+		
 
         //monochrome=false
-		
-		
 )
-          
-		
-	
-
-		
-
-		
 
 
 public class EALRunner {
 	
-
 	@After
 	public static void teardown() {
 		Reporter.setSystemInfo("user", System.getProperty("user.name"));
@@ -56,5 +46,4 @@ public class EALRunner {
 		Reporter.setTestRunnerOutput("Sample test runner output message");
 	
 }
-	
 	}

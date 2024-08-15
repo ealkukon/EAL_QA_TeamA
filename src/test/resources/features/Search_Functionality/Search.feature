@@ -6,9 +6,11 @@ Feature:  Search Functionality
 	so that I can find what i am looking for.
 	
 
-@searchnew
-@validkeywordsearch @smoke
+
+
+@validkeywordsearch 
   Scenario: Searching for a product by keyword
+
   Then I should see the search box
 	When I enter a valid keyword in the search box 
 	And I click on the search button

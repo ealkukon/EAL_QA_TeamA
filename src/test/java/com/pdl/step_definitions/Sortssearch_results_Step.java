@@ -1,5 +1,4 @@
 package com.pdl.step_definitions;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -7,12 +6,11 @@ import com.pdl.pages.Invalidsearchpage;
 import com.pdl.pages.SearchCatagoryPage;
 import com.pdl.pages.Searchpage;
 import com.pdl.pages.Sortssearch_results_Page;
-
+import com.pdl.utilities.CommonMethods;
 
 import io.cucumber.java.en.*;
 
-public class Sortssearch_results_Step {
-
+public class Sortssearch_results_Step extends CommonMethods{
 	Searchpage validkeyword=new Searchpage();
 	Invalidsearchpage invalid=new Invalidsearchpage();
 	SearchCatagoryPage catagory=new SearchCatagoryPage();

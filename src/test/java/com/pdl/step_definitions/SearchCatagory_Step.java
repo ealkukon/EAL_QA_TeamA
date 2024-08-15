@@ -1,5 +1,4 @@
 package com.pdl.step_definitions;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.core.Logger;
 
@@ -10,11 +9,8 @@ import com.pdl.pages.Searchpage;
 import com.pdl.utilities.CommonMethods;
 
 import io.cucumber.java.en.*;
+public class SearchCatagory_Step extends CommonMethods{
 
-
-public class SearchCatagory_Step extends CommonMethods {
-	
-	
 	//Valid_LoginPage login=new Valid_LoginPage();
 	Searchpage validkeyword=new Searchpage();
 	Invalidsearchpage invalid=new Invalidsearchpage();
@@ -42,7 +38,9 @@ public void i_click_on_search_button_and_it_will_land_on_search_page() throws In
 public void i_select_a_category_from_the_drop_down_menu_and_i_click_on_the_search_button() throws InterruptedException {
 	catagory.dropdownclick();
 	catagory.catagoryselection();
-	validkeyword.searchbtn();
+	catagory.searchbtncatagory();
+   // validkeyword.searchbtn();
+	
 	Thread.sleep(2000);
 	logger.info("after selecting a catagory , search button should be clicked");
 }
@@ -57,6 +55,7 @@ public void i_select_a_category_from_the_drop_down_menu_and_i_click_on_the_searc
 	     logger.info("mac page should display with all infos");
 	}
 
+	
 	
 
 }
