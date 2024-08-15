@@ -8,7 +8,7 @@ import org.testng.Assert;
 
 import com.pdl.pages.KcAddToCartPage;
 import com.pdl.pages.KukonLogin;
-import com.pdl.pages.SearchCatagoryPage;
+//import com.pdl.pages.SearchCatagoryPage;
 import com.pdl.pages.Searchpage;
 import com.pdl.step_definitions.LoginStepDef;
 import com.pdl.utilities.CommonMethods;

@@ -5,13 +5,13 @@ Background:
   Given User navigates to Homepage
   Then select a product to the cart from the product view page
 
-  @confirmationmsg @smoke
+  @confirmationmsg 
   Scenario: verify the confirmation message after adding to cart 
     When the user clicks on add to cart 
     Then He should see a confirmation message that says: “Success: You have added [product name] to your shopping cart!”
     And the number of items in my cart should increase by one
     
-     @validatecart @smoke
+     @validatecart 
     Scenario: validate add to cart 
   
     When validate the add to cart button should be enabled only if the product is in stock

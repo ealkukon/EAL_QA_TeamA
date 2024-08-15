@@ -35,19 +35,13 @@ import io.cucumber.junit.CucumberOptions;
 		*/
 	"@smoketest1"
 	//	"@checkout"
-		)
-          
-		
+	
 	//		monochrome=false
 
-		
-
-		
-
+)	
 
 public class EALRunner {
 	
-
 	@After
 	public static void teardown() {
 		Reporter.setSystemInfo("user", System.getProperty("user.name"));
@@ -55,5 +49,4 @@ public class EALRunner {
 		Reporter.setTestRunnerOutput("Sample test runner output message");
 	
 }
-	
 	}

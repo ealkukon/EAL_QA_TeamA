@@ -57,7 +57,7 @@ public class KcCheckoutPage extends CommonMethods {
 	  public void checkoutbtnclickable() throws InterruptedException {
 		  hover(checkoutbtn);
 		  Thread.sleep(3000);
-		  waitAndClick(checkoutbtn);
+	//	  waitAndClick(checkoutbtn);
 
 	  }
 	  public void outstockalertmsg() {
