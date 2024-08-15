@@ -20,14 +20,22 @@ import io.cucumber.junit.CucumberOptions;
 		"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 		"com.pdl.hooks.StepNameListener"}, // here "com.pdl.hooks" this is package and stepname is insider class
 
-		features = "src/test/resources/features", 
+
+
+		features = "src/test/resources/features",	
 		glue = {"com.pdl.step_definitions","com.pdl.hooks"},
+		 
 		dryRun=false,
 		//dryRun=true,
-		tags="@Login"
-		
-//		monochrome=false
+
+		tags = //"@searchByCatagory"
+		"@Search"
+	
+		// urmin
+
+        //monochrome=false
 )
+
 
 public class EALRunner {
 	
