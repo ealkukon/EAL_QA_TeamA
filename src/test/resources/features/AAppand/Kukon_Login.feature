@@ -5,6 +5,7 @@ Feature: Login functionality for openCart E-commerce Webside
   I want to log in with my email and password
   so that I can access my account and personal information.
 
+
   @BSmoke @smoke
   Scenario: Successful login valid credentials
     Given I am on the login page

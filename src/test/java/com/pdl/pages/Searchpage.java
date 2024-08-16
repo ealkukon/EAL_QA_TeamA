@@ -23,7 +23,7 @@ public class Searchpage extends CommonMethods {
 	@FindBy(xpath="//input[@type='text']")//done
 	public WebElement searchbox;
 	
-	//@FindBy(xpath="//*[@id=\"search\"]/span/button")
+
 	@FindBy(xpath="//button[@class='btn btn-default btn-lg']")
 	public WebElement searchbtn;
    
@@ -32,14 +32,9 @@ public class Searchpage extends CommonMethods {
 	@FindBy(xpath="//div[@id='content']")
 	public List<WebElement> productImages;
 	
-	@FindBy(xpath="//*[@id=\"content\"]/div[3]/div/div/div[2]/div[1]/h4/a")
-	public  List<WebElement> productNames;;
-	
-	@FindBy(xpath="//*[@id=\"content\"]/div[3]/div/div/div[2]/div[1]/p[2]")
-	public List<WebElement> productPrices;
 	
 	//for phone/**/
-	@FindBy(xpath="//img[@title='iPhone']")
+	/*@FindBy(xpath="//img[@title='iPhone']")
 	public List<WebElement> phoneimage;
 	
 	@FindBy(xpath="//a[text()='iPhone']")//a[text()='iPhone']
@@ -47,7 +42,7 @@ public class Searchpage extends CommonMethods {
 	
 	@FindBy(xpath="//p[@class='price']")
 	public List<WebElement> phoneprice;
-
+*/
 	public void search_box() {
 		
 		isElementDisplayed(searchbox);;
@@ -89,7 +84,8 @@ public class Searchpage extends CommonMethods {
         }
     }
    */
-		
+
+
 	
 
 

@@ -21,6 +21,7 @@ import io.cucumber.java.After;
 import io.cucumber.java.AfterAll;
 import io.cucumber.java.AfterStep;
 import io.cucumber.java.Before;
+import io.cucumber.java.BeforeAll;
 import io.cucumber.java.BeforeStep;
 import io.cucumber.java.Scenario;
 
@@ -48,6 +49,39 @@ public class Hooks extends CommonMethods {
 	public static final Logger logger = LogManager.getLogger(Hooks.class);
 
 
+	/*
+	 * @Before public void setUp() { if
+	 * (ConfigurationReader.getProperty("browser").equals("headless")) {
+	 * 
+	 * //Driver.getDriver().manage().timeouts().implicitlyWait(20,
+	 * TimeUnit.SECONDS);//this part we changed from green to black
+	 * 
+	 * 
+	 * 
+	 * Driver.getDriver().get(ConfigurationReader.getProperty("url")); }
+	 * 
+	 * else {
+	 * 
+	 * logger.info("Running Hooks before every scenario");
+	 * 
+	 * Driver.getDriver().manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+	 * Driver.getDriver().manage().window().maximize();
+	 * 
+	 * String URL=ConfigurationReader.getProperty("url");
+	 * Driver.getDriver().get(URL);
+	 * 
+	 * // mReporter.addStepLog("Url Launched from @beforeHooks -"+URL);
+	 * logger.info("*URL Lunched from hooks : "+
+	 * ConfigurationReader.getProperty("url"));
+	 * 
+	 * 
+	 * //waitForPageToLoadfor(20);// page loading// green to black
+	 * 
+	 * 
+	 * waitForPageToLoad(); waitForAJAXToLoad();
+	 * 
+	 * } }
+	 */
 	@Before
 	public void setUp() {
 		if (ConfigurationReader.getProperty("browser").equals("headless")) {
@@ -65,7 +99,8 @@ public class Hooks extends CommonMethods {
 		
 		else {
 
-			logger.info("Running Hooks before every scenario");
+			logger.info("Running Hooks before test");
+
 			Driver.getDriver().manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 			Driver.getDriver().manage().window().maximize();
 			
