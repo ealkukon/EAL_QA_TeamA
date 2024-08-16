@@ -1,0 +1,421 @@
+[WARN ] 2024-08-15 19:03:09.247 [main] TestRunner - Support to run JUnit tests using TestNG stands deprecated and will be removed in future versions. You can now use the JUnit5 TestNG engine to run both JUnit and TestNG tests. For more information refer to https://github.com/junit-team/testng-engine .
+[INFO ] 2024-08-15 19:03:12.290 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-08-15 19:03:15.099 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-08-15 19:03:15.106 [main] Hooks - ================================================================
+[INFO ] 2024-08-15 19:03:15.107 [main] Hooks - Scenario Title: Searching for a product by keyword
+[INFO ] 2024-08-15 19:03:15.108 [main] Hooks - =================================================================
+[INFO ] 2024-08-15 19:03:15.112 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 19:03:15.112 [main] StepNameListener - Executing step: I should see the search box
+[INFO ] 2024-08-15 19:03:15.113 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 19:03:15.181 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-15 19:03:15.229 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-15 19:03:15.273 [main] Validkeyword_SearchStep - search box should be visible
+[INFO ] 2024-08-15 19:03:17.582 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 19:03:17.582 [main] StepNameListener - Executing step: I enter a valid keyword in the search box
+[INFO ] 2024-08-15 19:03:17.582 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 19:03:17.846 [main] Validkeyword_SearchStep - valid keyword has enetred
+[INFO ] 2024-08-15 19:03:20.082 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 19:03:20.083 [main] StepNameListener - Executing step: I click on the search button
+[INFO ] 2024-08-15 19:03:20.083 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 19:03:21.213 [main] Validkeyword_SearchStep - I click on the search button
+[INFO ] 2024-08-15 19:03:23.409 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 19:03:23.409 [main] StepNameListener - Executing step: I should see a list of products that match the keyword with their images, names and prices
+[INFO ] 2024-08-15 19:03:23.409 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 19:03:23.436 [main] Validkeyword_SearchStep - list of products should be visible or display with name, price and images
+[INFO ] 2024-08-15 19:03:25.576 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-15 19:03:25.577 [main] Hooks - Searching for a product by keyword Status - PASSED
+[INFO ] 2024-08-15 19:03:25.578 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-15 19:03:25.607 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-08-15 19:03:26.049 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-08-15 19:03:26.050 [main] Hooks - ================================================================
+[INFO ] 2024-08-15 19:03:26.051 [main] Hooks - Scenario Title: Searching for a product by invalid keyword
+[INFO ] 2024-08-15 19:03:26.051 [main] Hooks - =================================================================
+[INFO ] 2024-08-15 19:03:26.052 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 19:03:26.053 [main] StepNameListener - Executing step: I enter an invalid "Maca" in the search box
+[INFO ] 2024-08-15 19:03:26.053 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 19:03:26.676 [main] InvalikeywordSearch_Step - invalid keword has entererd on search box and search button is clicked
+[INFO ] 2024-08-15 19:03:26.897 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 19:03:26.897 [main] StepNameListener - Executing step: I click on the search button
+[INFO ] 2024-08-15 19:03:26.897 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 19:03:27.357 [main] Validkeyword_SearchStep - I click on the search button
+[INFO ] 2024-08-15 19:03:29.627 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 19:03:29.627 [main] StepNameListener - Executing step: I should not be able to see any product images, names, or prices
+[INFO ] 2024-08-15 19:03:29.627 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 19:03:29.662 [main] InvalikeywordSearch_Step - No products infos are visible
+[INFO ] 2024-08-15 19:03:29.850 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 19:03:29.850 [main] StepNameListener - Executing step: I should receive a message.
+[INFO ] 2024-08-15 19:03:29.850 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 19:03:29.884 [main] InvalikeywordSearch_Step - no product matches message should display
+[INFO ] 2024-08-15 19:03:30.091 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-15 19:03:30.092 [main] Hooks - Searching for a product by invalid keyword Status - PASSED
+[INFO ] 2024-08-15 19:03:30.092 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-15 19:03:30.115 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-08-15 19:03:30.584 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-08-15 19:03:30.584 [main] Hooks - ================================================================
+[INFO ] 2024-08-15 19:03:30.584 [main] Hooks - Scenario Title: Searching for a product by category
+[INFO ] 2024-08-15 19:03:30.584 [main] Hooks - =================================================================
+[INFO ] 2024-08-15 19:03:30.585 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 19:03:30.585 [main] StepNameListener - Executing step: I click on ìSearchî button and it will land on Search page
+[INFO ] 2024-08-15 19:03:30.586 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 19:03:32.228 [main] SearchCatagory_Step - after clicking on search button, search page will land
+[INFO ] 2024-08-15 19:03:32.469 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 19:03:32.469 [main] StepNameListener - Executing step: I enter a "Mac" in the search criteria
+[INFO ] 2024-08-15 19:03:32.469 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 19:03:33.776 [main] SearchCatagory_Step - keyword has entered
+[INFO ] 2024-08-15 19:03:34.028 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 19:03:34.029 [main] StepNameListener - Executing step: I select a category from the drop-down menu and I click on the search button
+[INFO ] 2024-08-15 19:03:34.029 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 19:03:39.035 [main] SearchCatagory_Step - after selecting a catagory , search button should be clicked
+[INFO ] 2024-08-15 19:03:39.312 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 19:03:39.312 [main] StepNameListener - Executing step: I should see a list of products that belong to the category with their images, names, and prices
+[INFO ] 2024-08-15 19:03:39.312 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 19:03:41.359 [main] SearchCatagory_Step - mac page should display with all infos
+[INFO ] 2024-08-15 19:03:41.605 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-15 19:03:41.605 [main] Hooks - Searching for a product by category Status - PASSED
+[INFO ] 2024-08-15 19:03:41.605 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-15 19:03:41.628 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-08-15 19:03:42.850 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-08-15 19:03:42.851 [main] Hooks - ================================================================
+[INFO ] 2024-08-15 19:03:42.851 [main] Hooks - Scenario Title: Sorting the search results by name, price or rating
+[INFO ] 2024-08-15 19:03:42.851 [main] Hooks - =================================================================
+[INFO ] 2024-08-15 19:03:42.852 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 19:03:42.853 [main] StepNameListener - Executing step: I have performed a search and got some results
+[INFO ] 2024-08-15 19:03:42.853 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 19:03:43.051 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-15 19:03:43.095 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-15 19:03:43.917 [main] SearchCatagory_Step -  valid products have been searched and products have been displayed with results 
+[INFO ] 2024-08-15 19:03:44.283 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 19:03:44.283 [main] StepNameListener - Executing step: I select an option from the sort by drop-down menu on the right side of the page
+[INFO ] 2024-08-15 19:03:44.283 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 19:04:02.645 [main] SearchCatagory_Step - dropdown menu have sroting the products in different criteria
+[INFO ] 2024-08-15 19:04:02.946 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 19:04:02.946 [main] StepNameListener - Executing step: I should see the products sorted according to the option I have selected
+[INFO ] 2024-08-15 19:04:02.946 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 19:04:02.979 [main] SearchCatagory_Step - products sorted according to the option I have selected
+[INFO ] 2024-08-15 19:04:03.295 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-15 19:04:03.295 [main] Hooks - Sorting the search results by name, price or rating Status - PASSED
+[INFO ] 2024-08-15 19:04:03.295 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-15 19:04:03.314 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-08-15 19:04:03.879 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-08-15 19:04:03.882 [main] Hooks - ================================================================
+[INFO ] 2024-08-15 19:04:03.883 [main] Hooks - Scenario Title: Sorting the search results by name, price or rating
+[INFO ] 2024-08-15 19:04:03.883 [main] Hooks - =================================================================
+[INFO ] 2024-08-15 19:04:03.885 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 19:04:03.885 [main] StepNameListener - Executing step: I have performed a search and got some results
+[INFO ] 2024-08-15 19:04:03.885 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 19:04:04.088 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-15 19:04:04.130 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-15 19:04:05.030 [main] SearchCatagory_Step -  valid products have been searched and products have been displayed with results 
+[INFO ] 2024-08-15 19:04:05.465 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 19:04:05.465 [main] StepNameListener - Executing step: I select an option from the sort by drop-down menu on the right side of the page
+[INFO ] 2024-08-15 19:04:05.465 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 19:04:23.705 [main] SearchCatagory_Step - dropdown menu have sroting the products in different criteria
+[INFO ] 2024-08-15 19:04:24.072 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 19:04:24.072 [main] StepNameListener - Executing step: I should see the products sorted according to the option I have selected
+[INFO ] 2024-08-15 19:04:24.072 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 19:04:24.105 [main] SearchCatagory_Step - products sorted according to the option I have selected
+[INFO ] 2024-08-15 19:04:24.390 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-15 19:04:24.390 [main] Hooks - Sorting the search results by name, price or rating Status - PASSED
+[INFO ] 2024-08-15 19:04:24.390 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-15 19:04:24.413 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-08-15 19:04:25.060 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-08-15 19:04:25.062 [main] Hooks - ================================================================
+[INFO ] 2024-08-15 19:04:25.062 [main] Hooks - Scenario Title: Sorting the search results by name, price or rating
+[INFO ] 2024-08-15 19:04:25.062 [main] Hooks - =================================================================
+[INFO ] 2024-08-15 19:04:25.063 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 19:04:25.064 [main] StepNameListener - Executing step: I have performed a search and got some results
+[INFO ] 2024-08-15 19:04:25.064 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 19:04:25.314 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-15 19:04:25.359 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-15 19:04:26.423 [main] SearchCatagory_Step -  valid products have been searched and products have been displayed with results 
+[INFO ] 2024-08-15 19:04:26.758 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 19:04:26.758 [main] StepNameListener - Executing step: I select an option from the sort by drop-down menu on the right side of the page
+[INFO ] 2024-08-15 19:04:26.758 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 19:04:44.579 [main] SearchCatagory_Step - dropdown menu have sroting the products in different criteria
+[INFO ] 2024-08-15 19:04:44.922 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 19:04:44.922 [main] StepNameListener - Executing step: I should see the products sorted according to the option I have selected
+[INFO ] 2024-08-15 19:04:44.922 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 19:04:44.954 [main] SearchCatagory_Step - products sorted according to the option I have selected
+[INFO ] 2024-08-15 19:04:45.237 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-15 19:04:45.238 [main] Hooks - Sorting the search results by name, price or rating Status - PASSED
+[INFO ] 2024-08-15 19:04:45.238 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-15 19:04:45.256 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-08-15 19:04:45.795 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-08-15 19:04:45.795 [main] Hooks - ================================================================
+[INFO ] 2024-08-15 19:04:45.795 [main] Hooks - Scenario Title: Sorting the search results by name, price or rating
+[INFO ] 2024-08-15 19:04:45.795 [main] Hooks - =================================================================
+[INFO ] 2024-08-15 19:04:45.796 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 19:04:45.796 [main] StepNameListener - Executing step: I have performed a search and got some results
+[INFO ] 2024-08-15 19:04:45.797 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 19:04:45.986 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-15 19:04:46.018 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-15 19:04:46.738 [main] SearchCatagory_Step -  valid products have been searched and products have been displayed with results 
+[INFO ] 2024-08-15 19:04:47.091 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 19:04:47.091 [main] StepNameListener - Executing step: I select an option from the sort by drop-down menu on the right side of the page
+[INFO ] 2024-08-15 19:04:47.091 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 19:05:04.447 [main] SearchCatagory_Step - dropdown menu have sroting the products in different criteria
+[INFO ] 2024-08-15 19:05:04.786 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 19:05:04.786 [main] StepNameListener - Executing step: I should see the products sorted according to the option I have selected
+[INFO ] 2024-08-15 19:05:04.786 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 19:05:04.820 [main] SearchCatagory_Step - products sorted according to the option I have selected
+[INFO ] 2024-08-15 19:05:05.098 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-15 19:05:05.098 [main] Hooks - Sorting the search results by name, price or rating Status - PASSED
+[INFO ] 2024-08-15 19:05:05.099 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-15 19:05:05.112 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-08-15 19:05:05.572 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-08-15 19:05:05.573 [main] Hooks - ================================================================
+[INFO ] 2024-08-15 19:05:05.573 [main] Hooks - Scenario Title: Sorting the search results by name, price or rating
+[INFO ] 2024-08-15 19:05:05.573 [main] Hooks - =================================================================
+[INFO ] 2024-08-15 19:05:05.574 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 19:05:05.574 [main] StepNameListener - Executing step: I have performed a search and got some results
+[INFO ] 2024-08-15 19:05:05.574 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 19:05:05.754 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-15 19:05:05.794 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-15 19:05:06.522 [main] SearchCatagory_Step -  valid products have been searched and products have been displayed with results 
+[INFO ] 2024-08-15 19:05:06.870 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 19:05:06.870 [main] StepNameListener - Executing step: I select an option from the sort by drop-down menu on the right side of the page
+[INFO ] 2024-08-15 19:05:06.870 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 19:05:24.831 [main] SearchCatagory_Step - dropdown menu have sroting the products in different criteria
+[INFO ] 2024-08-15 19:05:25.140 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 19:05:25.140 [main] StepNameListener - Executing step: I should see the products sorted according to the option I have selected
+[INFO ] 2024-08-15 19:05:25.140 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 19:05:25.173 [main] SearchCatagory_Step - products sorted according to the option I have selected
+[INFO ] 2024-08-15 19:05:25.438 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-15 19:05:25.438 [main] Hooks - Sorting the search results by name, price or rating Status - PASSED
+[INFO ] 2024-08-15 19:05:25.438 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-15 19:05:25.452 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-08-15 19:05:26.081 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-08-15 19:05:26.082 [main] Hooks - ================================================================
+[INFO ] 2024-08-15 19:05:26.083 [main] Hooks - Scenario Title: Sorting the search results by name, price or rating
+[INFO ] 2024-08-15 19:05:26.083 [main] Hooks - =================================================================
+[INFO ] 2024-08-15 19:05:26.083 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 19:05:26.084 [main] StepNameListener - Executing step: I have performed a search and got some results
+[INFO ] 2024-08-15 19:05:26.084 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 19:05:26.294 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-15 19:05:26.337 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-15 19:05:27.277 [main] SearchCatagory_Step -  valid products have been searched and products have been displayed with results 
+[INFO ] 2024-08-15 19:05:27.668 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 19:05:27.668 [main] StepNameListener - Executing step: I select an option from the sort by drop-down menu on the right side of the page
+[INFO ] 2024-08-15 19:05:27.668 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 19:05:45.329 [main] SearchCatagory_Step - dropdown menu have sroting the products in different criteria
+[INFO ] 2024-08-15 19:05:45.508 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 19:05:45.508 [main] StepNameListener - Executing step: I should see the products sorted according to the option I have selected
+[INFO ] 2024-08-15 19:05:45.508 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 19:05:45.530 [main] SearchCatagory_Step - products sorted according to the option I have selected
+[INFO ] 2024-08-15 19:05:45.707 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-15 19:05:45.710 [main] Hooks - Sorting the search results by name, price or rating Status - PASSED
+[INFO ] 2024-08-15 19:05:45.710 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-15 19:05:45.736 [main] Hooks - CLosing the Driver
+[INFO ] 2024-08-15 19:05:46.035 [main] Hooks - Driver Closed
+[INFO ] 2024-08-15 19:05:46.036 [main] Hooks - CLosing the Driver
+[INFO ] 2024-08-15 19:05:46.036 [main] Hooks - Driver Closed
+[INFO ] 2024-08-15 21:04:20.564 [main] Hooks - ================================================================
+[INFO ] 2024-08-15 21:04:20.569 [main] Hooks - Scenario Title: Searching for a product by keyword
+[INFO ] 2024-08-15 21:04:20.569 [main] Hooks - =================================================================
+[INFO ] 2024-08-15 21:04:20.580 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-08-15 21:04:23.452 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-08-15 21:04:23.458 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:04:23.458 [main] StepNameListener - Executing step: I should see the search box
+[INFO ] 2024-08-15 21:04:23.458 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:04:23.572 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-15 21:04:23.625 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-15 21:04:23.656 [main] Validkeyword_SearchStep - search box should be visible
+[INFO ] 2024-08-15 21:04:25.906 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:04:25.906 [main] StepNameListener - Executing step: I enter a valid keyword in the search box
+[INFO ] 2024-08-15 21:04:25.907 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:04:26.031 [main] Validkeyword_SearchStep - valid keyword has enetred
+[INFO ] 2024-08-15 21:04:28.255 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:04:28.255 [main] StepNameListener - Executing step: I click on the search button
+[INFO ] 2024-08-15 21:04:28.255 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:04:29.205 [main] Validkeyword_SearchStep - I click on the search button
+[INFO ] 2024-08-15 21:04:31.409 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:04:31.410 [main] StepNameListener - Executing step: I should see a list of products that match the keyword with their images, names and prices
+[INFO ] 2024-08-15 21:04:31.410 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:04:31.444 [main] Validkeyword_SearchStep - list of products should be visible or display with name, price and images
+[INFO ] 2024-08-15 21:04:33.627 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-15 21:04:33.628 [main] Hooks - Searching for a product by keyword Status - PASSED
+[INFO ] 2024-08-15 21:04:33.629 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-15 21:04:33.660 [main] Hooks - ================================================================
+[INFO ] 2024-08-15 21:04:33.660 [main] Hooks - Scenario Title: Searching for a product by invalid keyword
+[INFO ] 2024-08-15 21:04:33.660 [main] Hooks - =================================================================
+[INFO ] 2024-08-15 21:04:33.661 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-08-15 21:04:34.365 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-08-15 21:04:34.366 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:04:34.366 [main] StepNameListener - Executing step: I enter an invalid "Maca" in the search box
+[INFO ] 2024-08-15 21:04:34.366 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:04:35.067 [main] InvalikeywordSearch_Step - invalid keword has entererd on search box and search button is clicked
+[INFO ] 2024-08-15 21:04:35.269 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:04:35.269 [main] StepNameListener - Executing step: I click on the search button
+[INFO ] 2024-08-15 21:04:35.269 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:04:35.676 [main] Validkeyword_SearchStep - I click on the search button
+[INFO ] 2024-08-15 21:04:37.844 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:04:37.845 [main] StepNameListener - Executing step: I should not be able to see any product images, names, or prices
+[INFO ] 2024-08-15 21:04:37.845 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:04:37.873 [main] InvalikeywordSearch_Step - No products infos are visible
+[INFO ] 2024-08-15 21:04:38.023 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:04:38.023 [main] StepNameListener - Executing step: I should receive a message.
+[INFO ] 2024-08-15 21:04:38.023 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:04:38.057 [main] InvalikeywordSearch_Step - no product matches message should display
+[INFO ] 2024-08-15 21:04:38.228 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-15 21:04:38.228 [main] Hooks - Searching for a product by invalid keyword Status - PASSED
+[INFO ] 2024-08-15 21:04:38.228 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-15 21:04:38.245 [main] Hooks - ================================================================
+[INFO ] 2024-08-15 21:04:38.245 [main] Hooks - Scenario Title: Searching for a product by category
+[INFO ] 2024-08-15 21:04:38.245 [main] Hooks - =================================================================
+[INFO ] 2024-08-15 21:04:38.246 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-08-15 21:04:38.713 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-08-15 21:04:38.714 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:04:38.714 [main] StepNameListener - Executing step: I click on ‚ÄúSearch‚Äù button and it will land on Search page
+[INFO ] 2024-08-15 21:04:38.714 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:04:40.260 [main] SearchCatagory_Step - after clicking on search button, search page will land
+[INFO ] 2024-08-15 21:04:40.427 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:04:40.428 [main] StepNameListener - Executing step: I enter a "Mac" in the search criteria
+[INFO ] 2024-08-15 21:04:40.428 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:04:41.615 [main] SearchCatagory_Step - keyword has entered
+[INFO ] 2024-08-15 21:04:41.729 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:04:41.729 [main] StepNameListener - Executing step: I select a category from the drop-down menu and I click on the search button
+[INFO ] 2024-08-15 21:04:41.729 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:04:45.585 [main] SearchCatagory_Step - after selecting a catagory , search button should be clicked
+[INFO ] 2024-08-15 21:04:45.723 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:04:45.723 [main] StepNameListener - Executing step: I should see a list of products that belong to the category with their images, names, and prices
+[INFO ] 2024-08-15 21:04:45.723 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:04:47.756 [main] SearchCatagory_Step - mac page should display with all infos
+[INFO ] 2024-08-15 21:04:47.877 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-15 21:04:47.877 [main] Hooks - Searching for a product by category Status - PASSED
+[INFO ] 2024-08-15 21:04:47.877 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-15 21:04:47.893 [main] Hooks - ================================================================
+[INFO ] 2024-08-15 21:04:47.894 [main] Hooks - Scenario Title: Sorting the search results by name, price or rating
+[INFO ] 2024-08-15 21:04:47.894 [main] Hooks - =================================================================
+[INFO ] 2024-08-15 21:04:47.894 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-08-15 21:04:48.343 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-08-15 21:04:48.344 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:04:48.344 [main] StepNameListener - Executing step: I have performed a search and got some results
+[INFO ] 2024-08-15 21:04:48.345 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:04:48.457 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-15 21:04:48.472 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-15 21:04:48.990 [main] SearchCatagory_Step -  valid products have been searched and products have been displayed with results 
+[INFO ] 2024-08-15 21:04:49.148 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:04:49.148 [main] StepNameListener - Executing step: I select an option from the sort by drop-down menu on the right side of the page
+[INFO ] 2024-08-15 21:04:49.148 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:05:05.500 [main] SearchCatagory_Step - dropdown menu have sroting the products in different criteria
+[INFO ] 2024-08-15 21:05:05.773 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:05:05.773 [main] StepNameListener - Executing step: I should see the products sorted according to the option I have selected
+[INFO ] 2024-08-15 21:05:05.774 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:05:05.805 [main] SearchCatagory_Step - products sorted according to the option I have selected
+[INFO ] 2024-08-15 21:05:06.038 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-15 21:05:06.038 [main] Hooks - Sorting the search results by name, price or rating Status - PASSED
+[INFO ] 2024-08-15 21:05:06.038 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-15 21:05:06.060 [main] Hooks - ================================================================
+[INFO ] 2024-08-15 21:05:06.060 [main] Hooks - Scenario Title: Sorting the search results by name, price or rating
+[INFO ] 2024-08-15 21:05:06.060 [main] Hooks - =================================================================
+[INFO ] 2024-08-15 21:05:06.061 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-08-15 21:05:06.582 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-08-15 21:05:06.583 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:05:06.584 [main] StepNameListener - Executing step: I have performed a search and got some results
+[INFO ] 2024-08-15 21:05:06.584 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:05:06.779 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-15 21:05:06.810 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-15 21:05:07.699 [main] SearchCatagory_Step -  valid products have been searched and products have been displayed with results 
+[INFO ] 2024-08-15 21:05:07.974 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:05:07.974 [main] StepNameListener - Executing step: I select an option from the sort by drop-down menu on the right side of the page
+[INFO ] 2024-08-15 21:05:07.974 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:05:24.722 [main] SearchCatagory_Step - dropdown menu have sroting the products in different criteria
+[INFO ] 2024-08-15 21:05:24.913 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:05:24.913 [main] StepNameListener - Executing step: I should see the products sorted according to the option I have selected
+[INFO ] 2024-08-15 21:05:24.913 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:05:24.937 [main] SearchCatagory_Step - products sorted according to the option I have selected
+[INFO ] 2024-08-15 21:05:25.086 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-15 21:05:25.086 [main] Hooks - Sorting the search results by name, price or rating Status - PASSED
+[INFO ] 2024-08-15 21:05:25.086 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-15 21:05:25.100 [main] Hooks - ================================================================
+[INFO ] 2024-08-15 21:05:25.100 [main] Hooks - Scenario Title: Sorting the search results by name, price or rating
+[INFO ] 2024-08-15 21:05:25.100 [main] Hooks - =================================================================
+[INFO ] 2024-08-15 21:05:25.101 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-08-15 21:05:25.561 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-08-15 21:05:25.562 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:05:25.562 [main] StepNameListener - Executing step: I have performed a search and got some results
+[INFO ] 2024-08-15 21:05:25.562 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:05:25.644 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-15 21:05:25.664 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-15 21:05:26.253 [main] SearchCatagory_Step -  valid products have been searched and products have been displayed with results 
+[INFO ] 2024-08-15 21:05:26.451 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:05:26.451 [main] StepNameListener - Executing step: I select an option from the sort by drop-down menu on the right side of the page
+[INFO ] 2024-08-15 21:05:26.451 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:05:42.897 [main] SearchCatagory_Step - dropdown menu have sroting the products in different criteria
+[INFO ] 2024-08-15 21:05:43.078 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:05:43.078 [main] StepNameListener - Executing step: I should see the products sorted according to the option I have selected
+[INFO ] 2024-08-15 21:05:43.078 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:05:43.105 [main] SearchCatagory_Step - products sorted according to the option I have selected
+[INFO ] 2024-08-15 21:05:43.253 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-15 21:05:43.253 [main] Hooks - Sorting the search results by name, price or rating Status - PASSED
+[INFO ] 2024-08-15 21:05:43.253 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-15 21:05:43.266 [main] Hooks - ================================================================
+[INFO ] 2024-08-15 21:05:43.266 [main] Hooks - Scenario Title: Sorting the search results by name, price or rating
+[INFO ] 2024-08-15 21:05:43.266 [main] Hooks - =================================================================
+[INFO ] 2024-08-15 21:05:43.267 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-08-15 21:05:43.726 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-08-15 21:05:43.726 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:05:43.727 [main] StepNameListener - Executing step: I have performed a search and got some results
+[INFO ] 2024-08-15 21:05:43.727 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:05:43.844 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-15 21:05:43.869 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-15 21:05:44.496 [main] SearchCatagory_Step -  valid products have been searched and products have been displayed with results 
+[INFO ] 2024-08-15 21:05:44.708 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:05:44.708 [main] StepNameListener - Executing step: I select an option from the sort by drop-down menu on the right side of the page
+[INFO ] 2024-08-15 21:05:44.708 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:06:01.183 [main] SearchCatagory_Step - dropdown menu have sroting the products in different criteria
+[INFO ] 2024-08-15 21:06:01.368 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:06:01.368 [main] StepNameListener - Executing step: I should see the products sorted according to the option I have selected
+[INFO ] 2024-08-15 21:06:01.368 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:06:01.397 [main] SearchCatagory_Step - products sorted according to the option I have selected
+[INFO ] 2024-08-15 21:06:01.555 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-15 21:06:01.555 [main] Hooks - Sorting the search results by name, price or rating Status - PASSED
+[INFO ] 2024-08-15 21:06:01.555 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-15 21:06:01.569 [main] Hooks - ================================================================
+[INFO ] 2024-08-15 21:06:01.569 [main] Hooks - Scenario Title: Sorting the search results by name, price or rating
+[INFO ] 2024-08-15 21:06:01.569 [main] Hooks - =================================================================
+[INFO ] 2024-08-15 21:06:01.569 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-08-15 21:06:02.061 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-08-15 21:06:02.061 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:06:02.061 [main] StepNameListener - Executing step: I have performed a search and got some results
+[INFO ] 2024-08-15 21:06:02.061 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:06:02.235 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-15 21:06:02.266 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-15 21:06:02.897 [main] SearchCatagory_Step -  valid products have been searched and products have been displayed with results 
+[INFO ] 2024-08-15 21:06:03.127 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:06:03.127 [main] StepNameListener - Executing step: I select an option from the sort by drop-down menu on the right side of the page
+[INFO ] 2024-08-15 21:06:03.127 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:06:19.272 [main] SearchCatagory_Step - dropdown menu have sroting the products in different criteria
+[INFO ] 2024-08-15 21:06:19.477 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:06:19.477 [main] StepNameListener - Executing step: I should see the products sorted according to the option I have selected
+[INFO ] 2024-08-15 21:06:19.477 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:06:19.502 [main] SearchCatagory_Step - products sorted according to the option I have selected
+[INFO ] 2024-08-15 21:06:19.663 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-15 21:06:19.663 [main] Hooks - Sorting the search results by name, price or rating Status - PASSED
+[INFO ] 2024-08-15 21:06:19.663 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-15 21:06:19.676 [main] Hooks - ================================================================
+[INFO ] 2024-08-15 21:06:19.676 [main] Hooks - Scenario Title: Sorting the search results by name, price or rating
+[INFO ] 2024-08-15 21:06:19.676 [main] Hooks - =================================================================
+[INFO ] 2024-08-15 21:06:19.677 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-08-15 21:06:20.103 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-08-15 21:06:20.103 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:06:20.103 [main] StepNameListener - Executing step: I have performed a search and got some results
+[INFO ] 2024-08-15 21:06:20.104 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:06:20.220 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-15 21:06:20.243 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-15 21:06:20.828 [main] SearchCatagory_Step -  valid products have been searched and products have been displayed with results 
+[INFO ] 2024-08-15 21:06:21.034 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:06:21.034 [main] StepNameListener - Executing step: I select an option from the sort by drop-down menu on the right side of the page
+[INFO ] 2024-08-15 21:06:21.034 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:06:37.316 [main] SearchCatagory_Step - dropdown menu have sroting the products in different criteria
+[INFO ] 2024-08-15 21:06:37.548 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:06:37.548 [main] StepNameListener - Executing step: I should see the products sorted according to the option I have selected
+[INFO ] 2024-08-15 21:06:37.548 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:06:37.574 [main] SearchCatagory_Step - products sorted according to the option I have selected
+[INFO ] 2024-08-15 21:06:37.727 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-15 21:06:37.728 [main] Hooks - Sorting the search results by name, price or rating Status - PASSED
+[INFO ] 2024-08-15 21:06:37.728 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-15 21:06:37.745 [main] Hooks - CLosing the Driver
+[INFO ] 2024-08-15 21:06:37.941 [main] Hooks - Driver Closed
+[INFO ] 2024-08-15 21:06:37.941 [main] Hooks - CLosing the Driver
+[INFO ] 2024-08-15 21:06:37.941 [main] Hooks - Driver Closed
