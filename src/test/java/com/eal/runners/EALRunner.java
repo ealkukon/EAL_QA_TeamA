@@ -30,6 +30,7 @@ import io.cucumber.junit.CucumberOptions;
 	+ "@ViewEditMyShoppingCart or " 
 					 + "@checkout")
 		*/
+		// Urmin Final update
 	"@smoketest1"
 	//	"@checkout"
 	
