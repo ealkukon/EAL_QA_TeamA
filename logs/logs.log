@@ -204,3 +204,722 @@
 [INFO ] 2024-08-15 18:04:26.273 [main] Hooks - Driver Closed
 [INFO ] 2024-08-15 18:04:26.274 [main] Hooks - CLosing the Driver
 [INFO ] 2024-08-15 18:04:26.274 [main] Hooks - Driver Closed
+[INFO ] 2024-08-15 20:59:23.531 [main] Hooks - Running Hooks before test
+[INFO ] 2024-08-15 20:59:26.076 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-08-15 20:59:26.092 [main] Hooks - ================================================================
+[INFO ] 2024-08-15 20:59:26.092 [main] Hooks - Scenario Title: Successful login valid credentials
+[INFO ] 2024-08-15 20:59:26.092 [main] Hooks - =================================================================
+[INFO ] 2024-08-15 20:59:26.106 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 20:59:26.107 [main] StepNameListener - Executing step: I am on the login page
+[INFO ] 2024-08-15 20:59:26.107 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 20:59:31.668 [main] Login_Stepdefination - landind on login page
+[INFO ] 2024-08-15 20:59:32.267 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 20:59:32.267 [main] StepNameListener - Executing step: I enter my email and password and click on the login button under the returning customer section
+[INFO ] 2024-08-15 20:59:32.267 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 20:59:37.759 [main] Login_Stepdefination - I enter my email and password and click on the login button under the returning customer section
+[INFO ] 2024-08-15 20:59:37.934 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 20:59:37.935 [main] StepNameListener - Executing step: Click on login button
+[INFO ] 2024-08-15 20:59:37.935 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 20:59:44.890 [main] Login_Stepdefination - Click on login button
+[INFO ] 2024-08-15 20:59:45.104 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 20:59:45.104 [main] StepNameListener - Executing step: I should see a welcome message and a list of options for my account
+[INFO ] 2024-08-15 20:59:45.104 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 20:59:45.394 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-15 20:59:45.401 [main] Hooks - Successful login valid credentials Status - PASSED
+[INFO ] 2024-08-15 20:59:45.401 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-15 20:59:45.497 [main] Hooks - Running Hooks before test
+[INFO ] 2024-08-15 20:59:46.652 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-08-15 20:59:46.653 [main] Hooks - ================================================================
+[INFO ] 2024-08-15 20:59:46.653 [main] Hooks - Scenario Title: Searching for a product by keyword
+[INFO ] 2024-08-15 20:59:46.653 [main] Hooks - =================================================================
+[INFO ] 2024-08-15 20:59:46.654 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 20:59:46.654 [main] StepNameListener - Executing step: I am on the login page
+[INFO ] 2024-08-15 20:59:46.655 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 20:59:52.228 [main] Login_Stepdefination - landind on login page
+[INFO ] 2024-08-15 20:59:52.540 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 20:59:52.541 [main] StepNameListener - Executing step: I enter my email and password and click on the login button under the returning customer section
+[INFO ] 2024-08-15 20:59:52.541 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 20:59:58.153 [main] Login_Stepdefination - I enter my email and password and click on the login button under the returning customer section
+[INFO ] 2024-08-15 20:59:58.389 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 20:59:58.389 [main] StepNameListener - Executing step: Click on login button
+[INFO ] 2024-08-15 20:59:58.389 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:00:04.912 [main] Login_Stepdefination - Click on login button
+[INFO ] 2024-08-15 21:00:05.192 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:00:05.192 [main] StepNameListener - Executing step: I should see a welcome message and a list of options for my account
+[INFO ] 2024-08-15 21:00:05.192 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:00:05.418 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:00:05.418 [main] StepNameListener - Executing step: I should see the search box
+[INFO ] 2024-08-15 21:00:05.418 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:00:05.461 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-15 21:00:05.508 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-15 21:00:05.549 [main] Validkeyword_SearchStep - search box should be visible
+[INFO ] 2024-08-15 21:00:07.788 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:00:07.789 [main] StepNameListener - Executing step: I enter a valid keyword in the search box
+[INFO ] 2024-08-15 21:00:07.789 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:00:08.286 [main] Validkeyword_SearchStep - valid keyword has enetred
+[INFO ] 2024-08-15 21:00:10.475 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:00:10.475 [main] StepNameListener - Executing step: I click on the search button
+[INFO ] 2024-08-15 21:00:10.475 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:00:11.942 [main] Validkeyword_SearchStep - I click on the search button
+[INFO ] 2024-08-15 21:00:14.243 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:00:14.244 [main] StepNameListener - Executing step: I should see a list of products that match the keyword with their images, names and prices
+[INFO ] 2024-08-15 21:00:14.244 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:00:14.290 [main] Validkeyword_SearchStep - list of products should be visible or display with name, price and images
+[INFO ] 2024-08-15 21:00:16.445 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-15 21:00:16.445 [main] Hooks - Searching for a product by keyword Status - PASSED
+[INFO ] 2024-08-15 21:00:16.445 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-15 21:00:16.473 [main] Hooks - Running Hooks before test
+[INFO ] 2024-08-15 21:00:17.711 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-08-15 21:00:17.713 [main] Hooks - ================================================================
+[INFO ] 2024-08-15 21:00:17.713 [main] Hooks - Scenario Title: verify the confirmation message after adding to cart
+[INFO ] 2024-08-15 21:00:17.713 [main] Hooks - =================================================================
+[INFO ] 2024-08-15 21:00:17.714 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:00:17.715 [main] StepNameListener - Executing step: I am on the login page
+[INFO ] 2024-08-15 21:00:17.715 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:00:23.233 [main] Login_Stepdefination - landind on login page
+[INFO ] 2024-08-15 21:00:23.508 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:00:23.509 [main] StepNameListener - Executing step: I enter my email and password and click on the login button under the returning customer section
+[INFO ] 2024-08-15 21:00:23.509 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:00:29.096 [main] Login_Stepdefination - I enter my email and password and click on the login button under the returning customer section
+[INFO ] 2024-08-15 21:00:29.261 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:00:29.261 [main] StepNameListener - Executing step: Click on login button
+[INFO ] 2024-08-15 21:00:29.261 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:00:35.642 [main] Login_Stepdefination - Click on login button
+[INFO ] 2024-08-15 21:00:35.885 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:00:35.890 [main] StepNameListener - Executing step: I should see a welcome message and a list of options for my account
+[INFO ] 2024-08-15 21:00:35.890 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:00:36.069 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:00:36.069 [main] StepNameListener - Executing step: I should see the search box
+[INFO ] 2024-08-15 21:00:36.069 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:00:36.092 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-15 21:00:36.119 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-15 21:00:36.140 [main] Validkeyword_SearchStep - search box should be visible
+[INFO ] 2024-08-15 21:00:38.336 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:00:38.337 [main] StepNameListener - Executing step: I enter a valid keyword in the search box
+[INFO ] 2024-08-15 21:00:38.337 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:00:38.489 [main] Validkeyword_SearchStep - valid keyword has enetred
+[INFO ] 2024-08-15 21:00:40.722 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:00:40.723 [main] StepNameListener - Executing step: I click on the search button
+[INFO ] 2024-08-15 21:00:40.723 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:00:41.706 [main] Validkeyword_SearchStep - I click on the search button
+[INFO ] 2024-08-15 21:00:43.909 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:00:43.909 [main] StepNameListener - Executing step: I should see a list of products that match the keyword with their images, names and prices
+[INFO ] 2024-08-15 21:00:43.910 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:00:43.941 [main] Validkeyword_SearchStep - list of products should be visible or display with name, price and images
+[INFO ] 2024-08-15 21:00:46.117 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:00:46.118 [main] StepNameListener - Executing step: the user clicks on add to cart
+[INFO ] 2024-08-15 21:00:46.118 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:00:46.151 [main] AddToCart_StepDef - *****click add to cart ********
+[INFO ] 2024-08-15 21:00:48.269 [main] AddToCart_StepDef - *************** the product was added to the cart ******************
+[INFO ] 2024-08-15 21:00:51.507 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:00:51.509 [main] StepNameListener - Executing step: He should see a confirmation message that says: “Success: You have added [product name] to your shopping cart!”
+[INFO ] 2024-08-15 21:00:51.510 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:00:51.519 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-15 21:00:51.554 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-15 21:00:53.611 [main] AddToCart_StepDef - ************** confirmation message displyed *********
+[INFO ] 2024-08-15 21:00:56.823 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:00:56.823 [main] StepNameListener - Executing step: the number of items in my cart should increase by one
+[INFO ] 2024-08-15 21:00:56.823 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:00:56.832 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-15 21:00:56.869 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-15 21:00:58.921 [main] AddToCart_StepDef - *************** shopping cart increased by one ***************
+[INFO ] 2024-08-15 21:01:02.122 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-15 21:01:02.123 [main] Hooks - verify the confirmation message after adding to cart Status - PASSED
+[INFO ] 2024-08-15 21:01:02.123 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-15 21:01:02.165 [main] Hooks - Running Hooks before test
+[INFO ] 2024-08-15 21:01:03.218 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-08-15 21:01:03.222 [main] Hooks - ================================================================
+[INFO ] 2024-08-15 21:01:03.223 [main] Hooks - Scenario Title: Check out as a registered customer
+[INFO ] 2024-08-15 21:01:03.234 [main] Hooks - =================================================================
+[INFO ] 2024-08-15 21:01:03.241 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:01:03.268 [main] StepNameListener - Executing step: I am on the login page
+[INFO ] 2024-08-15 21:01:03.269 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:01:08.926 [main] Login_Stepdefination - landind on login page
+[INFO ] 2024-08-15 21:01:09.201 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:01:09.201 [main] StepNameListener - Executing step: I enter my email and password and click on the login button under the returning customer section
+[INFO ] 2024-08-15 21:01:09.202 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:01:14.472 [main] Login_Stepdefination - I enter my email and password and click on the login button under the returning customer section
+[INFO ] 2024-08-15 21:01:14.713 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:01:14.713 [main] StepNameListener - Executing step: Click on login button
+[INFO ] 2024-08-15 21:01:14.713 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:01:21.102 [main] Login_Stepdefination - Click on login button
+[INFO ] 2024-08-15 21:01:21.397 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:01:21.398 [main] StepNameListener - Executing step: I should see a welcome message and a list of options for my account
+[INFO ] 2024-08-15 21:01:21.398 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:01:21.609 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:01:21.609 [main] StepNameListener - Executing step: I have some products in my shopping cart and I am logged in to my account
+[INFO ] 2024-08-15 21:01:21.610 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:01:21.644 [main] Checkout_StepDef -  user is already logged in
+[INFO ] 2024-08-15 21:01:24.775 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-15 21:01:24.819 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-15 21:01:27.633 [main] Checkout_StepDef - user already has some product in shopping cart
+[INFO ] 2024-08-15 21:01:27.943 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:01:27.943 [main] StepNameListener - Executing step: I click on the checkout button on the shopping cart page
+[INFO ] 2024-08-15 21:01:27.944 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:01:27.947 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-15 21:01:27.985 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-15 21:01:30.025 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-15 21:01:30.064 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-15 21:01:32.148 [main] Checkout_StepDef - checkout button is functionnal
+[INFO ] 2024-08-15 21:01:32.153 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-15 21:01:32.180 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-15 21:01:35.419 [main] Checkout_StepDef - checkout button is already clicked
+[INFO ] 2024-08-15 21:01:35.607 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:01:35.607 [main] StepNameListener - Executing step: I should see an option to check out with my account
+[INFO ] 2024-08-15 21:01:35.607 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:01:35.755 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:01:35.755 [main] StepNameListener - Executing step: I should be able to use my saved billing and delivery details or enter new ones, choose a delivery method, a payment method and confirm my order
+[INFO ] 2024-08-15 21:01:35.756 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:01:35.898 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:01:35.898 [main] StepNameListener - Executing step: the product is not in stock, we should see the message: ”Products marked with *** are not available in the desired quantity or not in stock!”
+[INFO ] 2024-08-15 21:01:35.898 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:01:35.898 [main] Checkout_StepDef - the product is not in stock
+[INFO ] 2024-08-15 21:01:35.902 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-15 21:02:06.201 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-15 21:02:06.201 [main] Hooks - Check out as a registered customer Status - FAILED
+[INFO ] 2024-08-15 21:02:06.202 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-15 21:02:06.255 [main] Hooks - Running Hooks before test
+[INFO ] 2024-08-15 21:02:07.509 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-08-15 21:02:07.511 [main] Hooks - ================================================================
+[INFO ] 2024-08-15 21:02:07.511 [main] Hooks - Scenario Title: checkout as a guest
+[INFO ] 2024-08-15 21:02:07.511 [main] Hooks - =================================================================
+[INFO ] 2024-08-15 21:02:07.511 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:02:07.511 [main] StepNameListener - Executing step: User should be logged out
+[INFO ] 2024-08-15 21:02:07.511 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:02:07.845 [main] Login_Stepdefination - user is logged out
+[INFO ] 2024-08-15 21:02:08.071 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:02:08.071 [main] StepNameListener - Executing step: User navigates to homepage
+[INFO ] 2024-08-15 21:02:08.071 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:02:08.097 [main] Checkout_StepDef - ********* start navigating on home page *************
+[INFO ] 2024-08-15 21:02:08.097 [main] Checkout_StepDef - *********** log in time is ended ***************
+[INFO ] 2024-08-15 21:02:08.302 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:02:08.303 [main] StepNameListener - Executing step: I should see the search box
+[INFO ] 2024-08-15 21:02:08.303 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:02:08.319 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-15 21:02:08.351 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-15 21:02:08.376 [main] Validkeyword_SearchStep - search box should be visible
+[INFO ] 2024-08-15 21:02:10.672 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:02:10.673 [main] StepNameListener - Executing step: I enter a valid keyword in the search box
+[INFO ] 2024-08-15 21:02:10.673 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:02:10.851 [main] Validkeyword_SearchStep - valid keyword has enetred
+[INFO ] 2024-08-15 21:02:13.134 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:02:13.134 [main] StepNameListener - Executing step: I click on the search button
+[INFO ] 2024-08-15 21:02:13.134 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:02:14.235 [main] Validkeyword_SearchStep - I click on the search button
+[INFO ] 2024-08-15 21:02:16.770 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:02:16.770 [main] StepNameListener - Executing step: I should see a list of products that match the keyword with their images, names and prices
+[INFO ] 2024-08-15 21:02:16.770 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:02:16.822 [main] Validkeyword_SearchStep - list of products should be visible or display with name, price and images
+[INFO ] 2024-08-15 21:02:18.997 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:02:18.997 [main] StepNameListener - Executing step: click on add to cart
+[INFO ] 2024-08-15 21:02:18.998 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:02:19.024 [main] AddToCart_StepDef - *****click add to cart ********
+[INFO ] 2024-08-15 21:02:21.188 [main] AddToCart_StepDef - *************** the product was added to the cart ******************
+[INFO ] 2024-08-15 21:02:24.475 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:02:24.475 [main] StepNameListener - Executing step: navigate to shopping cart and click on it
+[INFO ] 2024-08-15 21:02:24.475 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:02:24.475 [main] Checkout_StepDef - *************** the product was added to the cart ******************
+[INFO ] 2024-08-15 21:02:24.476 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-15 21:02:24.508 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-15 21:02:30.754 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:02:30.754 [main] StepNameListener - Executing step: click on checkout bouton.
+[INFO ] 2024-08-15 21:02:30.755 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:02:30.762 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-15 21:02:30.784 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-15 21:02:33.938 [main] Checkout_StepDef - ************* the product was checked out**************
+[INFO ] 2024-08-15 21:02:34.174 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:02:34.174 [main] StepNameListener - Executing step: I should see an option to checkout as a guest
+[INFO ] 2024-08-15 21:02:34.174 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:02:34.175 [main] Checkout_StepDef - checkout as a guest option
+[INFO ] 2024-08-15 21:02:34.423 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-15 21:02:34.423 [main] StepNameListener - Executing step: I should be able to enter my billing details, delivery details, delivery method, payment method and confirm my order
+[INFO ] 2024-08-15 21:02:34.423 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-15 21:02:34.423 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-15 21:02:34.424 [main] Hooks - checkout as a guest Status - FAILED
+[INFO ] 2024-08-15 21:02:34.424 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-15 21:02:34.443 [main] Hooks - CLosing the Driver
+[INFO ] 2024-08-15 21:02:34.718 [main] Hooks - Driver Closed
+[INFO ] 2024-08-15 21:02:34.718 [main] Hooks - CLosing the Driver
+[INFO ] 2024-08-15 21:02:34.718 [main] Hooks - Driver Closed
+[INFO ] 2024-08-18 10:38:22.504 [main] Hooks - ================================================================
+[INFO ] 2024-08-18 10:38:22.517 [main] Hooks - Scenario Title: Successful login valid credentials
+[INFO ] 2024-08-18 10:38:22.518 [main] Hooks - =================================================================
+[INFO ] 2024-08-18 10:38:22.540 [main] Hooks - Running Hooks before test
+[INFO ] 2024-08-18 10:38:23.170 [main] Hooks - ================================================================
+[INFO ] 2024-08-18 10:38:23.176 [main] Hooks - Scenario Title: Successful login valid credentials
+[INFO ] 2024-08-18 10:38:23.177 [main] Hooks - =================================================================
+[INFO ] 2024-08-18 10:38:23.183 [main] Hooks - Running Hooks before test
+[INFO ] 2024-08-18 10:38:25.164 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-08-18 10:38:25.169 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:38:25.169 [main] StepNameListener - Executing step: I am on the login page
+[INFO ] 2024-08-18 10:38:25.169 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:38:26.934 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-08-18 10:38:26.947 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:38:26.948 [main] StepNameListener - Executing step: I am on the login page
+[INFO ] 2024-08-18 10:38:26.948 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:38:30.610 [main] Login_Stepdefination - landind on login page
+[INFO ] 2024-08-18 10:38:30.903 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:38:30.903 [main] StepNameListener - Executing step: I enter my email and password and click on the login button under the returning customer section
+[INFO ] 2024-08-18 10:38:30.903 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:38:32.471 [main] Login_Stepdefination - landind on login page
+[INFO ] 2024-08-18 10:38:32.754 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:38:32.755 [main] StepNameListener - Executing step: I enter my email and password and click on the login button under the returning customer section
+[INFO ] 2024-08-18 10:38:32.755 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:38:36.204 [main] Login_Stepdefination - I enter my email and password and click on the login button under the returning customer section
+[INFO ] 2024-08-18 10:38:36.495 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:38:36.495 [main] StepNameListener - Executing step: Click on login button
+[INFO ] 2024-08-18 10:38:36.495 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:38:38.365 [main] Login_Stepdefination - I enter my email and password and click on the login button under the returning customer section
+[INFO ] 2024-08-18 10:38:38.580 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:38:38.580 [main] StepNameListener - Executing step: Click on login button
+[INFO ] 2024-08-18 10:38:38.580 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:38:43.384 [main] Login_Stepdefination - Click on login button
+[INFO ] 2024-08-18 10:38:44.000 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:38:44.001 [main] StepNameListener - Executing step: I should see a welcome message and a list of options for my account
+[INFO ] 2024-08-18 10:38:44.001 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:38:44.339 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-18 10:38:44.341 [main] Hooks - Successful login valid credentials Status - PASSED
+[INFO ] 2024-08-18 10:38:44.343 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-18 10:38:44.737 [main] Hooks - ================================================================
+[INFO ] 2024-08-18 10:38:44.737 [main] Hooks - Scenario Title: Searching for a product by keyword
+[INFO ] 2024-08-18 10:38:44.738 [main] Hooks - =================================================================
+[INFO ] 2024-08-18 10:38:44.745 [main] Hooks - Running Hooks before test
+[INFO ] 2024-08-18 10:38:45.034 [main] Login_Stepdefination - Click on login button
+[INFO ] 2024-08-18 10:38:45.314 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:38:45.314 [main] StepNameListener - Executing step: I should see a welcome message and a list of options for my account
+[INFO ] 2024-08-18 10:38:45.315 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:38:45.512 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-18 10:38:45.515 [main] Hooks - Successful login valid credentials Status - PASSED
+[INFO ] 2024-08-18 10:38:45.517 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-18 10:38:45.716 [main] Hooks - ================================================================
+[INFO ] 2024-08-18 10:38:45.716 [main] Hooks - Scenario Title: Searching for a product by keyword
+[INFO ] 2024-08-18 10:38:45.716 [main] Hooks - =================================================================
+[INFO ] 2024-08-18 10:38:45.722 [main] Hooks - Running Hooks before test
+[INFO ] 2024-08-18 10:38:46.723 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-08-18 10:38:46.727 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:38:46.727 [main] StepNameListener - Executing step: I am on the login page
+[INFO ] 2024-08-18 10:38:46.729 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:38:47.119 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-08-18 10:38:47.124 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:38:47.125 [main] StepNameListener - Executing step: I am on the login page
+[INFO ] 2024-08-18 10:38:47.125 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:38:52.639 [main] Login_Stepdefination - landind on login page
+[INFO ] 2024-08-18 10:38:52.735 [main] Login_Stepdefination - landind on login page
+[INFO ] 2024-08-18 10:38:53.116 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:38:53.116 [main] StepNameListener - Executing step: I enter my email and password and click on the login button under the returning customer section
+[INFO ] 2024-08-18 10:38:53.116 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:38:53.196 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:38:53.196 [main] StepNameListener - Executing step: I enter my email and password and click on the login button under the returning customer section
+[INFO ] 2024-08-18 10:38:53.196 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:38:59.050 [main] Login_Stepdefination - I enter my email and password and click on the login button under the returning customer section
+[INFO ] 2024-08-18 10:38:59.109 [main] Login_Stepdefination - I enter my email and password and click on the login button under the returning customer section
+[INFO ] 2024-08-18 10:38:59.235 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:38:59.236 [main] StepNameListener - Executing step: Click on login button
+[INFO ] 2024-08-18 10:38:59.236 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:38:59.297 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:38:59.297 [main] StepNameListener - Executing step: Click on login button
+[INFO ] 2024-08-18 10:38:59.297 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:39:05.149 [main] Login_Stepdefination - Click on login button
+[INFO ] 2024-08-18 10:39:05.295 [main] Login_Stepdefination - Click on login button
+[INFO ] 2024-08-18 10:39:05.471 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:39:05.471 [main] StepNameListener - Executing step: I should see a welcome message and a list of options for my account
+[INFO ] 2024-08-18 10:39:05.471 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:39:05.472 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:39:05.472 [main] StepNameListener - Executing step: I should see a welcome message and a list of options for my account
+[INFO ] 2024-08-18 10:39:05.473 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:39:05.714 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:39:05.714 [main] StepNameListener - Executing step: I should see the search box
+[INFO ] 2024-08-18 10:39:05.714 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:39:05.863 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:39:05.863 [main] StepNameListener - Executing step: I should see the search box
+[INFO ] 2024-08-18 10:39:05.863 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:39:05.890 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-18 10:39:05.911 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-18 10:39:06.203 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-18 10:39:06.241 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-18 10:39:06.254 [main] Validkeyword_SearchStep - search box should be visible
+[INFO ] 2024-08-18 10:39:06.390 [main] Validkeyword_SearchStep - search box should be visible
+[INFO ] 2024-08-18 10:39:08.447 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:39:08.447 [main] StepNameListener - Executing step: I enter a valid keyword in the search box
+[INFO ] 2024-08-18 10:39:08.447 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:39:08.799 [main] Validkeyword_SearchStep - valid keyword has enetred
+[INFO ] 2024-08-18 10:39:08.808 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:39:08.808 [main] StepNameListener - Executing step: I enter a valid keyword in the search box
+[INFO ] 2024-08-18 10:39:08.809 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:39:09.097 [main] Validkeyword_SearchStep - valid keyword has enetred
+[INFO ] 2024-08-18 10:39:11.003 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:39:11.003 [main] StepNameListener - Executing step: I click on the search button
+[INFO ] 2024-08-18 10:39:11.003 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:39:11.341 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:39:11.341 [main] StepNameListener - Executing step: I click on the search button
+[INFO ] 2024-08-18 10:39:11.341 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:39:12.609 [main] Validkeyword_SearchStep - I click on the search button
+[INFO ] 2024-08-18 10:39:13.150 [main] Validkeyword_SearchStep - I click on the search button
+[INFO ] 2024-08-18 10:39:14.849 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:39:14.850 [main] StepNameListener - Executing step: I should see a list of products that match the keyword with their images, names and prices
+[INFO ] 2024-08-18 10:39:14.850 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:39:14.886 [main] Validkeyword_SearchStep - list of products should be visible or display with name, price and images
+[INFO ] 2024-08-18 10:39:15.424 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:39:15.425 [main] StepNameListener - Executing step: I should see a list of products that match the keyword with their images, names and prices
+[INFO ] 2024-08-18 10:39:15.425 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:39:15.472 [main] Validkeyword_SearchStep - list of products should be visible or display with name, price and images
+[INFO ] 2024-08-18 10:39:17.083 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-18 10:39:17.084 [main] Hooks - Searching for a product by keyword Status - PASSED
+[INFO ] 2024-08-18 10:39:17.084 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-18 10:39:17.139 [main] Hooks - ================================================================
+[INFO ] 2024-08-18 10:39:17.142 [main] Hooks - Scenario Title: verify the confirmation message after adding to cart
+[INFO ] 2024-08-18 10:39:17.142 [main] Hooks - =================================================================
+[INFO ] 2024-08-18 10:39:17.144 [main] Hooks - Running Hooks before test
+[INFO ] 2024-08-18 10:39:17.716 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-18 10:39:17.716 [main] Hooks - Searching for a product by keyword Status - PASSED
+[INFO ] 2024-08-18 10:39:17.716 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-18 10:39:17.764 [main] Hooks - ================================================================
+[INFO ] 2024-08-18 10:39:17.764 [main] Hooks - Scenario Title: verify the confirmation message after adding to cart
+[INFO ] 2024-08-18 10:39:17.764 [main] Hooks - =================================================================
+[INFO ] 2024-08-18 10:39:17.765 [main] Hooks - Running Hooks before test
+[INFO ] 2024-08-18 10:39:18.526 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-08-18 10:39:18.528 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:39:18.528 [main] StepNameListener - Executing step: I am on the login page
+[INFO ] 2024-08-18 10:39:18.528 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:39:19.066 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-08-18 10:39:19.082 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:39:19.082 [main] StepNameListener - Executing step: I am on the login page
+[INFO ] 2024-08-18 10:39:19.083 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:39:24.118 [main] Login_Stepdefination - landind on login page
+[INFO ] 2024-08-18 10:39:24.326 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:39:24.327 [main] StepNameListener - Executing step: I enter my email and password and click on the login button under the returning customer section
+[INFO ] 2024-08-18 10:39:24.327 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:39:24.636 [main] Login_Stepdefination - landind on login page
+[INFO ] 2024-08-18 10:39:24.893 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:39:24.893 [main] StepNameListener - Executing step: I enter my email and password and click on the login button under the returning customer section
+[INFO ] 2024-08-18 10:39:24.893 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:39:29.795 [main] Login_Stepdefination - I enter my email and password and click on the login button under the returning customer section
+[INFO ] 2024-08-18 10:39:29.989 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:39:29.990 [main] StepNameListener - Executing step: Click on login button
+[INFO ] 2024-08-18 10:39:29.990 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:39:30.150 [main] Login_Stepdefination - I enter my email and password and click on the login button under the returning customer section
+[INFO ] 2024-08-18 10:39:30.326 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:39:30.326 [main] StepNameListener - Executing step: Click on login button
+[INFO ] 2024-08-18 10:39:30.326 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:39:36.726 [main] Login_Stepdefination - Click on login button
+[INFO ] 2024-08-18 10:39:36.833 [main] Login_Stepdefination - Click on login button
+[INFO ] 2024-08-18 10:39:37.022 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:39:37.022 [main] StepNameListener - Executing step: I should see a welcome message and a list of options for my account
+[INFO ] 2024-08-18 10:39:37.022 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:39:37.030 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:39:37.030 [main] StepNameListener - Executing step: I should see a welcome message and a list of options for my account
+[INFO ] 2024-08-18 10:39:37.030 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:39:37.412 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:39:37.412 [main] StepNameListener - Executing step: I should see the search box
+[INFO ] 2024-08-18 10:39:37.413 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:39:37.437 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:39:37.437 [main] StepNameListener - Executing step: I should see the search box
+[INFO ] 2024-08-18 10:39:37.437 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:39:37.442 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-18 10:39:37.554 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-18 10:39:37.591 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-18 10:39:37.634 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-18 10:39:37.733 [main] Validkeyword_SearchStep - search box should be visible
+[INFO ] 2024-08-18 10:39:37.776 [main] Validkeyword_SearchStep - search box should be visible
+[INFO ] 2024-08-18 10:39:39.896 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:39:39.896 [main] StepNameListener - Executing step: I enter a valid keyword in the search box
+[INFO ] 2024-08-18 10:39:39.896 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:39:40.231 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:39:40.231 [main] StepNameListener - Executing step: I enter a valid keyword in the search box
+[INFO ] 2024-08-18 10:39:40.231 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:39:40.344 [main] Validkeyword_SearchStep - valid keyword has enetred
+[INFO ] 2024-08-18 10:39:40.565 [main] Validkeyword_SearchStep - valid keyword has enetred
+[INFO ] 2024-08-18 10:39:42.546 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:39:42.546 [main] StepNameListener - Executing step: I click on the search button
+[INFO ] 2024-08-18 10:39:42.546 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:39:43.195 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:39:43.195 [main] StepNameListener - Executing step: I click on the search button
+[INFO ] 2024-08-18 10:39:43.195 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:39:43.498 [main] Validkeyword_SearchStep - I click on the search button
+[INFO ] 2024-08-18 10:39:44.261 [main] Validkeyword_SearchStep - I click on the search button
+[INFO ] 2024-08-18 10:39:45.728 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:39:45.728 [main] StepNameListener - Executing step: I should see a list of products that match the keyword with their images, names and prices
+[INFO ] 2024-08-18 10:39:45.728 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:39:45.753 [main] Validkeyword_SearchStep - list of products should be visible or display with name, price and images
+[INFO ] 2024-08-18 10:39:46.551 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:39:46.551 [main] StepNameListener - Executing step: I should see a list of products that match the keyword with their images, names and prices
+[INFO ] 2024-08-18 10:39:46.551 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:39:46.589 [main] Validkeyword_SearchStep - list of products should be visible or display with name, price and images
+[INFO ] 2024-08-18 10:39:47.929 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:39:47.929 [main] StepNameListener - Executing step: the user clicks on add to cart
+[INFO ] 2024-08-18 10:39:47.931 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:39:48.003 [main] AddToCart_StepDef - *****click add to cart ********
+[INFO ] 2024-08-18 10:39:48.829 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:39:48.829 [main] StepNameListener - Executing step: the user clicks on add to cart
+[INFO ] 2024-08-18 10:39:48.829 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:39:48.879 [main] AddToCart_StepDef - *****click add to cart ********
+[INFO ] 2024-08-18 10:39:50.107 [main] AddToCart_StepDef - *************** the product was added to the cart ******************
+[INFO ] 2024-08-18 10:39:51.163 [main] AddToCart_StepDef - *************** the product was added to the cart ******************
+[INFO ] 2024-08-18 10:39:53.330 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:39:53.330 [main] StepNameListener - Executing step: He should see a confirmation message that says: “Success: You have added [product name] to your shopping cart!”
+[INFO ] 2024-08-18 10:39:53.331 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:39:53.334 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-18 10:39:53.369 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-18 10:39:54.432 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:39:54.433 [main] StepNameListener - Executing step: He should see a confirmation message that says: “Success: You have added [product name] to your shopping cart!”
+[INFO ] 2024-08-18 10:39:54.433 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:39:54.444 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-18 10:39:54.504 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-18 10:39:55.410 [main] AddToCart_StepDef - ************** confirmation message displyed *********
+[INFO ] 2024-08-18 10:39:56.558 [main] AddToCart_StepDef - ************** confirmation message displyed *********
+[INFO ] 2024-08-18 10:39:58.609 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:39:58.609 [main] StepNameListener - Executing step: the number of items in my cart should increase by one
+[INFO ] 2024-08-18 10:39:58.610 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:39:58.616 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-18 10:39:58.647 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-18 10:39:59.828 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:39:59.828 [main] StepNameListener - Executing step: the number of items in my cart should increase by one
+[INFO ] 2024-08-18 10:39:59.829 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:39:59.833 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-18 10:39:59.870 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-18 10:40:00.682 [main] AddToCart_StepDef - *************** shopping cart increased by one ***************
+[INFO ] 2024-08-18 10:40:01.927 [main] AddToCart_StepDef - *************** shopping cart increased by one ***************
+[INFO ] 2024-08-18 10:40:03.843 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-18 10:40:03.844 [main] Hooks - verify the confirmation message after adding to cart Status - PASSED
+[INFO ] 2024-08-18 10:40:03.845 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-18 10:40:03.905 [main] Hooks - ================================================================
+[INFO ] 2024-08-18 10:40:03.906 [main] Hooks - Scenario Title: Check out as a registered customer
+[INFO ] 2024-08-18 10:40:03.906 [main] Hooks - =================================================================
+[INFO ] 2024-08-18 10:40:03.910 [main] Hooks - Running Hooks before test
+[INFO ] 2024-08-18 10:40:05.117 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-08-18 10:40:05.121 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:40:05.121 [main] StepNameListener - Executing step: I am on the login page
+[INFO ] 2024-08-18 10:40:05.121 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:40:05.437 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-18 10:40:05.438 [main] Hooks - verify the confirmation message after adding to cart Status - PASSED
+[INFO ] 2024-08-18 10:40:05.439 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-18 10:40:05.576 [main] Hooks - ================================================================
+[INFO ] 2024-08-18 10:40:05.576 [main] Hooks - Scenario Title: Check out as a registered customer
+[INFO ] 2024-08-18 10:40:05.576 [main] Hooks - =================================================================
+[INFO ] 2024-08-18 10:40:05.577 [main] Hooks - Running Hooks before test
+[INFO ] 2024-08-18 10:40:06.771 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-08-18 10:40:06.774 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:40:06.775 [main] StepNameListener - Executing step: I am on the login page
+[INFO ] 2024-08-18 10:40:06.776 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:40:10.851 [main] Login_Stepdefination - landind on login page
+[INFO ] 2024-08-18 10:40:11.099 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:40:11.099 [main] StepNameListener - Executing step: I enter my email and password and click on the login button under the returning customer section
+[INFO ] 2024-08-18 10:40:11.099 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:40:12.256 [main] Login_Stepdefination - landind on login page
+[INFO ] 2024-08-18 10:40:12.631 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:40:12.631 [main] StepNameListener - Executing step: I enter my email and password and click on the login button under the returning customer section
+[INFO ] 2024-08-18 10:40:12.631 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:40:16.599 [main] Login_Stepdefination - I enter my email and password and click on the login button under the returning customer section
+[INFO ] 2024-08-18 10:40:16.776 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:40:16.777 [main] StepNameListener - Executing step: Click on login button
+[INFO ] 2024-08-18 10:40:16.777 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:40:18.118 [main] Login_Stepdefination - I enter my email and password and click on the login button under the returning customer section
+[INFO ] 2024-08-18 10:40:18.300 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:40:18.300 [main] StepNameListener - Executing step: Click on login button
+[INFO ] 2024-08-18 10:40:18.300 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:40:23.537 [main] Login_Stepdefination - Click on login button
+[INFO ] 2024-08-18 10:40:23.762 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:40:23.762 [main] StepNameListener - Executing step: I should see a welcome message and a list of options for my account
+[INFO ] 2024-08-18 10:40:23.762 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:40:23.930 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:40:23.930 [main] StepNameListener - Executing step: I have some products in my shopping cart and I am logged in to my account
+[INFO ] 2024-08-18 10:40:23.930 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:40:23.989 [main] Checkout_StepDef -  user is already logged in
+[INFO ] 2024-08-18 10:40:24.861 [main] Login_Stepdefination - Click on login button
+[INFO ] 2024-08-18 10:40:25.310 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:40:25.311 [main] StepNameListener - Executing step: I should see a welcome message and a list of options for my account
+[INFO ] 2024-08-18 10:40:25.311 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:40:25.615 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:40:25.615 [main] StepNameListener - Executing step: I have some products in my shopping cart and I am logged in to my account
+[INFO ] 2024-08-18 10:40:25.615 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:40:25.781 [main] Checkout_StepDef -  user is already logged in
+[INFO ] 2024-08-18 10:40:27.798 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-18 10:40:27.838 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-18 10:40:29.200 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-18 10:40:29.239 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-18 10:40:30.466 [main] Checkout_StepDef - user already has some product in shopping cart
+[INFO ] 2024-08-18 10:40:30.743 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:40:30.743 [main] StepNameListener - Executing step: I click on the checkout button on the shopping cart page
+[INFO ] 2024-08-18 10:40:30.743 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:40:30.747 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-18 10:40:30.783 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-18 10:40:31.924 [main] Checkout_StepDef - user already has some product in shopping cart
+[INFO ] 2024-08-18 10:40:32.329 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:40:32.329 [main] StepNameListener - Executing step: I click on the checkout button on the shopping cart page
+[INFO ] 2024-08-18 10:40:32.329 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:40:32.345 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-18 10:40:32.378 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-18 10:40:32.826 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-18 10:40:32.866 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-18 10:40:34.425 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-18 10:40:34.453 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-18 10:40:34.942 [main] Checkout_StepDef - checkout button is functionnal
+[INFO ] 2024-08-18 10:40:34.950 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-18 10:40:34.980 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-18 10:40:36.546 [main] Checkout_StepDef - checkout button is functionnal
+[INFO ] 2024-08-18 10:40:36.551 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-18 10:40:36.591 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-18 10:40:38.625 [main] Checkout_StepDef - checkout button is already clicked
+[INFO ] 2024-08-18 10:40:38.862 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:40:38.863 [main] StepNameListener - Executing step: I should see an option to check out with my account
+[INFO ] 2024-08-18 10:40:38.863 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:40:39.129 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:40:39.129 [main] StepNameListener - Executing step: I should be able to use my saved billing and delivery details or enter new ones, choose a delivery method, a payment method and confirm my order
+[INFO ] 2024-08-18 10:40:39.130 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:40:39.280 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:40:39.280 [main] StepNameListener - Executing step: the product is not in stock, we should see the message: ”Products marked with *** are not available in the desired quantity or not in stock!”
+[INFO ] 2024-08-18 10:40:39.280 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:40:39.280 [main] Checkout_StepDef - the product is not in stock
+[INFO ] 2024-08-18 10:40:39.283 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-18 10:40:39.309 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-18 10:40:40.198 [main] Checkout_StepDef - checkout button is already clicked
+[INFO ] 2024-08-18 10:40:40.411 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:40:40.411 [main] StepNameListener - Executing step: I should see an option to check out with my account
+[INFO ] 2024-08-18 10:40:40.411 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:40:40.573 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:40:40.573 [main] StepNameListener - Executing step: I should be able to use my saved billing and delivery details or enter new ones, choose a delivery method, a payment method and confirm my order
+[INFO ] 2024-08-18 10:40:40.573 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:40:40.748 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:40:40.748 [main] StepNameListener - Executing step: the product is not in stock, we should see the message: ”Products marked with *** are not available in the desired quantity or not in stock!”
+[INFO ] 2024-08-18 10:40:40.748 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:40:40.749 [main] Checkout_StepDef - the product is not in stock
+[INFO ] 2024-08-18 10:40:40.755 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-18 10:40:40.782 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-18 10:40:41.350 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-18 10:40:41.380 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-18 10:40:42.825 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-18 10:40:42.850 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-18 10:40:45.461 [main] Checkout_StepDef - outstock msg is displayed
+[INFO ] 2024-08-18 10:40:45.671 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-18 10:40:45.671 [main] Hooks - Check out as a registered customer Status - PASSED
+[INFO ] 2024-08-18 10:40:45.671 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-18 10:40:45.723 [main] Hooks - ================================================================
+[INFO ] 2024-08-18 10:40:45.723 [main] Hooks - Scenario Title: checkout as a guest
+[INFO ] 2024-08-18 10:40:45.723 [main] Hooks - =================================================================
+[INFO ] 2024-08-18 10:40:45.725 [main] Hooks - Running Hooks before test
+[INFO ] 2024-08-18 10:40:46.947 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-08-18 10:40:46.972 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:40:46.973 [main] StepNameListener - Executing step: User should be logged out
+[INFO ] 2024-08-18 10:40:46.973 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:40:46.977 [main] Checkout_StepDef - outstock msg is displayed
+[INFO ] 2024-08-18 10:40:47.172 [main] Login_Stepdefination - user is logged out
+[INFO ] 2024-08-18 10:40:47.352 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-18 10:40:47.352 [main] Hooks - Check out as a registered customer Status - PASSED
+[INFO ] 2024-08-18 10:40:47.352 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-18 10:40:47.584 [main] Hooks - ================================================================
+[INFO ] 2024-08-18 10:40:47.586 [main] Hooks - Scenario Title: checkout as a guest
+[INFO ] 2024-08-18 10:40:47.586 [main] Hooks - =================================================================
+[INFO ] 2024-08-18 10:40:47.588 [main] Hooks - Running Hooks before test
+[INFO ] 2024-08-18 10:40:47.694 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:40:47.694 [main] StepNameListener - Executing step: User navigates to homepage
+[INFO ] 2024-08-18 10:40:47.694 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:40:47.870 [main] Checkout_StepDef - ********* start navigating on home page *************
+[INFO ] 2024-08-18 10:40:47.871 [main] Checkout_StepDef - *********** log in time is ended ***************
+[INFO ] 2024-08-18 10:40:48.110 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:40:48.111 [main] StepNameListener - Executing step: I should see the search box
+[INFO ] 2024-08-18 10:40:48.111 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:40:48.210 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-18 10:40:48.241 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-18 10:40:48.265 [main] Validkeyword_SearchStep - search box should be visible
+[INFO ] 2024-08-18 10:40:49.087 [main] Hooks - *URL Lunched from hooks : http://tutorialsninja.com/demo/index.php?route=common/home 
+[INFO ] 2024-08-18 10:40:49.094 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:40:49.095 [main] StepNameListener - Executing step: User should be logged out
+[INFO ] 2024-08-18 10:40:49.095 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:40:49.138 [main] Login_Stepdefination - user is logged out
+[INFO ] 2024-08-18 10:40:49.506 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:40:49.506 [main] StepNameListener - Executing step: User navigates to homepage
+[INFO ] 2024-08-18 10:40:49.506 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:40:49.557 [main] Checkout_StepDef - ********* start navigating on home page *************
+[INFO ] 2024-08-18 10:40:49.557 [main] Checkout_StepDef - *********** log in time is ended ***************
+[INFO ] 2024-08-18 10:40:49.892 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:40:49.893 [main] StepNameListener - Executing step: I should see the search box
+[INFO ] 2024-08-18 10:40:49.893 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:40:49.921 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-18 10:40:49.956 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-18 10:40:49.988 [main] Validkeyword_SearchStep - search box should be visible
+[INFO ] 2024-08-18 10:40:50.593 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:40:50.594 [main] StepNameListener - Executing step: I enter a valid keyword in the search box
+[INFO ] 2024-08-18 10:40:50.594 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:40:50.745 [main] Validkeyword_SearchStep - valid keyword has enetred
+[INFO ] 2024-08-18 10:40:52.375 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:40:52.375 [main] StepNameListener - Executing step: I enter a valid keyword in the search box
+[INFO ] 2024-08-18 10:40:52.375 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:40:52.555 [main] Validkeyword_SearchStep - valid keyword has enetred
+[INFO ] 2024-08-18 10:40:52.982 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:40:52.982 [main] StepNameListener - Executing step: I click on the search button
+[INFO ] 2024-08-18 10:40:52.982 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:40:53.908 [main] Validkeyword_SearchStep - I click on the search button
+[INFO ] 2024-08-18 10:40:54.925 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:40:54.925 [main] StepNameListener - Executing step: I click on the search button
+[INFO ] 2024-08-18 10:40:54.925 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:40:56.010 [main] Validkeyword_SearchStep - I click on the search button
+[INFO ] 2024-08-18 10:40:56.130 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:40:56.130 [main] StepNameListener - Executing step: I should see a list of products that match the keyword with their images, names and prices
+[INFO ] 2024-08-18 10:40:56.130 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:40:56.157 [main] Validkeyword_SearchStep - list of products should be visible or display with name, price and images
+[INFO ] 2024-08-18 10:40:58.271 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:40:58.271 [main] StepNameListener - Executing step: I should see a list of products that match the keyword with their images, names and prices
+[INFO ] 2024-08-18 10:40:58.271 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:40:58.293 [main] Validkeyword_SearchStep - list of products should be visible or display with name, price and images
+[INFO ] 2024-08-18 10:40:58.319 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:40:58.319 [main] StepNameListener - Executing step: click on add to cart
+[INFO ] 2024-08-18 10:40:58.319 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:40:58.349 [main] AddToCart_StepDef - *****click add to cart ********
+[INFO ] 2024-08-18 10:41:00.469 [main] AddToCart_StepDef - *************** the product was added to the cart ******************
+[INFO ] 2024-08-18 10:41:00.543 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:41:00.545 [main] StepNameListener - Executing step: click on add to cart
+[INFO ] 2024-08-18 10:41:00.545 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:41:00.587 [main] AddToCart_StepDef - *****click add to cart ********
+[INFO ] 2024-08-18 10:41:02.740 [main] AddToCart_StepDef - *************** the product was added to the cart ******************
+[INFO ] 2024-08-18 10:41:03.661 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:41:03.661 [main] StepNameListener - Executing step: navigate to shopping cart and click on it
+[INFO ] 2024-08-18 10:41:03.661 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:41:03.662 [main] Checkout_StepDef - *************** the product was added to the cart ******************
+[INFO ] 2024-08-18 10:41:03.665 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-18 10:41:03.697 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-18 10:41:06.086 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:41:06.086 [main] StepNameListener - Executing step: navigate to shopping cart and click on it
+[INFO ] 2024-08-18 10:41:06.086 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:41:06.087 [main] Checkout_StepDef - *************** the product was added to the cart ******************
+[INFO ] 2024-08-18 10:41:06.091 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-18 10:41:06.121 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-18 10:41:09.906 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:41:09.906 [main] StepNameListener - Executing step: click on checkout bouton.
+[INFO ] 2024-08-18 10:41:09.907 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:41:09.910 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-18 10:41:09.938 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-18 10:41:12.639 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:41:12.639 [main] StepNameListener - Executing step: click on checkout bouton.
+[INFO ] 2024-08-18 10:41:12.639 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:41:12.643 [main] CommonMethods - Checking visibility of the Element on browser screen
+[INFO ] 2024-08-18 10:41:12.676 [main] CommonMethods - Wait for the element is completed, Element is visible on the screen
+[INFO ] 2024-08-18 10:41:13.113 [main] Checkout_StepDef - ************* the product was checked out**************
+[INFO ] 2024-08-18 10:41:13.393 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:41:13.393 [main] StepNameListener - Executing step: I should see an option to checkout as a guest
+[INFO ] 2024-08-18 10:41:13.393 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:41:13.394 [main] Checkout_StepDef - checkout as a guest option
+[INFO ] 2024-08-18 10:41:13.979 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:41:13.979 [main] StepNameListener - Executing step: I should be able to enter my billing details, delivery details, delivery method, payment method and confirm my order
+[INFO ] 2024-08-18 10:41:13.980 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:41:13.982 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-18 10:41:13.982 [main] Hooks - checkout as a guest Status - FAILED
+[INFO ] 2024-08-18 10:41:13.982 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-18 10:41:14.042 [main] Hooks - CLosing the Driver
+[INFO ] 2024-08-18 10:41:14.517 [main] Hooks - Driver Closed
+[INFO ] 2024-08-18 10:41:14.518 [main] Hooks - CLosing the Driver
+[INFO ] 2024-08-18 10:41:14.518 [main] Hooks - Driver Closed
+[INFO ] 2024-08-18 10:41:15.742 [main] Checkout_StepDef - ************* the product was checked out**************
+[INFO ] 2024-08-18 10:41:16.070 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:41:16.071 [main] StepNameListener - Executing step: I should see an option to checkout as a guest
+[INFO ] 2024-08-18 10:41:16.071 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:41:16.072 [main] Checkout_StepDef - checkout as a guest option
+[INFO ] 2024-08-18 10:41:16.790 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-18 10:41:16.790 [main] StepNameListener - Executing step: I should be able to enter my billing details, delivery details, delivery method, payment method and confirm my order
+[INFO ] 2024-08-18 10:41:16.790 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-18 10:41:16.793 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-18 10:41:16.793 [main] Hooks - checkout as a guest Status - FAILED
+[INFO ] 2024-08-18 10:41:16.793 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-18 10:41:16.814 [main] Hooks - CLosing the Driver
+[INFO ] 2024-08-18 10:41:17.843 [main] Hooks - Driver Closed
+[INFO ] 2024-08-18 10:41:17.844 [main] Hooks - CLosing the Driver
+[INFO ] 2024-08-18 10:41:17.844 [main] Hooks - Driver Closed
