@@ -57,18 +57,25 @@ public class KcCheckoutPage extends CommonMethods {
 	  public void checkoutbtnclickable() throws InterruptedException {
 		  hover(checkoutbtn);
 		  Thread.sleep(3000);
-	//	  waitAndClick(checkoutbtn);
+	      waitAndClick(checkoutbtn);
 
 	  }
 	  public void outstockalertmsg() {
-		 
+		  String stockStatus = stock.getText();	
+
 		isElementDisplayed(outstockmsg);
 		drawborder(outstockmsg);
 		isElementDisplayed(outstockstars);
 		drawborder(outstockstars);
 		
-		        	 Assert.assertTrue("Products are not in stock!",outstockmsg.isEnabled());
-		     
+		        	Assert.assertTrue("Products are not in stock!",outstockmsg.isEnabled());
+					/*
+					 * if (stockStatus.equalsIgnoreCase("In Stock")) {
+					 * Assert.assertTrue("I should see an option to check out with my account",
+					 * checkoutbtn.isEnabled()); } else { Assert.
+					 * assertFalse("Products marked with *** are not available in the desired quantity or not in stock!"
+					 * ,outstockmsg.isEnabled()); }
+					 */
 		        System.out.println(outstockmsg);
 		    }
 	  public void outstockmsgs() {

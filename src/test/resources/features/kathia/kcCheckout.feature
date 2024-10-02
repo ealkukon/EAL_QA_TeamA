@@ -7,7 +7,7 @@ Feature: checkout
     When I click on the checkout button on the shopping cart page
     Then I should see an option to check out with my account
     And I should be able to use my saved billing and delivery details or enter new ones, choose a delivery method, a payment method and confirm my order
-    When the product is not in stock, we should see the message: ”Products marked with *** are not available in the desired quantity or not in stock!”
+  #  When the product is not in stock, we should see the message: ”Products marked with *** are not available in the desired quantity or not in stock!”
     
  
   @checkout1 

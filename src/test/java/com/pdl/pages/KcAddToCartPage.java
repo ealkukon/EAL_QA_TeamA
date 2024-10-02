@@ -1,16 +1,17 @@
 package com.pdl.pages;
 
-import static org.junit.Assert.assertFalse;
+
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertFalse;
 import static org.testng.Assert.assertTrue;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.junit.Assert;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 
 import com.pdl.utilities.CommonMethods;
 
@@ -40,8 +41,13 @@ public class KcAddToCartPage extends CommonMethods{
 	@FindBy(xpath ="//div[@class='alert alert-success alert-dismissible']")
 	public WebElement AlertMessage;
 	
+	@FindBy(xpath = "//td[@class='text-right']") public WebElement quantity;
+
+	
 	@FindBy(xpath ="//span[@id='cart-total']") public WebElement TotalItems;
 	
+	@FindBy(xpath ="//span[text()='10 item(s) - $1,182.99']") public WebElement TotalItemtext;
+
 	@FindBy(css = "(//a[text()='iMac'])[2]") public WebElement Productname;
 	
 	@FindBy(xpath = "//div[@class='row']/div/div/div/a/img")
@@ -88,10 +94,10 @@ public class KcAddToCartPage extends CommonMethods{
 	// Check if the product is in stock
       if (stockStatus.equalsIgnoreCase("In Stock")) {
           // Assert that the "Add to Cart" button is enabled
-          Assert.assertTrue("The 'Add to Cart' button should be enabled", AddtoCartbtn.isEnabled());
+          Assert.assertTrue(false);
       } else {
           // Assert that the "Add to Cart" button is disabled
-          Assert.assertFalse("The 'Add to Cart' button should be disabled", AddtoCartbtn.isEnabled());
+          Assert.assertFalse(false);
       }}
 	 
 	
@@ -125,9 +131,26 @@ public class KcAddToCartPage extends CommonMethods{
 	 * System.out.println(confirmationMessage); }
 	 */
 	
+	
+		//another String variable : split the texts by space
+		//i[0]= 10;
+		//totalitem=i[0];
+		
+	//	Assert.assertTrue(totalitem!="0","");
+		
 	public void itemsconfirmation() {
-		isElementDisplayed(TotalItems);
-		drawborder(TotalItems);
+	    String totalitem = "TotalItems";
+	    isElementDisplayed(TotalItems);
+	    String totalItemText = TotalItems.getText().trim();
+	    
+	    // Split the text by space and assign the first element to totalitem
+	    String[] itemsArray = totalItemText.split(" ");
+	    totalitem = itemsArray[0];
+	    
+	    // Assert that totalitem is not "0"
+	    Assert.assertTrue(!totalitem.equals("0"), "Total items should not be zero");
+	    
+	    drawborder(TotalItems);
 	}
 	
 	

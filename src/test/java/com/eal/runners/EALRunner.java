@@ -10,46 +10,44 @@ import io.cucumber.junit.CucumberOptions;
 //import oracle.jdbc.driver.OracleDriver;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(plugin = { 
-		"pretty", 
-		"html:target/default-cucumber-reports/htmlReport.html",
+@CucumberOptions(plugin = { "pretty", "html:target/default-cucumber-reports/htmlReport.html",
 //		"com.vimalselvam.cucumber.listener.ExtentCucumberFormatter:output/reports/SmokeTest.html",
-		"json:target/cucumber.json",
-		"junit:target/cucumber.xml", 
-		"rerun:target/cucumber.txt",
-		"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
-		"com.pdl.hooks.StepNameListener"}, // here "com.pdl.hooks" this is package and stepname is insider class
+		"json:target/cucumber.json", "junit:target/cucumber.xml", "rerun:target/cucumber.txt",
+		"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:", "com.pdl.hooks.StepNameListener" }, // here
+																													// "com.pdl.hooks"
+																													// this
+																													// is
+																													// package
+																													// and
+																													// stepname
+																													// is
+																													// insider
+																													// class
 
+		features = "src/test/resources/features",
 
-		features = "src/test/resources/features", 
+		glue = { "com.pdl.step_definitions", "com.pdl.hooks" }, 
+		dryRun = false,
+	//	dryRun= true,
 
-		glue = {"com.pdl.step_definitions","com.pdl.hooks"},
-		dryRun= false,
-			//	dryRun= true,
+		tags =
+		/*
+		 * ("@Login or " + "@Search or " + "@AddToCart or " +
+		 * "@ViewEditMyShoppingCart or " + "@checkout")
+		 */
+		//"@smoketest1"
+	"@finalsmoke"
+// monochrome=false
 
-		tags = 
-		/*("@Login or " 
-		+ "@Search or " 
-        + "@AddToCart or " 
-	+ "@ViewEditMyShoppingCart or " 
-					 + "@checkout")
-		*/
-	"@smoketest1"
-	//	"@checkout"
-	
-	//		monochrome=false
-
-)	
-
-
+)
 
 public class EALRunner {
-	
+
 	@After
 	public static void teardown() {
 		Reporter.setSystemInfo("user", System.getProperty("user.name"));
 		Reporter.setSystemInfo("os", "Windows");
 		Reporter.setTestRunnerOutput("Sample test runner output message");
-	
-}
+
 	}
+}
