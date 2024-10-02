@@ -23,6 +23,8 @@ Feature: smoke test
 
 @check
  Scenario: verify the confirmation message after adding to cart 
+ Scenario: verify the confirmation message after adding to cart 
+    
     Given I am on the login page
     When I enter my email and password and click on the login button under the returning customer section
     Then Click on login button
@@ -36,6 +38,9 @@ Feature: smoke test
     And the number of items in my cart should increase by one
 
     @22
+    Then He should see a confirmation message that says: “Success: You have added [product name] to your shopping cart!”
+    And the number of items in my cart should increase by one
+    
   Scenario: Check out as a registered customer
     Given I am on the login page
     When I enter my email and password and click on the login button under the returning customer section
@@ -46,6 +51,7 @@ Feature: smoke test
     Then I should see an option to check out with my account
     And I should be able to use my saved billing and delivery details or enter new ones, choose a delivery method, a payment method and confirm my order
    #When the product is not in stock, we should see the message: ”Products marked with *** are not available in the desired quantity or not in stock!”
+    When the product is not in stock, we should see the message: ”Products marked with *** are not available in the desired quantity or not in stock!”
 
    
 

@@ -63,6 +63,11 @@ public class KcCheckoutPage extends CommonMethods {
 	  public void outstockalertmsg() {
 		  String stockStatus = stock.getText();	
 
+	//	  waitAndClick(checkoutbtn);
+
+	  }
+	  public void outstockalertmsg() {
+		 
 		isElementDisplayed(outstockmsg);
 		drawborder(outstockmsg);
 		isElementDisplayed(outstockstars);
@@ -76,6 +81,8 @@ public class KcCheckoutPage extends CommonMethods {
 					 * assertFalse("Products marked with *** are not available in the desired quantity or not in stock!"
 					 * ,outstockmsg.isEnabled()); }
 					 */
+		        	 Assert.assertTrue("Products are not in stock!",outstockmsg.isEnabled());
+		     
 		        System.out.println(outstockmsg);
 		    }
 	  public void outstockmsgs() {

@@ -1,6 +1,7 @@
 package com.pdl.pages;
 
 
+import static org.junit.Assert.assertFalse;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertFalse;
 import static org.testng.Assert.assertTrue;
@@ -12,6 +13,10 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
+import org.junit.Assert;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 import com.pdl.utilities.CommonMethods;
 
@@ -48,6 +53,8 @@ public class KcAddToCartPage extends CommonMethods{
 	
 	@FindBy(xpath ="//span[text()='10 item(s) - $1,182.99']") public WebElement TotalItemtext;
 
+	@FindBy(xpath ="//span[@id='cart-total']") public WebElement TotalItems;
+	
 	@FindBy(css = "(//a[text()='iMac'])[2]") public WebElement Productname;
 	
 	@FindBy(xpath = "//div[@class='row']/div/div/div/a/img")
@@ -98,6 +105,10 @@ public class KcAddToCartPage extends CommonMethods{
       } else {
           // Assert that the "Add to Cart" button is disabled
           Assert.assertFalse(false);
+          Assert.assertTrue("The 'Add to Cart' button should be enabled", AddtoCartbtn.isEnabled());
+      } else {
+          // Assert that the "Add to Cart" button is disabled
+          Assert.assertFalse("The 'Add to Cart' button should be disabled", AddtoCartbtn.isEnabled());
       }}
 	 
 	
@@ -151,6 +162,9 @@ public class KcAddToCartPage extends CommonMethods{
 	    Assert.assertTrue(!totalitem.equals("0"), "Total items should not be zero");
 	    
 	    drawborder(TotalItems);
+	public void itemsconfirmation() {
+		isElementDisplayed(TotalItems);
+		drawborder(TotalItems);
 	}
 	
 	

@@ -39,6 +39,12 @@ public class Checkout_StepDef extends CommonMethods{
 			 
 
 			// Assert.assertTrue(KukonLogin.getMyAccount().contains("account/account"));
+			 driver.get("https://tutorialsninja.com/demo/index.php?route=account/login");
+			 validloginpage.emaillogin(); validloginpage.passwordenter();
+			 validloginpage.loginbutton();
+			 
+
+			 Assert.assertTrue(KukonLogin.getMyAccount().contains("account/account"));
 			Thread.sleep(1000);
 			kccheckoutpage.click_ShoppingCart();
 			logger.info("user already has some product in shopping cart");
@@ -48,6 +54,7 @@ public class Checkout_StepDef extends CommonMethods{
 		@When("I click on the checkout button on the shopping cart page")
 		public void i_click_on_the_checkout_button_on_the_shopping_cart_page() throws InterruptedException {
 			//kccheckoutpage.outstockalertmsg();
+			kccheckoutpage.outstockalertmsg();
 			logger.info("checkout button is functionnal");
 			kccheckoutpage.click_checkout();
 			logger.info("checkout button is already clicked");
@@ -67,6 +74,8 @@ public class Checkout_StepDef extends CommonMethods{
 			//kccheckoutpage.outstockalertmsg();
             Thread.sleep(2000);
 		    logger.info("outstock msg is displayed");
+		public void i_should_see_an_option_to_check_out_with_my_account() {
+			
 
 		}
 
