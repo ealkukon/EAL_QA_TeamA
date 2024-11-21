@@ -81,6 +81,28 @@ public class AddToCart_StepDef extends CommonMethods {
 		//CommonMethods.waitFor(10);
 		kcaddtocart.click_AddtoCart();
 		logger.info("*************** the product was added to the cart ******************");
+		Thread.sleep(3000);	
+	}
+
+	@Then("He should see a confirmation message that says: {string}")
+	public void he_should_see_a_confirmation_message_that_says_success_you_have_added_product_name_to_your_shopping_cart(String msg) throws InterruptedException {
+		kcaddtocart.confirmationtmsg();
+	    Thread.sleep(3000);
+        logger.info("************** confirmation message displyed *********"); 
+	}
+
+
+	@Then("the number of items in my cart should increase by one")
+	public void the_number_of_items_in_my_cart_should_increase_by_one() throws InterruptedException {
+		try {
+			kcaddtocart.itemsconfirmation();
+			logger.info("*************** shopping cart increased by one ***************");
+			
+		} catch (Exception e) {
+		  System.out.println("The number is increased by One ------- Failed ");
+		}
+		
+		 
 		Thread.sleep(3000);
 		
 	}

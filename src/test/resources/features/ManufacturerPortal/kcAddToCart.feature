@@ -8,6 +8,7 @@ Background:
   @confirmationmsg 
   Scenario: verify the confirmation message after adding to cart 
     When the user clicks on add to cart 
+    Then He should see a confirmation message that says: 'Success: You have added [product name] to your shopping cart!'
     Then He should see a confirmation message that says: “Success: You have added [product name] to your shopping cart!”
     And the number of items in my cart should increase by one
     
